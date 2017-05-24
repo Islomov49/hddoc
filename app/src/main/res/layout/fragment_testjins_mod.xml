@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.isoma.homiladavridoctor.fragments.TestDateFragment"
+    android:clickable="true"
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"
+        android:padding="0dp"
+        android:background="?attr/colorPrimaryLight"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/sixty_dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/twenty_dp"
+                android:padding="0dp"
+                >
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f5e3f2"
+                    />
+                <FrameLayout
+                    android:layout_width="@dimen/thirty_dp"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:background="#fefefe"
+                    android:layout_above="@+id/yozu"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"
+                    android:id="@+id/frameLayout" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/male"
+                    android:id="@+id/iconaaa"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:scaleType="centerInside"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_toRightOf="@+id/moth"
+                    android:layout_toEndOf="@+id/moth"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignBottom="@+id/frameLayout" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="УГИЛ"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="@dimen/thirty_dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:textColor="#1f8397"
+                    android:textSize="@dimen/sixty_dp"
+                    android:textStyle="bold"
+                    android:id="@+id/datee"
+                    android:layout_marginTop="@dimen/ten_dp"
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/eighteen_dp"
+                    android:layout_below="@+id/datee"
+                    android:text="@string/title_test"
+                    android:id="@+id/moth"
+                    android:textColor="#525153"
+                    android:layout_toLeftOf="@+id/icona"
+                    android:layout_alignLeft="@+id/datee"
+                    android:layout_alignStart="@+id/datee"
+
+                    android:paddingRight="@dimen/ten_dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/eighteen_dp"
+                    android:text="@string/preg_age"
+                    android:textColor="#2c2d2e"
+                    android:layout_marginLeft="@dimen/thirty_dp"
+                    android:layout_marginRight="@dimen/ten_dp"
+                    android:textStyle="bold"
+                    android:id="@+id/yozu"
+                    android:layout_marginTop="@dimen/forty_dp"
+                    android:layout_below="@id/moth"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yozu"
+                    android:text="18-ёш"
+                    android:id="@+id/ttt"
+                    android:layout_marginTop="@dimen/five_dp"
+
+                    android:layout_alignRight="@+id/seekyosh"
+                    android:layout_alignEnd="@+id/seekyosh"
+                    android:layout_alignLeft="@+id/yozu2"
+                    android:layout_alignStart="@+id/yozu2"
+                    android:gravity="center"
+                    android:textSize="@dimen/fifteen_dp"
+                    android:textColor="#1f8296"/>
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/ttt"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:id="@+id/seekyosh"
+                    android:layout_marginRight="@dimen/sixteen_dp"
+                    android:layout_marginLeft="@dimen/sixteen_dp"
+                    android:max="27"
+                    android:progress="0"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/eighteen_dp"
+                    android:text="@string/preg_month"
+                    android:textColor="#2b2c2d"
+                    android:layout_marginLeft="@dimen/thirty_dp"
+                    android:textStyle="bold"
+                    android:id="@+id/yozut2"
+                    android:layout_marginTop="@dimen/twenty_dp"
+                    android:layout_below="@id/seekyosh"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yozut2"
+                    android:text="Январь"
+                    android:id="@+id/oyi"
+                    android:layout_alignRight="@+id/seekyosh"
+                    android:layout_alignEnd="@+id/seekyosh"
+                    android:layout_alignLeft="@+id/yozu2"
+                    android:layout_alignStart="@+id/yozu2"
+                    android:gravity="center"
+                    android:textSize="@dimen/fifteen_dp"
+                    android:textColor="#1f8296"
+                    android:layout_marginTop="@dimen/five_dp"/>
+                <SeekBar
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/oyi"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="@dimen/twenty_dp"
+                    android:id="@+id/seekoy"
+                    android:layout_marginRight="@dimen/sixteen_dp"
+                    android:layout_marginLeft="@dimen/sixteen_dp"
+                    android:max="11"
+                    android:progress="0"
+                    />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/twenty_dp"
+                    android:layout_below="@id/seekoy"/>
+            </RelativeLayout>
+        </ScrollView>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sixty_dp"
+        android:background="@color/drfio"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/hisoblasiin"
+        android:text="ХИСОБЛАШ"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="@dimen/twenty_dp"
+        android:visibility="gone"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/five_dp"/>
+</RelativeLayout>

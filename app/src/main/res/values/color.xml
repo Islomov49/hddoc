@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#fefdfb</color>
+    <color name="whfio">#fefdfb</color>
+    <color name="drfio">#0397DA</color>
+        <color name="drfio2">#eead2d</color>
+    <color name="drfiotep">#0593d4</color>
+    <color name="drfio3_mat">#d81b60</color>
+    <color name="drfio4_mat">#c2185b</color>
+    <color name="drred">#f41703</color>
+    <color name="drredq">#dd000000</color>
+
+    <color name="olov">#f69a33</color>
+    <color name="yer">#6baa40</color>
+    <color name="xovo">#036491</color>
+    <color name="xovo2">#036491</color>
+    <color name="xovo3">#0e8303</color>
+
+    <color name="whblue">#b3e5fc</color>
+    <color name="drblue">#2685b8</color>
+    <color name="PrimaryColor">#2196F3</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+
+
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="whitew">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="main_color_green">#00b863</color>
+    <color name="main_color_gray_dk">#3b3b3b</color>
+    <color name="main_color_gray_lt">#acacac</color>
+    <color name="main_color_gray">#7d7d7d</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="glavniy_text">#212121</color>
+
+    <color name="secondary_color">#9b9b9b</color>
+    <color name="glavniy_cherniy">#212121</color>
+    <color name="paint_color">#ffffff</color>
+</resources>

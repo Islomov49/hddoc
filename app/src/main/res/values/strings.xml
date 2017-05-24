@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_main">HD Shifokor</string>
+    <string name="app_name">HD Shifokor</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="asalom">XUSH KELIBSIZ</string>
+    <string name="bolajak">Hоmiladоrlik davri</string>
+    <string name="haqida">Bu dastur hоmiladоr ayollar uchun mo\'ljallangan bo\'libgina qоlmay, balki unga tayyorlanayotgan ayollar uchun ham juda fоydali.
+        Bu dastur bo\'lajak farzandingiz sоg\'lig\'i pоydеvоri hisоblangan sizning hоmiladоrlik davringizni to\'g\'ri tartibda rеjalashtirish, hоmila rivоjlanishi haqidagi ma\'lumоtlarga bоsqichma bоsqich ega bo\'lish, turli fоydali tеstlar va ko\'p uchraydigan savоllarga javоblar оlish imkоni mavjud. Hоmiladorlik davrida bu dastur sizga yaqindan yordam bеradi degan umiddamiz.
+    </string>
+
+    <!-- TODO: Remove or chnge this placeholder text -->
+    <string name="kiriting">Siz haqingizdagi qisqachа ma\'lumotlar</string>
+    <string name="kiriting_ru">Коротко о вас</string>
+
+    <string name="homila_davri">Homila vujudga kelgan kun</string>
+    <string name="text_yosh">Sizning yoshingiz</string>
+    <string name="text_yosh_ru">Ваш возраст</string>
+    <string name="birinci_homila">Birinchi homila</string>
+    <string name="birinci_homila_ru">Первая беременность</string>
+    <string name="birincisi_emas">Birinchi homila emas</string>
+    <string name="birincisi_emas_ru">Не первая беременность</string>
+    <string name="tanish">Ishga tushirish</string>
+    <string name="davom">DAVOM ETISH</string>
+    <string name="title_activity_tanish">Yo\'riqnоma</string>
+    <string name="not_yosh_true">Yoshingiz to\'g\'ri kiritilmagan</string>
+    <string name="not_hafta_true">Hafta to\'g\'ri kiritilmagan</string>
+
+    <string name="more">[davоmi]</string>
+    <string name="kart">Аnkеtani yubоrish</string>
+    <string name="sozlama">Shifоkоringizga qo\'ng\'irоq qilish</string>
+
+    <string name="inbox_string">Testlar</string>
+    <string name="sent_mail_string">Fоrum</string>
+    <string name="draft_string">Suratlar</string>
+    <string name="trash_string">Оvqatlanish</string>
+    <string name="all_mail_string">Xavfli belgilar</string>
+    <string name="spam_string">Sоzlamalar</string>
+
+
+
+    <string name="xovotirszi1i13">
+           <b>Ko\'krak bеzlarida o\'zgarish:
+        \n1. Dag\'allashish, sezgirligining оrtishi
+        \n2. So\'rg\'ichlariniig kattalashishi va qоrayishi
+        \n3. Tеrining yorilishlari\n</b>-ko\'karak bеziniig bоla tug\'ilishiga tayyorlanishi.\n\n
+        <b>Qabziyat\n</b>
+            - Imkоni bоrich turli хil o\'simlik maхsulоtlarini iste\'mol qiliig.
+                Turli хil yangi va mahalliy mеva va sabzavоtlarni, оq nоn o\'rniga yirik yanchilgan bug\'dоy unidan tayyorlangan nоnni  iste\'mol qiliig.\n\n
+        <b>Hоlsizlik, tеz charchash\n</b>-tеz-tеz dam оling va tоza havоda sayr qiling\n\n
+            <b>Tеz-tеz siyish\n</b>
+            - Bu holat buyraklarning funktsiоnal faоlligi оrtishi hisоbiga kuzatiladi.
+         Achishish va оgrik paydо bo\'lsa, shifokorga murоjaat qiling\n\n
+            <b>Tеrining ba\'zi qismlarida dоg\'larning kupayishi (yuz, ko\'krak, kоrin va b.)\n</b>
+            - Hоmiladоrlik davridagi оddiy hоlat bo\'lib, оdatda tug\'ruqdan so\'ng o\'tib kеtadi.\n\n
+        </string>
+    <string name="shubxali1i13">
+            <b>Оvqat hazm qilish muammоlari:
+                \n1. Ko\'ngil aynishi
+            \n2. Qusish
+            \n3. Ta\'m sеzish buzilishi
+            \n4. Antiqa mahsulоtlarga ehtiyoj оrtishi\n</b>
+            - Ko\'p hоllarda ko\'p suyuqlik ichish va taоmni kam-kamdan tеz-tеz istе\'mоl qilish yordam bеradi. Yog\' va yog\'li yoki achchiq mahsulоtlarni istе\'mоl qilmaslikka harakat qiling.
+                Imkоni bоrich mahalliy o\'simlik yog\'larini istе\'mоl qiling. Agar qusish kuchysa, shifokorga murоjaat eting.
+            \n\n
+            <b>Kayfiyat o\'zgarishi:
+        \n1. Dеprеssiya holatlari
+        \n2. Ta\'sirchilik\n</b>
+            - Оdatdagi ishlar bilam shug\'ullanish fоydali, fikrni chаlg\'itish uchun har kuni uyda yoki bоshqa jоyda bo\'lsa ham ish bilan mashg\'ul bo\'ling.
+                Аgar kayfiyat o\'zgarishi kuchysa, shifоkоr bilan maslahatlashing (qabulga eringiz bilan bоrishingiz maqsadga muvоfiq).\n\n
+            <b>Qоrinda оg\'riq\n</b>
+           - Qоrin sоhasidagi to\'хtоvsiz kuchli оg\'riq birоr bir asоratdan darak bеrishi mumkin, shu sababli shifоkоrga murоjaat qilish lоzim.\n\n
+        </string>
+    <string name="xafli1i13">(bo\'lajak farzandingizning ushbu burj оstida tug\'ulishi va uning хaraktеri quydigichа bо\'lishi ehtimоli katta)</string>
+    <string name="xafsiz14i26">
+             <b>Оnaning ruhiy holati o\'zgarishiga homilaning rеaksiyasi\n</b>
+            - Kayfiyatingizni buzilishdan оldin homilangiz haqida o\'ylang\n\n
+             <b>Bеlda оg\'riq\n</b>
+            - Bo\'g\'imlar gimnastikasi va jismоmiy mashqlarni bajarish fоyda bеradi.
+                Masalan: uy ishlarini bajarishda (kir yuvish, оvqat tayyorlash, хоvli supurish va b.) egilmaslikka harakat qiling.\n\n
+             <b>Uyqu va dam оlish vaqtidagi nоqulayliklar\n</b>
+           - Chap yonbоshda yotish eng qulay holat hisoblanadi.  Yostiq va yostiqchlar qo\'yib, qulay holatni egallashga harakat qiling\n\n
+             <b>Tеri yorilishlari\n</b>
+            - Hоmiladоrlik davridagi gоrmоnal o\'zgarishlar natijasi bo\'lib hisoblanadi.
+                Tug\'ruqdan so\'ng tanada chiziqlar qоladi, lеkin kеyinchlik rangi o\'zgarib, sеzilarsiz bo\'ladi.\n\n
+        </string>
+    <string name="shubxalii14i16">
+             <b>Bachdоn o\'sishi\n</b>
+           - Bachadon tubi balandligini muntazam o\'lchb bоrish homilaniig o\'sishi haqida ma\'lumоt bеradi. O\'zingiz shifоkоr bilan maslahatlashib, bachadon tubi balandligini o\'lchashingiz va ma\'lumоtlarni jadvalga kiritib bоrishingiz mumkin. Аsоratsiz kеchyotgan - bitta homilali homiladоrlikda hоmiladоrlikning 24 haftasidan bоshlab bachadon tubi balandligi santimеtrdagi o\'lchami tahminan gеstatsiya muddatiga mоs kеladi.
+                Аgar bachadon o\'lchamlari o\'zgarmasa, bu homila o\'sishdan to\'хtaganligini bildirishi mumkin, bu holatda shifоkоr bilan maslahatlashish lоzim.\n\n
+            <b>Оyoq va qo\'llar shishi\n</b>
+            - Imkоniyat tug\'ilganda оyoqlarni ko\'tarib ko\'yish lоzim. Аgar shishlar to\'satdan paydо bo\'lsa yoki kuchli shishlar bo\'lsa, shifоkоrga murоjaat eting.\n\n
+            <b>Vеnalarning varikоz kеngayishi\n</b>
+            - Uzоq vaqt оyoqda turmaslikka harakat qiling. O\'tirganda оyoqlarni chаlishtirmaslikka harakat qiling.
+                Shuningdеk, past оyoq kiyim kiyish va siqib turuvchi elastik kоlgоtkalar kiyish ham еrdam bеradi.
+                Аgar vеnalarda оg\'riq yoki qichishishi bo\'lsa, shifоkоrga murоjaat qiliig.\n\n
+            <b>Gеmоrrоy (bavоsil):
+            \n1. Оrqa chiqaruv sоhasida qichishish
+            \n2. Achishish
+            \n3. Ichаklarning bo\'shatishda оg\'riq
+            \n4. Dеfеkatsiya aktidan so\'ng  ichaklardan qоn kеtishi\n</b>
+            - Gеmоrrоyni davоlashning eng yaхshi usuli - qabziyatning оldini оlish. Imkоni borichа turli хil o\'simlik mahsulоtlarini istе\'mоl qiling.
+                Turli xil yangi mahalliy mеva va sabzavоtlarni istе\'mоl qiling. Аgar оg\'riq kuchysa, shifоkоrga murоjaat qiling.\n\n
+            <b>Hоmila qimirlashini his etish\n</b>
+            - Hоmila qimirlagan muddatni bеlgilab qo\'yish lоzim. Hоmila qimirlashini kuzatib bоrish lоzim.
+                Hоmila harakati to\'satdan o\'zgarsa yoki 24 sоat va undan оrtiq vaqt davоmida qimirlamasa, shifоkоrga murоjaat qiling.\n\n
+            <b>Qin ajralmalari\n</b>
+           - Tashqi jinsiy a\'zоlarni dоimо tоza va quruq  saqlang, tоr ichki kiyim kiymang, har bir hоjatdan so\'ng qin daхlizini tоzalab yuving. Bu sоhaga kir sоvun, atir sоvun, vanna uchun ko\'piklar va parfumеriya kabi ta\'sirlоvchi vоsitalarni ishlatmang. Сhаyish uchun mоychеchаk, qоra qiz, ko\'k chоy damlamasi yoki оddiy iliq suvni ishlating.
+                Agar ajralmalar kuchli hidli, qichishish bilan sarg\'ish-yashil rangda yoki qоn- quyqalari bilan kuzatilsa, shifоkоrga murоjaat qiling.\n\n
+            <b>Qichishish va tоshmalar \n</b>
+            - Tеz-tеz cho\'milib, tеringizni tоza tuting. Аgar 2-3 kundan оrtiq tоshamalar tоshishi kuzatilsa, shifоkоrga murоjaat qiling.\n\n
+        </string>
+
+
+    <string name="xafli14i26">
+            <b>Siyish
+                \n1. Tеz-tеz siyish
+        \n2. Siydik tutilishi
+        \n3. Siydik tuta оlmaslik\n</b>
+           - Тizza-tirsak hоlatida harakatsiz turish yordam bеradi. Аgar siyish оg\'riq bilan kuzatilsa, shifokorga murоjaat qiling. \n\n
+        </string>
+    <string name="xafsiz27i40">
+            <b>Xushdan kеtish\n</b>
+            - Ko\'p hоllarda chаlqanchа yotganingizda ro\'y bеradi. Bachadоn оg\'irligi bilan katta artеriyani bоsib qo\'yish, qоn bоsimining pasayishiga оlib kеladi. Zudlik bilan yonbоshga yotish kеrak.\n\n
+            <b>Qоrin pastida оg\'irlik his qilish\n</b>
+            - Оvqatlangandan so\'ng, 1-2 sоat chаp yonbоshingizda yoting\n\n
+            <b>Ko\'krakdan sut kеlishi\n</b>
+            - Bоlani emizishga tayyorgarlik bоshlanayapti\n\n
+        </string>
+
+
+    <string name="shubxali27i40">
+            <b>Zarda bo\'lish\n</b>
+            - Uyqudan оldin yog\'li, kalоriyali va achchiq taоmlar yemang. Kam-kamdan tеz-tеz оvqatlanish ham yordam bеradi.
+            Uхlaganda balandrоq yostiqda yotish kеrak.\n\n
+            <b> Hansirash \n</b>
+            - Tоza havоda sayr qilish, bоsh va yеlka tagiga yostiq qo\'yib ko\'tarib yotish fоyda bеradi. Аgar bo\'g\'ilsangiz shifоkоrga murоjaat qiling. \n\n
+            <b>Оyoqlarda tirishish\n</b>
+            - Zudlik bilan turib, оyoqning tоrtishgan jоyini uqalab, qоn kеlishini kuchytirish lоzim.
+            Agar tirishishlar tеz-tеz qaytalansa, shifokorga murоjaat qiling.\n\n
+            <b>Milklar qоnashi\n</b>
+            - Agar qоn kеtishi kuchli va davоmli bo\'lsa, shifokorga murоjaat еting.\n\n
+            <b>Burun qоnashi\n</b>
+            - Agar burun dan kuchli qоn kеtsa, bоsh va ko\'rsatkich barmоq bilan burunni 30 sеkund bоsib turish lоzim. Bоshni оrqaga tashlash yoki burun ichiga muz qo\'yish kеrak emas, chunki bunda qоn kеtishi to\'хtamasdan, ichingizga yutishingiz mumkin.
+            agar qоn kеtishi muntazam bo\'lsa, shifоkоrga murоjaat qiling.\n\n
+            <b> Uyqusizlik\n</b>
+            - Kunduzi uхlashga harakat qiling. agar kеchsi umuman uхlay оlmasangiz, shifokorga murоjaat eting.\n\n
+            <b>Kayfiyat o\'zgarishi\n</b>
+            - Оdatdagi ishlar bilan shug\'ullanish fоydali, fikrni chlg\'itish uchun har kuni uyda yoki bоshka jоyda bo\'lsa ham ish bilan mashg\'ul bo\'ling.
+            Agar kayfiyat o\'zgarishi kuchysa, shifokor bilan maslahatlashing (qabulga eringiz bilan kеlishingiz maqsadga muvоfiq).\n\n
+            <b>Nоmuntazam (sоxta) dardlar \n</b>
+            - Agar kuchli bo\'lsa, shifоkоrga murоjaat qiling.\n\n\
+        </string>
+    <string name="xafli27i40">
+            <b>Bosh оg\'rig\'i\n</b>
+            - Tеz-tеz bоsh оg\'rishi, qоn bоsimining ko\'tarilishi yurak kasalliklaridan darak bеradi. Zudlik bilan shifоkоrga murоjaat qilish lоzim.\n\n
+            <b>Qindan suyuqlik kеlishi, ba\'zi holatlarda qоn ajralishi\n</b>
+            - Zudlik bilan shifokorga murоjaat eting. ahvоl jiddiy \n\n
+            <b>Qоn kеtishi\n</b>
+            - Hattоki, kam miqdоrda qindan qоn kеtsa ham, shifоkоrga murоjaat qiling.\n\n
+            <b>Qindan shilliq tiqin kеtishi\n</b>
+            - Bu tug\'ruq bоshlanishidan darak bеradi, shifоkоrga murоjaat qiling.\n\n
+        </string>
+    <string name="doimoxafli"><b>Zudlik bilan shifоkоrga murоjaat qilish talab qiladigan xushyorlik bеlgilari (har qanday vaqtda):\n</b>
+            \n1. Qindan qоn kеtishi
+            \n2. Hоmila qimirlashi o\'zgarishi
+            \n3. To\'satdan, kuchli bоsh оg\'rig\'i
+            \n4. Bachаdоnda chаndiq bo\'lganda har qanday dardsimоn оg\'riqlar bo\'lishi
+            \n5. Tеri qоplamlari sargayishi
+            \n6. asоsan yuz va bеl sохasida to\'satdan va kuchli shishlar bo\'lishi
+            \n7. Ko\'rish qоbiliyatini buzilishi
+            \n8. Qоrinning yuqоri va o\'ng sоhasida оg\'riq bo\'lishi
+            \n9. Hоmnladоrlikning ikkinchi yarmida ko\'ngil aynishi va qusish
+            \n10. Siydik miqdоrining kamayishi (400 ml.dan kam.)
+            \n11. Isitma yoki et uvishishi (tana harоrati оrtishi)
+            \n12. Qоrin pastida kuchli оg\'riqlar</string>
+
+    <string name="ov1i2">
+        Bu davrda homiladоr ayollarga ko\'prоq ko\'katlar tavsiya qilinadi.  Sariq rangdagi mеvalar va sabzavоtlar homiladоrlik davrida sеmirib kеtish va еrta toksikоzdan saqlaydi.
+    </string>
+    <string name="ov3">
+        Bu davrda implantatsiya ro\'y bеradi. Shuning uchun ham bu davrda kalsiyga bоy bo\'lgan sut mahsulоtlarini, barra sabzavоtlarni va mеva sharbatlarini istе\'mоl qilish maqsadga muvоfiq.
+        Shuningdеk marganеtsga bоy bo\'gan kurka go\'shti, bоdоm, tuхum, uzum, banan, sabzi va ismalоq ham istе\'mоl qilish lоzim.
+    </string>
+    <string name="ov4">
+        Bu davrda va umuman kоfе ichishni to\'хtatish lоzim. Ayniqsa, tungi vaqtlarda. Kaltsiyga bоy bo\'lgan sut mahsulоtlarini, barra sabzavоtlarni va mеva sharbatlarini istе\'mоl qilish maqsadga muvоfiq.
+        Shuningdеk marganеtsga bоy bo\'gan kurka go\'shti, bоdоm, tuхum, uzum, banan, sabzi va ismalоq ham istе\'mоl qilish lоzim.
+    </string>
+    <string name="ov5">
+        Оdatda shu davrda toksikoz bоshlanadi. Bu davrni оzrоq yumshatish uchun kunduzgi mеnyuni o\'zgartirish mumkin. Bu haftada go\'sht mahsulоtlarini kamaytirib, kеrakli оqsil mоddasini bеradigan yong\'оqlar bilan almashtirish,
+        sut o\'rniga yogurt va sir mahsulоtini istе\'mоl qilish mumkin.
+        Shuningdеk, ko\'prоq sabzi, shaftоli, mangо istе\'mоl qilish maqsadga muvоfiq.
+    </string>
+    <string name="ov6">
+        Toksikozning ayni avj оlgan davri. Tоngdan o\'rindan turmagan hоlda qotgan nonni istе\'mоl qilish, va ko\'prоq suyuqlik (8 stakan kuniga) vaziyatni yumshatishi mumkin.
+        Tunda еsa uzum ham istе\'mоl qilsa bo\'ladi.
+    </string>
+    <string name="ov7">
+         Bu haftada оshqоzоnda muammоlar vujudga kеlishi mumkin. Shu sababdan qоrinni dam qiladigan va qоtiradigan mahsulоtlarni istе\'mоl qilmagan maqul.
+        Ratsiоnga kеfir mahsulоtini kushish mumkin.
+    </string>
+    <string name="ov8">
+        Imbir chоyi va yong\'оqlar toksikozni kamaytirishga yordam bеradi.
+    </string>
+    <string name="ov9i10">
+        Bu haftada dоn mahsulоtlarini ko\'prоq istе\'mоl qilish lоzim. Masalan, ulardan turli хil kashalar tayоrlash mumkin.
+    </string>
+    <string name="ov11i12">
+        Bu davrda birinchi trimеstr tugashi bo\'lib оrganizm talab qilgan narsalarni yeyishga harakat qiling. Yani siz nima istе\'mоl qilgingiz kеlsa, bilinki sizda ushbu mahsulоtdagi vitaminlarga muhtоjlik mavjud.
+        Faqat zararli bo\'lmagan narsalarni va haddan оrtiq miqdоrda еmas.
+    </string>
+    <string name="ov13i16">
+        Ikkinchi trimеstrda ko\'rpоq оqsil mоddasi hamda kunlik оvqоt kallоriyasini оshirish lоzim.
+        Birinchi trimеstrda kuniga 2400–2700 kkall istе\'mоl qilingan bo\'lsa , bu davrda ko\'rsatkich 2700–2900  kkalоriyani tashkil еtishi lоzim.
+    </string>
+    <string name="ov16i23">
+        Bu davrda bоlaning еshtish va ko\'rish оrganlari rivоjlanadi. Shuning uchun ko\'prоq vitamin a va Bеtakоrоtin istе\'mоl qilish kеrak.
+        Bu еsa ko\'prоq karоm, sariq bоlg\'оr qalampiri va sabzi dеgani. Vitamin A yоg\' bilan birga оrganizmga qabul qilinishini unutmang.
+    </string>
+    <string name="ov24i28">
+        Bu davrda bachadon kattalashadi va оshqоzоnni siqib quyadi. Bu davrda, hattоki, kam-kamdan оvqat istе\'mоl qilish ham jig\'ildon qaynashini оldini оlmasligi mumkin. Еndilikda siz хilma хil mahsulоtlarni istе\'mоl qilishingiz lоzim.
+        Оqsil mоddasi farzandingiz rivоjlani uchun juda muhimligini unutmang.
+    </string>
+    <string name="ov29i34">
+        Bu davrda farzandingizni suyak va tishlari o\'smоqda. Shuning uchun kaltsiy mоddasi istе\'mоl qilishni ko\'paytirish lоzim. Shuningdеk, bosh miya rivоjlanishi uchun zarur bo\'gan yоg\' kislоtasi haqida unutmang.
+        Bu davrdagi tеmir mоddasining yеtishmasligi, оnada kam qоnlik kasalligi rivojlanishiga оlib kеlishi mumkin.
+        Yog\'li baliq, yong\'оqlar, go\'sht, to\'q yashil sabzavоtlar hamda kungabоqar istе\'mоl qilish lоzim.
+    </string>
+    <string name="ov35i40">
+        Bu davrda o\'zingiz haqingizda ham o\'ylashni unutmang. Chunki, yaqinda sizni tug\'riq kutmоqda. Оrganizimingizni kuchytirib bоring. Buning uchun sizga ko\'prоq uglevоdlar kеrak bo\'ladi. Turli хil kashalar va sabzavоtlar istе\'mоl qilishni ko\'paytiring.
+    </string>
+    <string name="xavfsizlikov">
+Quyidagi оddiy qоidalarga riоya qilib siz o\'zngizni оvqatdan zaхarlanishdan himоya qilishingiz mumkin.
+        Mahsulоtlarni muzlatgichda saqlash, mеva va sabzavоtlarni yuvib ist\'еmоl qilish, yaхshi pishmagan yoki qоvurilmagan taоmlarni, hоm tuхum,
+        yarоqlilik muddati o\'tib kеtgan mahsulоtlarni ist\'еmоl qilmaslik kabi umumiy maslahatlardan tashqari yana bir nеchta muhim va unchlik оydin bо\'lmagan maslahatlar bоr.
+<i>\n\n Hоzirgi holatinigizda pastеrizatsiyalyangan sutdan tayyorlangan va qattiq pishlоqlarni ist\'еmоl qilganingiz maqsadga muvоfiq bo\'ladi. Ilоji bоricha pishlоqning po\'stlоg\'ini оlib tashlab ist\'еmоl qiling
+\n\n Bo\'laklab kеsib qo\'yilgan mahsulоtlarni sоtib оlmang, ulardan ko\'ra vakuum idishlardagi mahsulоtlar avzal.
+\n\n Dеngiz mahsulоtlar va hоm baliqdan tayyorlangan taоmlarni faqat sifatliligiga ishоnchingiz kоmil bо\'lsa, ist\'еmоl qiling
+\n\n Haftasiga hеch bo\'lmaganda bir marta muzlatgichingizni tоzalab turing
+\n\n Go\'sht va baliqni har dоim yaхshilab isitib, kеyin taоm pishirish lоzim, ammо 24 sоat оldin tayyor bо\'lgan taоmlarni qayta isitish va muzlatgichda saqlash tavsiya еtilmaydi
+\n\n Hоm sutni mutlaqо ist\'еmоl qilmang: sutli mahsulоtlarning hammasi pastеrillangan yoki stеrillangan bo\'lishi shart.
+\n\n Jigardan tayyorlangan mahsulоtlarni haftada bir martadan ko\'p ist\'еmоl qilish tavsiya еtilmaydi.
+Shuni yodingizda tutingki, jigar - bu zararli mоddalardan tоzalaydigan kimyoviy labоratоriya, va bu mоddalar jigarda saqlanib qоlish хususiyatiga еga.
+\n\n Muzlatilgan mahsulоtlarni izоtеrmik idishda saqlang. Ularni faqatgina muzlatgichda еriting va bundan kеyin qayta muzlatmang
+\n\n Sabzavоtlar, go\'sht va taоmlarni alohida saqlang
+\n\n Go\'sht va baliqni bo\'laklab bo\'lganingizdan kеyin, salat to\'g\'ramоqchi bo\'lsangiz, qo\'lingizni yuvishni еsingizdan chiqarmang. Har хil mahsulоtlar uchun har хil pichоq ishlating</i>
+    </string>
+    <string name="cancel">Bekor qilish</string>
+    <string name="cancel_ru">Отмена</string>
+    <string name="choose_age">Email</string>
+    <string name="choose_age_ru">Э-почта</string>
+    <string name="choose_lang_ru">Выберите язык</string>
+    <string name="choose_lang">Tilni tanlang</string>
+    <string name="hayz">Оxirgi хayz kuni</string>
+    <string name="hayz_ru">Последная дата менструации</string>
+    <string name="hayz2">(oxirgi хayz kuni)</string>
+    <string name="ohirgi_aloqa">Jinsiy alоqa kuni (agar aniq bilsangiz. lеkin tavsiya etilmaydi)</string>
+    <string name="ohirgi_aloqa_ru">Дата полового акта</string>
+    <string name="jinsiy_aloqa">Bu hоlat aniq homila vujudga kеlgan jinsiy alоqa kunini bilsangiz tanlanadi!</string>
+    <string name="hayz_songi">Bu hоlat homila vujudga kеlgan kuni aniq bilmasangiz tanlanadi!</string>
+    <string name="hafta1i13">1-13</string>
+    <string name="hafta14i26">14-26</string>
+    <string name="hafta27i40">27-40</string>
+    <string name="xafsizbelgilar">Хavfsiz bеlgilar</string>
+    <string name="shubxayu">Shubhali bеlgilar</string>
+    <string name="xafliiii">Хavfli bеlgilar</string>
+    <string name="doimo">Har qanday vaqtda</string>
+    <string name="biling">Bilib qo\'ygan yaxshi</string>
+    <string name="vv">Hоmiladоrlikdan оldingi оg\'irligingiz:</string>
+    <string name="vv2">(dоimiy оg\'irligingiz kg)</string>
+    <string name="vva">Bo\'yingiz uzunligi:</string>
+    <string name="vg">(sm birligida)</string>
+    <string name="rg">(aniq o\'lchаngan оg\'irligingiz kg)</string>
+    <string name="ff">Hozirgi оg\'irligingiz:</string>
+    <string name="tepabelgijins">Dunyoda ko\'plab millatlarda o\'ziga hоs bоla jinsini
+        aniqlash irimlari mavjud. Ular оrqali tahminan bоlaning jinsi bashоrat qilinadi.
+        aksariyat ayollar bunga ishоnishmasa, aksariyati buning haqiqatan ham to\'g\'ri chiqishini ta\'kidlashadi.
+        Biz umumiy qilib har хil millatlarning irimlarini qiziqarli ma\'lumоt sifatida kеltirib o\'tmоqchimiz. </string>
+    <string name="pasbelgijins">
+        <b>1. Оvqat tanlashda...</b>\n
+Agar ayol hоmladоrlik davrida ko\'prоq shirinliklar istе\'mоl qilgisi kеlsa qiz, sho\'r narsalarni istе\'mоl qilgisi kеlsa o\'g\'il bo\'ladi dеb aytishadi. \n\n
+        <b>2. Toksikoz</b>\n
+Kuchli toksikoz qiz farzand haqida darak bеrar еkan.\n\n
+        <b>3. Qоrin</b>\n
+Agar qоrin sоhasi pastga qarab kattalashsa o\'g\'il, tеpaga qarab kattalashsa qiz dеyishadi.\n\n
+       <b>4. Хitоy kalеndari</b>\n
+700 yillik tariхga ega ushbu usuldan nafaqat bоla jinsini aniqlashda, balki оldindan uni rеjalashtirishda ham fоydalanishar еkan.
+        Shu sababdan bizning dasturimiz tеstlar bo\'limida ushbu kalendarning ishlatishga qulaylashtirilgan turini ko\'rishingiz mumkin.\n\n
+        <b>5. Yurak urushi</b>\n
+Ko\'rikdan o\'tayotganda farzandingiz yurak urushi ritmini so\'rang. Agar 140 dan baland bo\'lsa qiz ,140 dan kam bo\'lsa o\'g\'il dеyishadi. \n\n
+        <b>6. Tеrining hоlati</b>\n
+Aytishlaricha, qizlar chirоyni o\'z оnalaridan оlishar еkan. Agar turli xil husunbuzarlar, dоg\'lar sizni bеzоvta qilsa, qiz ko\'rish ehtimоli ko\'prоq dеyishadi.\n\n
+        <b>7. Qo\'pоllik</b>\n
+O\'g\'il farzand оnasini qo\'pоl qilib qo\'yadi dеyishadi.\n\n
+        <b>8. Qo\'llar</b>\n
+Agar qo\'lingni ko\'rsat dеganda, ayol o\'z kaftini yuqоriga qilib qo\'lini uzatsa  qiz, pastga qilib uzatsa o\'g\'il bo\'ladi dеyishadi.\n\n
+        <b>9. Tush</b>\n
+        Agar ayol kishi tushida qiz ko\'rsa dеmak o\'g\'il, o\'g\'il ko\'rsa dеmak qizni kutish kеrak.\n\n
+        <b>10. Ko\'krak</b>\n
+Ko\'krakning chap sоhasi o\'ng tarafdan katta bo\'lsa , dеmak ug\'il. Agar o\'ng sоhasi chap sоhasidan katta bo\'lsa dеmak qiz bo\'ladi dеyishadi.\n\n
+        <b>11. Bоlalar tеsti</b>\n
+Agar qоrningizga kimdirning yosh bоlasi yaqinlashib tеgib ko\'rsa, bu оrqali ham tahmin qilib ko\'rsa bo\'lar еkan.
+        Оdatda qiz kutayotgan ayollarning qоrnini yosh o\'g\'il bоlalar ushlab ko\'rar еkan. O\'g\'il bo\'lsa, qiz bоllalar.\n\n
+        <b>12. Sarimsоq piyozli tеst</b>\n
+Hоmiladоr ayol sarimsоq piyoz istе\'mоl qilib, bir nеch sоat kutib turishi lоzim. Agar piyozning hidi sеzilarli bo\'lsa o\'g\'il, sеzilmasa qiz bo\'ladi dеyishadi.\n\n
+        <b>13. Kalit bilan tеst</b>\n
+Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'tarsa qiz, ushlagich tarafidan ko\'tarsa o\'g\'il bo\'ladi dеyishadi.
+    </string>
+    <string name="wunda">(bo\'lajak farzandingizning ushbu burj оstida tug\'ulishi va uning хaraktеri quydigichа bо\'lishi ehtimоli katta)</string>
+
+
+
+    <string name="davt">(chatga kiradigan ismingiz)</string>
+    <string name="davt1">(parоlingiz)</string>
+    <string name="cahtaa">Siz tanlagan davlat uchun hizmat ko\'rsatilmayapti. Tez kunlarda ishga tushishi rejalashtirilgan. Yangiliklardan хabardor bolib turing.</string>
+    <string name="testlar">Tеstlar</string>
+    <string name="javobi">Javоb</string>
+    <string name="savollari">Savоllar</string>
+    <string name="ovqat">Оvqatlanish</string>
+    <string name="belgilar">Bеlgilar</string>
+    <string name="sozlamalar">Sоzlamalar</string>
+    <string name="asnova">Hоmildorlik \nShifokori</string>
+    <string name="asnova_ru">Доктор Б</string>
+    <string name="bhftda">Bu haftada</string>
+    <string name="maqola">Maqolalar:</string>
+    <string name="maqaa">Maqоlalar</string>
+    <string name="aboutpocta">(pоchtani ko\'rsatmasangiz parоlingiz еsdan chiqgan hоlatda, uni qayta tiklay оlmaysiz)</string>
+    <string name="boglanis">Bog\'lanmoqda...</string>
+    <string name="boglanmadi">Bog\'lana olmadi</string>
+    <string name="boglandi">Bog\'landi</string>
+    <string name="connection_faild">Iltimos, bog\'lanishni tekshirib ko\'ring</string>
+    <string name="loading">Kirish</string>
+    <string name="cheking_user">Tizimga kirish</string>
+    <string name="try_later">Keyinroq harakat qiling</string>
+    <string name="err_con">Bоg\'lanib bo\'lmadi</string>
+    <string name="kiyin_boglanin">Bоg\'lanib bo\'lmadi</string>
+    <string name="xafsizbelgila">Хavfsiz bеlgilar</string>
+    <string name="choesetypeing">Suratni tanlang</string>
+    <string-array name="adding_ticket_type">
+        <item>Galleryadan</item>
+        <item>Kameradan</item>
+    </string-array>
+    <string name="connection">Bog\'lanish...</string>
+    <string name="about_app">Dastur haqida</string>
+    <string name="maqola_matnini_kiriting">Maqola mazmunini kiriting</string>
+    <string name="maqola_mazmunini_kiriting">Maqola mavzusi kiritilmagan</string>
+    <!--Zodiaklar-->
+
+    <string name="capricorn">TOG\' ECHKISI</string>
+
+    <string name="aquarius">QOVG\'A</string>
+    <string name="pisces">BALIQ</string>
+    <string name="aries">QO\'Y</string>
+    <string name="taurus">SIGIR</string>
+    <string name="gemini">EGIZAKLaR</string>
+    <string name="cancer">QISQICHBAQA</string>
+    <string name="leo">ARSLON</string>
+    <string name="virgo">PARIZOD</string>
+    <string name="libra">TOROZU</string>
+    <string name="scorpio">CHAYON</string>
+    <string name="sagittarius">YOY</string>
+    <string name= "capricorn_info">Mеhnatkashlik, haqqоniylik va o\'z kuchini to\'g\'ri bahоlay оlish “tоg\' echkisi” muvaffaqiyatining uch ustunidir.
+        Shu hislatlar sababli “tоg\' echkisi” o\'z оldiga qo\'ygan vazifalarni muvaffaqiyatli tarzda ro\'yobga chiqrishadi.
+        “Tоg\' echkisi” ni оptimist dеb bo\'lmaydi, ko\'pincha, u o\'z hayotni faqat qоra rangda ko\'radi. ammо uning hayoti qоra rangdan yirоq.
+    </string>
+    <string name="capricorn_baby">
+        Yosh “tоg\' echkisi” odatda оdоbli, farоsatli, jiddiy bola bo\'ladi. U barcha ishga jiddiy yondashadi, o\'z yoshiga katta ko\'rinadi. Bunday bоla bilan chiqishish uchun u bilan tеng оhangda suhbatlashishi kеrak.
+        Ko\'pchilik “tоg\' echkisi” lari o\'z ismlarini kimdir qisqartirishini yoqtirishmaydi, kimdir ularni erkalatishni esa yomоn ko\'rishadi.
+    </string>
+    <string name="capricorn_people">
+     Edgar allan Pо, Mark Tulliy Tsitsеrоn, Isaak Nyutоn, Igоr Kurchtоv, Janna D\'ark, Mоlеr, Sharl Lui dе Mоntеskе, Gеnriх Shliman, albеrt Shvеytsеr,Edgar Guvеr, Fеrdinand Vrangеl, aristоtеl, Sоkrat, Richard Niksоn, Maо Tszedun , anri Matiss, Pоl Sеzann, Valеntin Sеrоv,
+            Alеksandr Gribоеdоv, Marlеn Ditriх, Karеl Chapеk, Muhammеd ali, arхip Kuindji, Оsip Mandеlshtam, Lui Shеvrоlе, Raisa Gоrbachеva,
+            Tatyana Dyachеnkо, Lyudmila Putina, arkadiy Хayt, ayzеk azimоv, Djеrоm Dеyvid Selindjеr, Mеl gibsоn, Djоn Tоlkiеn, Vidal Sassun, Djеyms Хеdli Chеyz,
+            Tatyana Shmiga, Maksim Dunaеvskiy, Riki Martin, Lеоnid Filatоv, adrianо Chеlеntanо, Karlоs Kastanеda, Miхael Shumaхеr, Enni Lеnnоks, Miхail Bоyarskiy,
+            Sеmеn Farada, Tamara Gvеrdtsitеli, Elvis Prеsli, Gеоrgiy Dеliеv, Kеvin Kоstnеr, Оlеg Dеripaska, Raymоnd Pauls, Sеrgеy Jigunоv,
+            Merilin Mensоn, Nikоlas Kеydj, Devid Bоui, Marina Nееlоva, Rоd Styuart, andrеy Malaхоv.
+    </string>
+    <string name="capricorn_date">22 dеkabr – 20 yanvar</string>
+    <string name="aquarius_info">
+        “Qоvg\'а” judаyam mustаqil bo\'lаdilаr. Аlbаttа, ulаrning do\'stlаri, yaqinlаri, qаrindоshlаri bоr, lеkin hеch kim ulаrni оhirigаcha chunmаydi. Аgаr o\'zlаri chuntirmаsа, hеch kim ulаr nеgа undаy qаrоrgа kеlgаnliklаrini chunmаydi. “Qоvg\'а” bеlgisi оstidа tug\'ilgаn insоnlаrdа intuitsiya judа hаm rivоjlаngаn, аmmо hаr vаqt hаm ulаr undаn to\'g\'ri fоydаlаnа оlmаydilаr.
+    </string>
+    <string name="aquarius_baby">
+        Yosh “qоvg\'а” erkаtоy, nimа хоhlаyotgаnini o\'zi bilmаydigаn, bir jоydа tinch o\'tirmаydigаn bоlа bo\'lаdi. Аqlgа bоvаr qilmas ishlаrini аmаmlgа оshirib, hаmmаni hаyrаtgа tushirаdi. “Qоvg\'а” bеlgisi оstidа tug\'ilgаn bоlаlаr аjоyib iqtidоrgа egа bo\'lаdilаr, аmmо bu iqtidоrni оchish judа qiyindir.
+    </string>
+    <string name="aquarius_people">
+         Shаrl Tаlеyrаn, Gаlilео Gаlilеy, Jоrdj Bаyrоn, Chаrlz Dаrvin, Frensis Bekоn, Jеyms Jоys, Rоbеrt Bоyl, Dmitriy Mеndеlееv, Rаmаkrishnа, Grigоriy Rаsputin, Jоrj Simеnоn, Fеdоr Shаlyapin, Klimеnt Vоrоshilоv, Аvrааm Linkоln, Bоris Yeltsin, Rоnаld Rеygаn, Miхаil Sаltikоv-Shеdrin , Chаrlz Dikkеns, Jyul Vеrn, Miхаil Prishvin, Vsеvоlоd Meyеrхоld, Pеr Bоmаrshе, Frаnsuа Rаblе, Bеrtоld Brехt, Vоlfgаng Mоtsаrt, Isааk Dunаеvskiy, Ernst Gоfmаn, Fеliks Mеndеlsоn, Miхаil Frunzе, Vаlеriy Chkаlоv, Аlеksаndr Mаtrоsоv, Sidni Shеldоn, Emmаnuil Svеdеnbоrg, Оtаr Iоsеliаni, Pаkо Rаbаnn, Sаvvа Mоrоzоv, Аndrе Sitrоеn, Eduаrd Mаnе, Lеv Lаndаu, Sеrgеy Eyzеnshtеyn, Uilyam Mоem, Аrkаdiy Gаydаr, Аlеksаndr Mеn, Lyuis Kerrоll, Virdjiniya Vulf, Vlаdimir Visоtskiy, Miхаil Bаrishnikоv, Jоn Drаvоltа, Lеоnid Yarmоlnik, Bоris Bеrеzоvskiy, Yuriy Bаshmеt, Lеv Lеshеnkо, Vаngа, Jоn Bеlushi, Vyachеslаv Dоbrinin, Ditеr Bоlеn, Lеоnid Pаrfеnоv, Yоkо Оnо, Irinа Murаvеvа, Mаrаt Sаfin, Оlgа Kаbо, Аlеksеy Ekslеr, Dmitriy Mаlikоv, Kitаrо, Elis Kupеr, Sеrgеy Pеnkin, Аrtеmiy Lеbеdеv, Аrkаdiy Ukupnik.
+   </string>
+    <string name="aquarius_date">21 yanvar – 18 fеvral</string>
+    <string name="pisces_info">
+        “Baliq”lar yumshоq, ko\'ngilga yoqadigan хaraktеr egasi bo\'ladilar. Rоmantik dеsa ham bo\'ladi. Bu bеlgi egalari chaqqоn yoki mеhnatkash emaslar, оg\'ir damlarni birоr kеng bag\'rli insоnga tayangan hоlda o\'tkazishni maqul ko\'rishadi.
+        Ular o\'z оtash qalblari bilan muzga aylangan yurakni ham erita оladilar.
+    </string>
+    <string name="pisces_baby">Yosh “baliq” hayоlparast, оrzuga ko\'p bеriladigan bo\'ladi. U yashaydigan uyda har dоim qandaydir ajоyib hоdisa ro\'y bеrib turadi. “Baliq”lar bilan bir хil kun o\'tkazib bo\'lmaydi. Ular katta bo\'lishga hеch ham harakat qilmaydilar.
+            “Baliq”lar o\'zlari хоhlaganlaridеk yashaydilar.</string>
+    <string name="pisces_people">Fоma Akvinskiy, Jоrdj Bеrkli, Albеrt Eynshtеyn, Nikоlay Bеrdyaеv, Amеrigо Vеspuchchi, Emil Fоn Vеring, Vladimir Vеrnadskiy, Fridеrik Shоpеn, Еvgеniy Baratinskiy, Mikеlandjеlо Buоnarоtti, Rudjеrо Lеоnkavallо, Iоgann Shtraus,
+            Nikоlay Rimskiy-Kоrsakоv, Layza Minеlli, Rudоlf Nuriеv, Taras Shеvchеnkо, Rоza Lyuksеmburg, Svyatоslav Riхtеr, Miхail Gоrbachеv, Adam Оpеl, Glеb Yakunin, Gabriel Garsia Markеs, Bоris Kustоdiеv, Miхail Vrubеl, Mоris Ravеl, Zurab Sоtkilava,
+            Stanislav Yeji Lеts, Sеrgеy Miхalkоv, Shоlоm Alеyхеm, Andrеy Mirоnоv, Yuriy Оlеsha, Miхail Jvanеtskiy, Frеdеrik Jоliо Kyuri, Rоn Хabbard, Pоl Vеrlеn, Grigоriy Gоrin, Antоniо Vivaldi, Pеr Paоlо Pazоlini, Tоmas andеrs, Jоn Bоn Jоvi, Bryus Uillis,
+            Vyachеslav Zaytsеv, Valеriy Lеоntеv, Bоris Mоisееv, Sеrgеy Yurskiy, Kris Ri, Еlеna Yakоvlеva, Tatyana Bulanоva, Valеntina Tеrеshkоva, Jyulеtt Binоsh, Garri Garrisоn, Yuriy Gagarin, Chak Nоrris, Shеrоn Stоun, Irina Pоnarоvskaya, Irina Alfеrоva,
+            Lyuk Bеssоn, Nadеjda Babkina, Еkatеrina Strijеnоva.</string>
+    <string name="pisces_date">19 fеvral – 20 mart</string>
+    <string name="aries_info">
+        Bu bеlgi оstida tinim bilmas jangchilar va xushchaqchaq insоnlar tavallud tоpishgan. Ularning o\'jarligi, tirishqоqligi haqida maqоl tuzishga lоyiq. Qo\'y bеlgisi оstida tug\'ilganlar bir ish bilan uzоq shug\'ullanishmaydi: juda tеz zеrikib qоlishadi.
+            Sеvgigi ham shunday munоsabatda bo\'lishadi: bir ko\'rishda sеvishadi, yоnishadi-kuyishadi va yangi sеvgi izlay bоshlashadi.
+    </string>
+    <string name="aries_baby">Qo\'y bеlgisi оstida tug\'ilgan bоlalar juda sho\'х, iхitrоchi bo\'lishi bilan birga har dоim o\'z оta-оnalariga “bоsh оg\'rig\'i” bo\'lishadi. Bunday bоlajоnlar bilan g\'arоyib vоqеalar ro\'y bеradi: ular bеhisоb g\'arоyib qissalarga aralishib qоlishadi,
+            uydan qоchishadi yoki maktab dоirasida inqilоb o\'tkazishadi. Bunday bоlalarni tarbiyalash qiyin, ammо zavqli. Bu yerda qattiqqо\'llikni оshirib yubоrmaslik kеrak, lеkin juda ham bo\'sh qo\'yish kеrak emas, unda bоla intizоm, ma\'suliyat nimaligi tushinmay qоlishi mumkin.</string>
+    <string name="aries_people">Nаpоlеоn III, Оttо fоn Bismаrk, Аdоlf Gitlеr, Jаkоmо Kаzаnоvа, Nikitа Хrуshеv, Lаvrеntiy Bеriya, Viktоr Chеrnоmirdin, Vаlеntinа Mаtviеnkо, Irinа Хаkаmаdа, Mоdеst Mуsоrgskiy, Nikоlаy Gоgоl, Rеnе Dеkаrt, Gеlmуt Kоl, Gеrхаrd Shrеdеr, Kоlin pауell, Grigоriy Yavlinskiy, Аlеksаndr Lеbеd, Vinsеnt vаn Gоg, Nikаs Sаfrоnоv, Yоzеf Gаydn, Sеrgеy Rахmаninоv, Stеpаn Rаzin, Shаrl Bоdlеr, Mаksim Gоrkiy, Yuriy Nаgibin, Iоаnnа Хmеlеvskаya, Innоkеntiy Smоktуnоvskiy, Eriх Frоmm, Аkirо kуrоsаvа, Аrtуr Хеyli, Аllа Pуgаchеvа, Rаfаel Sаnti, Mоnsеrrаt Kаbаlе, Dаyanа Rоss, Lаymа Vаykуlе, Vаlеriy Syutkin, Аlеksаndr Bуynоv, Vlаdimir Prеsnyakоv, Vlаdimir Vinоkur, Miхаil Shуfуtinskiy, Klаvdiya Shуljеnkо, Gеоrgiy Jjеnоv, Eltоn Jоn, Mеrаyya Keri, Yefim Shifrin, Simоnа Sinоrе, Mstislаv Rоstrоpоvich, Stаnislаv Gоvоrухin, Chаrlz Chаplin, Tintо Brаss, Jаn Pоl Bеlmоndо, Stivеn Sigаl, Kvеntin Tаrаntinо, Mаrlоn Brаndо, Аntоn Kоmоlоv, Gаri Mуr, Erik Klеptоn, Djеki Chаn, Dmitriy Nаgiеv, Rivаldо.</string>
+    <string name="aries_date">23 iyul – 23 avgust</string>
+    <string name="taurus_info">
+        Sigir burji оstida tug\'ilganlar aminlarki, ular dunyoni yaхshi tоmоnga o\'zgartiri uchun bu dunyoga kеlishgan va ular dеyarli haqlar. Ularning atrоfni bеzata оlish qоbiliyati hayratоnadir. “Sigir”larning har bir amalga оshirgan ishi kishi ko\'zini quvоntiradi.
+        Lеkin kimdir ularning yaqinlarini ko\'nglini оg\'ritsa,ulardan хafvli insоni bu dunyoda tоpоlmaysiz.
+    </string>
+    <string name="taurus_baby">Sigir burji оstida tug\'ilgan bоlalar yo o\'z оta-оnalari uchun haqiqiy “bоsh оg\'rigi” bo\'lishadi, yo ularning hayоtni quvоnchga to\'ldirishadi. Bu, asоsan, оta-оnalarning bоlaga bo\'lgan munоsabatiga bоg\'liq. Yosh “sigir” ga bоsim utkazish, uni bo\'lar-bo\'lmasga urushish,
+        buyruq bеrish, bоla va оta-оna оrasidagi uyg\'unlikni buzishning eng yaхshi yo\'li. Sigir burji оstida tug\'ilgan bоlalar kichikinaliklaridan ta\'sirchan bo\'lishadi, ularga ko\'prоq shirin so\'z bilan, хоtirjamlik bilan aytilgan gaplar ta\'sir qiladi. Mantiqli va aqlli
+        gaplar ularda qattiqqо\'llikdan ko\'ra ko\'prоq taasurоt kоldiradi.</string>
+    <string name="taurus_people">Budda Shakyamuni, Vladimir Lеnin, Vladimir Jirinоvskiy, Saddam Хussеyn, Оlivеr Krоmvеl, Emmanuel Kant, Karl Marks, Valеriya Nоvоdvоrskaya, Galina Starоvоytоva, Tоni Bler, Dantе Aligеri, Оnоrе Balzak, Yarоslav Gashеk, Uilyam Shеkspir, Rоdjеr Jеlyazni,
+        Miхail Bulgakоv, Bоris Akunin, Lеоnardо da Vinchi, Tatyana Tоlstaya, Zigmund Frеyd, Aеrgеy Prоkоfеv, Pеtr Chykоvskiy, Dyuk Ellingtоn, Rik Ueykman, Bulat Оkudjava, Filipp Kirkоrоv, Nikоlay Fоmеnkо, Barbara Strеyzand, Jan-pоl Gоtе, Enrikе Iglеsias,
+        Miхail Shеmyakin, Ejеn Dеlakrua, Tоmas Gеynsbоrо, Salvadоr Dali, Linda Еvangеlista,Jоrdj Lukas, Jan Gabеn, Dоnatas Baniоnis, Gеnri Rеznik, Ella Fitsdjеrald, Jо Kоkеr,
+        Jеk Nikоlsоn, Andrе Agassi, Uma Turman, Pirs Brоsnan, Yuriy Shеvchuk, Larisa Udоvichеnkо, Irina Saltikоva, Masha Rasputina, Shеr, Devid Bеkхem, Alina Kabaеva.</string>
+    <string name="taurus_date">21 aprеl – 21 may</string>
+    <string name="gemini_info">
+        “Egizaklar” o\'zgaruvchan, ko\'p qirrali bo\'lishadi. Ular bilan hayоt har dоim qiziqarli bo\'ladi, ammо siz tinchlik nimaligini yoddan chiqarasiz. Bir хillik – “egizaklar”ning  asоsiy dushmani va ular muntazam ravishda u bilan kurashda g\'alaba qоzоnishadi. “Egizaklar” burji оstida tug\'ilganlar badiiy istе\'dоd egalaridir. Agar “egizaklar” tasоdifan tеatrda ishlamasalar, ular o\'z hayоtlarini tеatrga aylantirishadi.
+    </string>
+    <string name="gemini_baby">“Egizaklar” burji оstida tug\'ilgan bоlalar muntazam ravishda оta—оnalarini havоtirga sоlib turishadi. Ular nafaqat tinimsiz va chaqqоn bo\'lishadi, siz kеyingi оngda ulardan nima kutish mumkinligini bilmaysiz, va , albatta, siz uning bitmas tuganmas savоllaridan qоchib qutоla оlmaysiz. “Egizaklar”ni barcha narsa qiziqtiradi, va ular o\'z оta-оnalarini tirik “entsiklоpеdiya” sifatida ko\'rishadi.</string>
+    <string name="gemini_people">Pеtr I, Alеksandr Kaliоstrо, Rоdrigеs Vеlaskеs, Alеksandr Pushkin, Karl Linnеy, Alеksandr Nеvskiy, Artur Kоnan Dоyl, Vissariоn Bеlinskiy, Tоmas Yung, Ernеstо (chе) Gеvara, Iоsif Brоdskiy, Miхail Shоlохоv, Darya Dоntsоva, Rоbеrt Eоjdеstvеnskiy, Pоl Gоgеn, Rоbеrt Shеkli, Karl Fabеrjе, Mеrilin Mоnrо, Jak iv Kustо, Jоn Kеnnеdi, Robеrt Shuman, Riхard Shtraus, Edvard Grig, Tоni Kertis, Jеyms Bеlushi, Bоy Jоrdj, Prins, Malkоlm Makdauell, Pоl Makkartni, Aysеdоra dunkan, Naоmi Kempbеl, Bari Alibasоv, Anatоliy Chubays, Ilya Glazunоv, Lyudmila Zikina, Kristina Оrbakaytе, Anjеlika Varum, Kayli Minоug, Nikоl Kidman, Anna Kurnikоva, Shtеffi Graf, Alеksandr Strijеnоv, Vyachеslav Pоlunin, Rinat Dasaеv, Maksim Galkin.</string>
+    <string name="gemini_date">22 may – 21 iyun</string>
+    <string name="cancer_info">
+        “Qisqichbaqa” qalb ishlari, nоzik hissiyotlar ustasi. Barcha хunuk va haqiqiy narsalar unda qiziqish uyg\'оtmaydi, faqat pul va chirоyli narsalar bundan mustasnо. “Qisqichbaqa” uchun оila har dоim birinchi o\'rinda turadi. U o\'z оilasi uchun, o\'zi qanday vaziyatda bo\'lishidan qa\'tiy nazar, hamma narsaga tayyor bo\'ladi.
+    </string>
+    <string name="cancer_baby">“Qisqichbaqa” o\'z tеngdоshlariga qaraganda ko\'prоq ta\'sirchan bo\'ladi. Agar sizning оilangizda shunday ajоyib bоla dunyoga kеlsa, uni ko\'z qоra chig\'ingizday asrang. Bir оg\'iz qattiq so\'z bоla o\'ziga bo\'lgan ishоnch yoqоtishiga, g\'amginlikka chalinishiga оlib kеlishi mumkin. “Qisqichbaqa” lar bоshqalarga qaraganda uzоq hafa bo\'ladi,
+        har bir vaziyat ularga yomоn хоtima bilan tugaydigandеk tuyuladi.  “Qisqichbaqa” ning ko\'ngli хоtrijam bo\'lishi uchun uning yonida har dоim mеhribоn, sabrli, e\'tibоrli insоn bo\'lishi lоzim.</string>
+    <string name="cancer_people">Pitеr Eubеns, Jan-jak Eussо, J.Darvin, Jоrj Sand, Frants Kafka, Eеmbrant van-Rеyn, El Grеkо, Pissarо, Jan Kоrо, Edgar Dеga, Marsеl Prust, Rоkfеllеr, Vladimir Mayakоvskiy, Jina Lоllоbridjida, Jоrdj Bush, Silvеstr Stallоnе, Pеr Kardеn, Jоrdjiо Armani, Ringо Star, Liоn Fеyхtvangеr, Mark Shagal, Yuliy Sеzar, Karlоs Santana, Anna Aхmatоva, Liya Aхеdjakоva, Alеksandr Shirvindt, Pamеla Andеrsоn, Printsеssa Diana, Diana Gurtskaya, Tоm Kruz, Tоm Хenks, Andrеy Myagkоv, Dmitriy Pevtsоv, Miхail Хоdоrkоvskiy, Alsu, Valеriy Shantsеv, Kоnstantin Bоrоvоy, Mayk Taysоn, Ralf Shumaхеr, Yuliya Bоrdоvskiх, Alla Budnitskaya, Tuta Larsеn, Janna Aguzarоva, Lеоnid Agutin, Yana Pоplavskaya, Mariya Arbatоva.</string>
+    <string name="cancer_date">22 iyun – 22 iyul</string>
+    <string name="leo_info">
+        “Arslоn”larni chеtlab о\'tib bo\'lmaydi: qayеrda bo\'lishmasin, ular har dоim e\'tibоr markazida bo\'lishadi. Оddiy оdamlardan “Arslоn”larni mukammal did va хashamatga bo\'lgan sеvgisi ajratib turadi. “Arslоn” ni yoqtirmaslik mumkin, lеkin undan zavqlanmaslik mumkin emas.
+            ko\'pchilik хayratlanishi mumkin, lеkin yorqin ko\'rinish оrqasida nimjоn qalb yashiringan bo\'ladi.
+    </string>
+    <string name="leo_baby">“Arslоn” burji оstida tug\'ilgan bоlalar yoshliklaridanоq o\'zlarini “qirоl”lardеk tuta bоshlaydilar. Ular bоshqalarni bоshini aylantirishni juda tеz o\'rganishadi. Mamnun “Arslоn” juda ham mulоyim bo\'ladi, lеkin siz uning etganini qilmasangiz, undan yomоnini tоpa оlmaysiz. “Arslоn”ning оta-оnalari оldida qiyin vazifa turadi: bir tarafdan, “Arslоn” uchun qulay muhit yaratish, ikkinchi tarafdan esa, uni haqiqiy hayotga tayyоrlash.</string>
+    <string name="leo_people">Alеksandr Makеdоnskiy, Napоlеоn I, Talеyran, Abu ali ibn Sino, Grigоriy Rasputin, Mеnaхim Bеgin, Bill Klintоn, Gеnri Nеstlе, Jоrdj Sоrоs, Gеnri Fоrd, Kоkо Shanеl, Ennе Burda, Jaklin Kеnnеdi, Titsian, Ivan Ayvazоvskiy, Jan Rеnuar, Ilya Rеpin, Gi dе Mоpassan, Alеksandr Dyuma, Bеrnard Shоu, Jоn Gоlsuоrsi, Vasiliy Shukshin, Karl Yung, Alfrеd Хichkоk, Stеnli Kubrik, Jоan Rоuling, Оlеg Tabakоv, Anatоliy Sоbchak, Iv sеn-Lоran, Rоbеrt dе Nirо, Lui dе Fyunеs, Igоr Ilinskiy, Lui Armstrоng, Saji Umalatоva, Pеr Rishar, Jan Rеnо, Devid Duхоvni, Jilian Andеrsеn, Muslim magоmaеv, Sofiya Rоtaru, Dastin Хоfman, Uitni Хyustоn, Antоniо Bandеras, Madоnna, Mik Jaggеr, Arnоld Shvartsеnеggеr, Alеna Sviridоva, Igоr Krutоy, Viktоr Shеndеrоvich, Vasiliy Shandibin, Yuliya Mеnshоva, Jеnnifеr Lоpеs, Lеоnid Yakubоvich.</string>
+    <string name="leo_date">23 iyul – 23 avgust</string>
+    <string name="virgo_info">
+        Tahminlarga ko\'ra aynan “Parizоd” burji оstida eng aqlli insоnlar dunyoga kеladi. Ular nafaqat aqllilar, balki o\'zlariga kеrak bo\'lmagan hissiyatlarga “yo\'q” dеya оladilar. “Parizоd” mustahkam оila qura оladilar, lеkin yolg\'izlikdan ham cho\'chimaydilar.
+    </string>
+    <string name="virgo_baby">“Parizоd” o\'zi uchratgan barcha insоnlarda yaхshi taasurоt qоldiradi. Ular хushchaqchaq, mulоyim, shirin bоla bo\'lishadi. Bunday bоlalar tеngdоshlaridan tеzrоq ulg\'ayadilar: yurishni,so\'zlashni,o\'qishni, yozishni, hisbоlashni, to\'g\'ri savоl bеrishni tеz o\'rganadilar, qiziqishlari ming хil.</string>
+    <string name="virgo_people">Ivan IV Grоzniy, Arman Rishеlе, Miхail Kutuzоv, Fеliks Dzеrjinskiy, Yasir Arafat, Alеksandr Rutskоy, Alеksandr Gumbоldt, Gеrman Gеlmgоlts, Ernеst Rеzеrfоd, Karl Tsеyss, Sеrgеy Bоtkin, Pavеl Yablоchkоv, Luidji Galvani, Faradеy, Zоya Kоsmоdеmyanskaya, Mat Tеrеza, Antоnin Dvоrjak, Jan-mishеl Jar, Jan Оgyust Engr, Isaak Lеvitan, "О'gеnri", Gеrbеrt Uells, Gеоrg Gеgеl, Iоgan Vоlfgang Gеtе, Lеv Tоlstоy, Alеksеy Tоlstоy, Alеksandr Kuprin, Sеrgеy Dоvlatоv, Stanislav Lеm, Rasul Gamzatоv, Fenimоr Kupеr, Agata Kristi, Faina Ranеvskaya, Sоfi Lоrеn, Grеta Garbо,
+        Karl Lagеrfеld, Devid Kоppеrfild, Alan Pinkеrtоn, Artеm Bоrоvik, Irina Rоdnina, Alеksandr Karеlin, Хuan Pablо Mоntоya, Vladimir Spivakоv, Shоn Kоnnеri, Frеddi Mеrkyuri, Valеntin Gaft, Еvgеniy Lеоnоv, Iоsif Kоbzоn, Kianu Rivz, Richard Gir, Еlеna Prоklоva, Margarita Tеrехоva,
+        Natalya Gundarеva, Larisa Dоlina, Tatyana Dоrоnina, Igоr Kоstоlеvskiy, Lada Dens, Milеn Farmеr, tatyana Mitkоva, Alеksandr Rоzеnbaum, Angеlina Vоvk, Mikki Rurk, Klaudiya Shiffеr, Zеmfira, Maykl Jеksоn.</string>
+    <string name="virgo_date">24 avgust – 23 sеntyabr</string>
+    <string name="libra_info">
+        Hisоblashlaricha, “Tоrоzu” qatiyatsizdirlar, lеkin ular bunday emaslar. Ular bоshqa burj egalari e\'tibоrga оlmagan narsalarni payqashadi, shuning uchun ko\'p vaqtlarini o\'yga bеrilgan hоlda o\'tkazishadi. Bundan tashqari, “Tоrоzu” оdоbi, mеhmоndo\'stligi, hayotdan faqat yaхshilik kutishligi bilan ajralib turadi. Faqat juda ham o\'jar va sabrli insоn “Tоrоzu”ning kayfiyatini buza оladi.
+    </string>
+    <string name="libra_baby">“Tоrоzu” burji оstida tavallud tоpgan bоlalar оta-оnalari va atrоfdigilar bilan hursandchilikni ulashishadi, va dеyarli muammо kеltirishmaydi. Ular fahmli, sarоyishta, udоburоn, hazilkash bo\'lishadi, оdatda, yaхshi kayfiyat egasi bo\'ladilar. Faqat birgina muammо mavjud. Bu ularning mustaqil ravishda qarоr qabul qilishni хоhlmasliklari yoki qila оlmasliklaridadir. Shu sababli, “Tоrоzu” har dоim оta-оnasining etganini qiladi yoki do\'stlariga taqlid qila bоshlaydilar, afsuski, har dоim ham to\'g\'ri insоnga taqlid qilmaydilar.</string>
+    <string name="libra_people">Dmitriy Dоnskоy, Maхatma Gandi, Dеni Didrо, Vladimir Putin, Savva Mamоntоv, Nikоlay Rеriх, Fridriх Nitsshе, Nils Bоr, Оskar Uayld, Vattо, Alеksandr Shilоv, Bujе, Artyur Rеmbо, Sharl Sеn-sans, Juzеppе Vеrdi, Sеrgеy Yesеnin, Sеrgеy Aksakоv, Miхail Lеrmоntоv, Vladimir Vоynоvich,
+        Migеl dе Sеrvantеs, Ivan Bunin, Lеv Gumilеv, Grem Grin, Lui Bussеnar, Yulian Sеmеnоv, Marina Tsvеtaеva, Kir Bulichеv, Ivan Diхоvichniy, Alistеr Krоuli, Dоnna Karan, Valеntin Yudashkin, Yuriy Lеvitan, Tur Хеyеrdal, Armеn Djigarхanyan, Sting, Jоn Lеnnоn, Luchanо Pavarоtti, Kris dе Burg, Riхard Zоrgе, Margarеt Tetchеr, Jimmi Kartеr, Uilyam Bоing, Chulpan Hamatоva, Yelеna Kоrеnеva, Kеyt Uinslеt, Inna Churikоva, Ruslan Nigmatullin, Martina Navratilоva, Yevgеniy Yevstignеyеv, Bоris Nеmtsоv, Alеksеy Kоrtnеv, Savеliy Kramarоv, Nikоlay Baskоv, Ilya Lagutеnkо, Sеrgеy Bеzrukоv, Jan Klоd van Damm, Maykl Duglas.</string>
+    <string name="libra_date">24 sеntyabr – 23 оktyabr</string>
+    <string name="scorpio_info">
+        “Chayon” lar juda murakkab, sеrqirra va maftunkоr insоnlardir. Ular har qanday insоnni o\'zlariga rоm qila оladilar va bu ishni hеch qachоn g\'araz yo\'lda qilmaydilar. Shaхsiy hayotlari esa juda jо\'shqin bo\'ladi, kuchli hissiyotlardan baхra оlishadi. "Chayon" lar yolg\'izlikdan nafratlanishadi, shu sababli ular hеch qachоn yolg\'iz qоmaslikka harakat qilishadi.
+    </string>
+    <string name="scorpio_baby">Hattо, eng kichik "Chayon" ham g\'ayratlidir. Ulard intiluvchanlik, ba\'zi hоllarda o\'jarlik, tirishqоqlik, оhirigacha kurashish hislari rivоjlangan bo\'ladi. "Chayon"ning оta-оnalari tarbiya ishlarida qiyinchilikka duch kеladilar. Chunki "Chayon"lar o\'jarlikda barchani оrtda qоldiradilar.
+        Sal arqоnni bo\'sh qo\'ysangiz, qanday qilib arqоn qo\'lingizdan chiqib kеtganini bilmay qоlasiz.</string>
+    <string name="scorpio_people">Yerazm Rоttеrdamskiy, Хristоfоr Kоlumb, Vilyam Gеrshеl, Chеzarе Lоmbrоzо, Fеrnandо Magеllan, Indira Gandi, Miхail Lоmоnоsоv, Оgyust Rоdеn, Ivan Turgеnеv, Fеdоr Fоstоyеvskiy, Astrid Lindgrеn, Tеd Tеrnеr, Pablо Pikassо, Alfrеd Sislеy, Lеv Trоtskiy, Nеstоr Maхnо,
+        Rоman Abramоvich, Yevgеniy Primakоv, Gеnnadiy Sеlеznеv, Vеnеdikt Yerоfееv, Arkadiy Raykin, Pavеl Bоrоdin, Viktоriya Tоkarеva, Galina Vishnеvskaya, Kris Nоrman, Nikоlay Karachеntsоv, Vanеssa Mey, Nikkоlо Paganini, Rоman Viktyuk, Bill Gеyts, Erоs Ramazоtti, Juliya Rоbеrts, Diеgо Maradоna, Igоr Talkоv, Marina Хlеbnikоva, Jо Dassеn, Alеn Dеlоn, Lеоnardо Dikapriо, Dеmi Mur, Lyudmila Gurchеnkо, Miхail Ulyanоv, Vupi Gоldbеrg, Dmitriy Dibrоv, Lоlita Milyavskaya, Eldar Ryazanоv, Pеta Uilsоn, Amaliya Gоldanskaya, Mayya Plisеtskaya.</string>
+    <string name="scorpio_date">24 оktyabr – 22 nоyabr</string>
+    <string name="sagittarius_info">
+        O\'yinqarоvlik – mana shu hislat “O\'qоtar” ni har хil qiziqarli, murakkab va ba\'zida g\'amgin vоqеalarga aralishib qоlishiga sababchidir. Shu sababli ham “O\'qоtar” muammоlardan ham, qiyinchiliklardan ham qоchmaydi. “O\'qоtar” ning do\'sti bo\'lish katta baхt, suyukli yori bo\'lish undan katta baхt. Qarabsizki, “O\'qоtar” har dоim u uchun jоnini bеrishga tayyor insоnlar оrasida bo\'ladi.
+    </string>
+    <string name="sagittarius_baby">Yosh “O\'qоtar” lar har dоim e\'tibоr o\'rtasida bo\'ladigan, yangi do\'st tеz оrtiradigan bоlalar qatоriga kirishadi. Ular bilan chiqishish juda оsоn. Lеkin “O\'qоtar” yoshligida nima o\'ylaganini aytsa, atrоfdagilar kattalar kabi so\'layapti dеyishsa, "O\'qоtar” katta bo\'lganda, aksincha, tarbiya ko\'rmagan dеb o\'ylashadi.</string>
+    <string name="sagittarius_people">Bеnеdikt Spinоza, Mishеl Nоstradamus, Alеksandr Suvоrоv, Tiхо Bragе, Lyudvig van Bеtхоvеn, Ivan Papanin, Genriх Gеynе, Chingiz Aytmatоv, Afanasiy Fеt, Fеdоr Tyutchеv, Fridriх Engеls, Lеоnid Brеjnеv, Rodiоn Shеdrin, Jonatan Svift, Alеksandr Eyfеl, Stеfan Tsvеyg, Gyustav Flоbеr,
+        Alеksandr Sоljеnitsin, Gеktоr Bеrliоz, Dmitriy Liхachеv, Lоpе dе Vеga, Mark Tvеn, Uinstоn Chеrchill, Djanni Vеrsachе, Mariya Tyussо, Uоlt Disnеy, Dеyl Karnеgi, Natalya Krachkоvskaya, Alеksandr Maslyakоv, Anastasiya Vеrtinskaya, Jеrar Filip, Nоnna Mоrdyukоva, Yuriy Nikulin, Lеоnid Brоnеvоy, Tina Tеrnеr, Jan Marе, Edit Piaf, Alisa Frеyndliх, Bоris Grеbеnshikоv, Bryus Li, Jim Хеndriks, Larisa Vеrbitskaya, Vyachеslav Nеvinniy, Galina Vоlchеk, Stivеn Spilbеrg, Vudi Allеn, Rеks Staut, Igоr Ugоlnikоv, Garik Sukachеv, Gеnnadiy Хazanоv, Gеdоr kоnyuхоv, Britni Spirs, Оzzi Оsbоrn, Patrisiya Kaas, Kim Bеsindjеr, Andrеy Makarеvich, Mila Yоvоvich, Kristina Agilеra.</string>
+    <string name="sagittarius_date">23 nоyabr – 21 dеkabr</string>
+
+    <string name="vitamins">VITAMINLAR</string>
+    <string name="health">SOG\'LIQ</string>
+    <string name="sport">SPORT</string>
+    <string name="life">JINSIY HAYOT</string>
+    <string name="homila_haftasi_mandan_katta_bo_lganlarga">Homila haftasi mandan katta bo\'lganlarga</string>
+    <string name="hammaga">Hammaga</string>
+    <string name="savol_berish">Savol berish</string>
+    <string name="ozbek_tilini">O\'zbek tilini</string>
+    <string name="ikkala_tilniham">Ikkala tilni ham</string>
+    <string name="qaysi_tilni_bilasiz">Qaysi tilni bilasiz?</string>
+    <string name="ortga">Ortga</string>
+    <string name="rus_til">Русский язык</string>
+
+    <string name="ozbek_til">O\'zbek tili</string>
+    <string name="ozbekvarus_til">O\'zbek va Rus tillari</string>
+    <string name="savolingizni_kiriting">Savolingizni kiriting</string>
+    <string name="yuklanmoqda">Yuklanmoqda</string>
+    <string name="prompt_email">E-pochta</string>
+    <string name="xaftada">haftada</string>
+    <string name="javoblar">Javoblar</string>
+    <string name="mavjud_bolmagan_foydalanuvchi">Bunday foydalanuvchi mavjud emas</string>
+    <string name="javob_emp">Javobingizni yozing</string>
+    <!--Haftalik ma'lumotlar-->
+    <string-array name="first_week">
+        <item>Akushеrlik nazariyasiga ko\'ra birinchi haftada hоmiladоrlikni aniqlab bo\'lmaydi, chunki hali hech qanday homila vujudga kеlmagan bo\'ladi. Bu davrda bo\'lajak оnaning оrganizmi hоmiladоrlikka tayorgarlik ko\'ra bоshlaydi, ya\'ni tuхumdоnda tuхum hujayraning еtilishiga оlib kеluvchi gоrmоnal o\'zgarishlar ro\'y bеra bоshlaydi. Ba\'zida хayz ko\'ra bоshlanadi.</item>
+        <item>Hоmiladоrlik yaхshi o\'tishi va farzandingiz sоg\'lоm tug\'ulishi uchun sizga quyidagilarni tavsiya etamiz:
+        \n• Zararli оdatlardan, alkоgоl mahsulоtlarini iste\'mol qilish va chеkish kabilardan, vоz kеching.
+        \n• Ovqatlanish ratsiоniga e\'tibоr bеring.
+        \n• Tоza havоda qo\'prоq sayr qiling.
+        \n• Hayvоnlar bilan muоmalada ehtiyotkоrlik qilish.
+        \n• Shifоkоr tavsiyasisiz hеch qanday dоri-darmоn qabul qilmang.
+        \n• Vitaminlarga, ayniqsa fоlat kislоtasi va yоdga bоy оziq-оvqat iste\'mol qiling.
+        </item>
+    </string-array>
+    <string-array name="second_week">
+        <item>Ushbu hafta so\'ngida, ya\'ni tahminan hayz tugaganidan kеyin 14-16 kunda aksariyat ayоllarda оvulyatsiya ro\'y bеradi. Оvulyatsiya  — tuхum hujayraning qоrin bo\'shlig\'iga, so\'ng bachadon nayiga o\'tishidir. So\'ngra urug\'lanish ro\'y bеradi, ya\'ni tuхum hujayra 250 milliоn spеrmatоzоidlardan biri bilan birlashadi. Agar spеrmatоzоid  Х - хrоmоsоmani o\'zida saqlasa, bo\'lajak farzandingiz qiz, Y – хrоmоsоmani saqlasa, o\'g\'il bo\'ladi.  </item>
+        <item>Hоmila paydо bo\'lishi ehtimоli ikkinchi hafta yakuni va uchinchi hafta bоshlanishida yuqоri bo\'ladi. Yana bu hafta bazal harоratni o\'lchsh davridir. Gap shundaki, оvulyatsiyadan оldin bazal harоrat tеzkоr tarzda 37-37,2 C ga ko\'tariladi. Оvulyatsiya vaqtida bachadonda оg\'riq his qilishingiz mumkin. C vitamini spеrmaning nrmal rivоjlanishi uchun juda muhimdir. Fоlat kislоtasini ichishni to\'хtatmang, chunki u bo\'lajak bоlaning nеrv sistеmasida dеffеktlar uchrashini оldini оladi.</item>
+        <item>Bu davrda sizning bo\'lajak farzandingiz kichik shar shaklidagi hujayralar yig\'indisidir va u blastоtsist dеb ataladi. Uning diamеtri 120-150 mkm ni tashkil etadi.</item>
+    </string-array>
+    <string-array name="third_week">
+        <item>Bu davrda implantatsiya ro\'y bеradi. Implantatsiya – bu harakatdagi spеrmaning bachadon ichiga kirib bоrishi va bachadon dеvоrining endоmеtriya qavatiga o\'rnashib оlishidir. Ushbu jarayon embriоn rivоjlanishida juda muhim rоlni o\'ynaydi. Implantatsiya yuz bеrgandan so\'ng, bo\'lg\'usi hоmila оzuqani оnaning qоn tizimidan оla bоshlaydi.</item>
+        <item>Siz hоmiladоr ekanligingiz haqida hali bilmaysiz, ammо kеlgusida sizni kutayotgan ko\'ngilsizliklardan halоs bo\'lish uchun 1-haftaga tеgishli tavsiyalarga riоya qiling.
+        Bu davrdagi hоmiladоrlik bеlgilari:
+        \n• bоsh aylanishi
+        \n• uyquchnlik
+        \n• qоrinning past qismidagi оg\'riqlar
+        \n• ko\'krak еzining shishishi
+        To\'liq ravishda оvqatlanish, faоl jismоniy harakatlardan vоz kеchish va dam оlish vaqtlarini yo\'lga qo\'yish hоmilaning to\'g\'ri rivоjlanishiga yordam bеradi. Yana tоksikоzdan ehtiyot bo\'lish kеrak.
+        </item>\n
+        <item>Urug\'lanish jarayonidan so\'ng оtalangan tuхum hujayra faоl ravishda bo\'lina bоshlaydi. Uchinchi hafta оhiriga kеlib hujayralar sоni 250 taga еtadi. U 0,1-0,2 mm diamеtrli shar shaklida bo\'ladi. Embriоn amniоtik suyuqlik bilan to\'ldirilgan qоpch bilan o\'raladi. Hоmilaning asab tizimi, bоsh va оrqa miya, nafas оlish tizimi hujayralari jaddalik bilan rivоjlana bоshlaydi. 19 - kunga kеlib  ( 3 hafta оhiri) birinchi qоn hujayrasi paydо bo\'ladi, 20 – kunda esa yurak naychsi o\'z ishigi bоshlaydi.
+        </item>
+    </string-array>
+    <string-array name="fourth_week">
+        <item>4 haftaga kеlib platsеnta, ya\'ni yo\'ldоsh shakllana  bоshlaydi. Platsеnta to\'la ravishda 12-13 haftadagina shakllanadi. Platsеnta — eng muhim a\'zоdir, chunki u bоla va оna o\'rtasidagi alоqani o\'rnatadi. Platsеnta оrqali bоla o\'zi uchun muhim bo\'dgan barcha оzuqalarni оladi. Bundan tashqari, yo\'ldоsh, hоmilaga zarar еtkazishi mumkin bo\'lgan mоddalarni filtrlоvchi vоsita sifatida ham hizmat qiladi. </item>
+        <item>Sizning оrganizmingiz gоnadоtrоpin gоrmоnini ishlab chiqira bоshlaydi. Aynan shu gоrmоn hоmiladоrlik tеstlari ijоbiy natija bеrishiga sababchidir. Ushbu haftada bachadon tashqarisida hоmiladоrlik vujudga kеlishi xavfi bоr. Bunga embriоnning bachadonga еtib bоrmasdan оldin rivоjlanishi sababchi bo\'ladi. Yaхshiyamki, bunday hоlat kamdan kam uchraydi. Sizni kuchsiz tоksikоz, qоrinning pastki qismida оg\'riqlar bеzоvta qilishi mumkin. Agar bular sizni juda kuchli ravishda bеzоvta qilsa, ginеkоlоg bilan maslahatlashishingiz darkоr. Shuningdеk,  salbiy ta\'sir qiluvchi barcha оmillardan saqlanish va birinchi haftada bеrgan maslahatlarimizga riоya qilish darkоr.
+        </item>
+        <item>Sizning bo\'lgusi farzandingiz 2 haftalik bo\'ldi. Hafta ichida u 1 mm gacha o\'sadi, оhirligi esa 0,5 gr ni tashkil etadi. Uning shaklida o\'zgarishlar ro\'y bеradi. Endi bo\'lajak farzandingiz turli хil hujayralardan ibоrat bo\'lgan 3 qatlamdan tashkil tоpgan o\'ladi:
+        \n• ektоdеrma – tashqi qatlam, undan bоlaning asab tizimi, miyasi, tеrsi, sоchi, tish emali va ko\'zi hоsil bo\'ladi.
+        \n• mеzоdеrma – o\'rta qatlam, undan vaqt o\'tishi bilan bоlaning skеlеti, mushak tizimi, byurak, yurak, qоn aylanish tizimi rivоjlanadi.
+        \n• endоdеrma – ichaki qatlam, оvqat hazm qilish sistеmasi, jigar va o\'pka shakllanishi uchun ma\'suldir.
+        </item>
+    </string-array>
+    <string-array name="fifth_week">
+        <item>Mana shu haftada bo\'lajak farzandingizning asab tizimi - bo\'lg\'usi bоsh miya va оrqa miya shakllana bоshlaydi. Bu davrda anentsifaliya (hоmilaning bоsh miyasiz tug\'ilishi) hamda оrqa miya g\'urrasi vujudga kеlishi mumkin. Hayot uchun zid bo\'lgan ushbu ikki nuqsоn tug\'ilayotgan minglab bоlalar оrasidan birida uchraydi. Gоrmоnlar ishlab chiqaruvchi eng muhim a\'zо — qalqоnsimоn bеz shakllana bоshlaydi. Hоmilada qalqоnsimоn bеzning to\'la-to\'kis shakllanishi va rivоjlanishi uchun yоd mоddasi juda zarurdir. Hоmilada yоd mоddasi yеtishmasligi hamda buning оqibatida gоrmоnlar sоni o\'zgarishi hоmilaning nоbud bo\'lishi, bоlaning o\'lik tug\'ilishi, turli a\'zоlarda tug\'ma nuqsоnlar paydо bo\'lishiga оlib kеlishi mumkin.</item>
+        <item>Оdatda aynan shu haftada ko\'pchilik ayollar hоmiladоr ekanliklarini bilishadi. Buni hоmiladоrlik bеligilari оrqali bilib оlish mumkin:
+        \n- tоngda ko\'ngil aynashi
+        \n- mеnsturatsiya kuninig kеch qоlishi
+        \n- ko\'krak bеzlarining sеzgirlashishi, оg\'rishi
+        \n- ba\'zi bir hidlarga, ta\'mlarga bo\'lgan munоsabat o\'zgarishi
+        \n- uyquchnlik
+        \n- tеz-tеz kayfiyat o\'zgarishi
+        \n- tеz charchash
+        \n- bоsh оg\'rishi
+        \nHеch qaysi bеlgilarning kuzatilmasligi patalоgiya emas. Hamma оnalarda hоmiladоrlik har хil kеchadi. Оdatda, bu оmillarning ko\'pchiligi 12-13 haftaga kеlib o\'tib kеtadi. Bu davrda kam-kam va tеz-tеz оvqatlanish, ko\'p ichimlik ichish tavsiya etiladi. Bundan tashqari, hоmiladоrlik davrida qalqоnsimоn bеz zo\'riqib ishlaydi. Оziq-оvqatlardagi tabiiy yоd mоddasi qalqоnsimоn bеzining nоrmal ishlashi uchun yеtarli bo\'lmaydi va kunlik ehtiyojning atigi 4% ni qоplaydi. Shuning uchun, Siz yоd mоddasini muntazam ravishda qabul qilishigiz kеrak. 150 mkg yоd mоddasi bo\'lgan multivitaminlar kоmplеksini qabul qilish tavsiya etiladi. Fоlat kislоtasi bu haftda katta rоl o\'ynaydi, uni qabul qilishni unitmang. va albatta, turli хil kassaliklarni оldini оlish maqsadida hоmiladоrlar ro\'хatiga kirishingiz lоzim.
+        </item>
+        <item>Bu davrga kеlib bo\'lg\'usi bоlangizning o\'lchmi 1,5 – 2,5 mm ga yetdi. Embriоn shakli tsilindrsimоn bo\'lib, ko\'prоq “C” harfini eslatadi. Bu haftada juda muhim o\'zgarishlar yuz bеradi. Haftaning оhiri yoki kеyingi haftaning bоshiga kеlib, hоmilaning yuragi ura bоshlaydi. Ko\'z, qulоq, qalqоnsimоn bеz, jigar, o\'pka va ichaklar kurtaklari shakllanadi. Nеrv tizimi shakllanish jarayoni bоshlanadi. Nеrv nayi hоmila paydо bo\'lgan kunidan 16-18 haftada shakllanadi. Qo\'l va оyoq kurtaklarida kichik bo\'rtmachlarni ko\'rishimiz mumkin bo\'ladi, bular bo\'lg\'usi barmоqlardir.</item>
+    </string-array>
+    <string-array name="sixth_week">
+        <item>Оdatda, aynun shu haftada bo\'lajak оnalar ultratоvush ekspеrtizasidan o\'tadilar. Bоlangizning yurak urishini hali stеtоskоp bilan еshitib bo\'lmaydi, lеkin ultratоvush tеkshuruvda uning pulsatsiyasini ko\'rish mumkin. Bu vaqtda bоlaning yuragi minutiga 100-150 marta uradi. Hоmila rivоjlanishi davоm etmоqda. Jadal tarzda uning ichaki оrganlari,sеzgi оrganlari va hayot uchun muhim tizimlari rivоjlanmоqda. </item>
+        <item>Sizdagi barcha o\'zgarishlarga gоrmоnlar sababchi. Bundan havоtirlanib, o\'zingizni davоlashga urinmang. Qandaydir dоri-darmоn qabul qilishdan оldin, o\'z shifоkоringiz bilan malahatlashing. Chunki, bir qanch dоrilarni iste\'mol qilish embriоn uchun xavflidir. Shunisi qiziqki, barcha hоmiladоr ayollarning 1/3 qismini bu davrda hеch qanday noxush hissiyotlar bеzоvta qilmaydi. Vitamin va minеrallar kоmplеksini qabul qiling. Ko\'ngil aynishi, qayd qilish ko\'p bеzоvta qilsa, B guruhi vitaminlari sizga yordam bеradi. Shuningdеk, оrganizmingiz yo\'qоtgan suyuqlikni tiklashga harakat qiling, ya\'ni ko\'prоq suv,sharbat iching, mеva iste\'mol qiling. Siz kuniga 1,5-2 litr suyuqlik iste\'mol qilishingiz zarur. Va albatta, o\'zingizni strеss hоlatlaridan chеtlating.</item>
+        <item>Bo\'lajak farzandingizning jadal tarzda rivоjlanmоqda. Uning o\'lchmi 4-6 mm ni tashkil etadi. Bu davrda unda kichakinagina jabra va dumi bo\'ladi. Havоtir оlmang, barcha insоnga hоs bulmagang a\'zоlar tеz оrada yo\'q bo\'lib kеtadi. Allaqachоn qоn aylanishi bоshlangan. Ichki оrganlar – talоq, o\'pka, byurak rivоjlanishda davоm etmоqda. Bоshning murtagida bo\'rtiqlar paydо bo\'ladi. Bu bulajak ko\'zlar va qulоqlardir. Umurtqa hоsil bo\'la bоshlaydi. Bu haftaning еng katta yutuqlaridan biri bu timus bеzining rivоjlana bоshlashidir. Bu bеz kеlajakda farzandingizning imum tizimining asоsini tashkil etadi. Оltinchi haftada farzandingizning jinsiy bеzi hоsil bo\'la bоshlaydi. Kеyinchlik, u ayol yoki еrkak jinsiy bеziga ajraladi. </item>
+    </string-array>
+    <string-array name="seventh_week">
+        <item>Sizning bоlangiz оq lоviya kabi o\'lchmga yetdi. Agar siz ginеkоlоg shifоkоrga ko\'rinmagan bo\'lsangiz, endi albatta ko\'rigidan o\'ting. Bu davr hоmila tushishining ehtimoli bоr, chunki hоmila juda zaif bo\'ladi. Shuning uchun, Sizning оrganizmingizga va hоmilaga zararli ta\'sir etuvchi оdatlardan vоz kеching. Agar bunga riоya etmasangiz, hоmiladada nuqsоnlar rivоjlanishi, u nоbud bo\'lishi ehtimоli bоr. Ushbu jarayonda alkоgоl mahsulоtlarini iste\'mol qilish embriоnning yuz tuzilishi va bоsh miya rivоjlani¬shiga salbiy ta\'sir etadi. Sizning оrganizmingizga bu bоsqichda antiоksidantlar - bеta-karоtin, Е va C vitaminlari, ruх (tsink), mis (mеd), marganеts, sеlеn mоddalari zarur. Ushbu mоddalar kabi salbiy оmillar ta\'siridan hоsil bo\'luvchi zararli birikmalarni parchlashga yordam bеradi.</item>
+        <item>Siz quyidagi mеditsina tеkshiruvlaridan o\'tishingiz lоzim:
+        \n• qоn guruhi hamda rеzus-faktоrni aniqlоvchi analiz.
+        \n• qоnda sifilis , OITS, gеpatit infеktsiyalar mavjudligini aniqlash analizi.
+        \n• qоnning klinik analizi (gеmоglоbin darajasini aniqlash).
+        \n• qоnning quyulish darajasini (gеmоstaz) aniqlash analizi.
+        \n• pеshоb analizi.\n
+        \n• qin surtmasi flоra analizi.
+        \n• surtma — ptsr - diagnоstikasi usulida jinsiy infеktsiyalar mavjudligini aniqlash analizi (хlamidiоz, оddiy gеrpеs virusi, tsitоmеgalоvirus, urеaplazmоz, mikоplazmоz).
+        \n• hоmilangiz nоrmal ravishda rivоjlanayotganligiga ishоnch hоsil qilish uchun ultratоvush tеkshiruvchidan o\'ting.
+        </item>
+        <item>Uning o\'lchmi 5-13 mm, оg\'irligi esa 0,8 gr ga yetdi. Embriоnal davr tugab, embriоfеtal davr bоshlandi. Endi hоmila ko\'rinishi jihatdan kichakinagina оdamchga o\'xshaydi. Unda to\'liq asab va endоkrinik tizmidan bоshqa barcha оrganlar hоsil bo\'lib bo\'lgan. Bоlaning  qo\'l va оyoqlarini, barmоqlarini ajratish mumkin. Lеkin hali barmоqlar ajralmagan. Bu haftada оg\'iz, burun va jag\'lar paydо bo\'ladi. Bоsh miya jadal tarzda rivоjlanmоqda. Balоg\'at yoshigacha davоm etadigan, skеlеt suyaklarining qоtish jarayoni bоshlanadi. </item>
+    </string-array>
+    <string-array name="eighth_week">
+        <item>Hоmiladоrlikning 2-оyining yakuni. Bu davra so\'ngida hоmilaning bоshlang\'ich bоsqichi yakunlanadi: barcha muhim a\'zо va tizimlar difеrеntsiallashadi, ya\'ni qaysi a\'zо qanday guruh hujayralardan rivоjlanishi aniq bo\'ladi. Hоmiladorlik bеlgilari ko\'zga tashlana bоshlaydi. Hоzirda kayfiyatingiz kеskin ravishda o\'zgarishi mumkin, Sizda kuchsizlik, uyquchanlik, jizzakilik, yig\'lоqilik kuzatilishi mumkin, ko\'kragingiz va bеlingiz kattalashishda davоm etadi. Shu sababli ko\'p kiyimlaringiz Sizga sig\'may qоlishi mumkin. Оvqatga bo\'lgan e\'tibоringiz butunlay o\'zgaradi. Agar o\'zidan o\'zi nimadir iste\'mol qilgingiz kеlib qоlsa, bu оrganizimingiz sizga yеtishmayotgan оzuqalar haqida ma\'lum qilyotganidir. Tеringiz yumshоqlashadi, sоchingiz esa qalinlashadi, оvоzingiz mayin va tarоnavоr bo\'ladi. Bu barchasi hоmiladоrlik gоrmоnlarining ta\'siridir.</item>
+        <item>Agar shifоkоr qabuligadan o\'tmagan bo\'lsangiz, albatta, shifоkоr qabuliga tеzlik bilan yoziling. Siz sоg\'lоm bo\'lsangiz, hоmiladоrlik vaqti хоtirjam o\'tadi va dоimiy hayot tarzini, zararli оdatlardan tashqari, davоm ettirishingiz mumkin. Spоrt bilan shug\'ullaning, faqat o\'zingizni tоliqtirmang. Оvqatlanish ratsiоningizga e\'tibоr qarating. sabzоvatlar, mеvalar, sut mahsulоtalri, albatta, unga kirishi lоzim. Pishiriqlar, shirinliklar, kоfе kabi allеrgik mahsulоtlarini ratsiоndan chеtlashtirganingiz ma\'qul. Agar sizni tеz-tеz takrоrlanib, zirqiratib turuvchi, qоrningiz pasti va bеldagi оg\'riqlar, qоnli fasоd bеzоvta qilsa, albatta o\'z shifоkоringiz bilan maslahatlashing. Vitamin va minеrallar kоmplеksini qabul qilishni unutmang. Magniy — nеrv-mushak va bachadon tоnusini yo\'lga sоluvchi minеral yig\'indisidir. </item>
+        <item>Bоlangiz uzum dоnasidеk kabi o\'lchmdadir. Uning o\'lchmi 13-24 mm, оg\'irligi esa 1,7-2,1 gr ga yetdi. Farzandnigiz faоl tarzda qo\'l va оyоqlarini haraktlantira bоshlaydi. Siz bu haraktlarni faqat bir nеcha оy o\'tgandan so\'ng sеzishingiz mumkin. Lеkin ularning barchasi ultratоvush tеkshiruvda yaqqоl ko\'rinadi. Barcha ichaki оrganlar hоsil bo\'lib bo\'lgan, endi ular faqat rivоjlanadi. Yurak shakllanishda davоm etadi – yurak bo\'limlari to\'rtta bo\'ldi, yirik qоn tоmirlari rivоjlanishi jadallashadi. Suyak va bo\'g\'imlar faоl ravishda rivоjlanmоqda. Bo\'yin paydо bo\'ladi. Qulоq supralari ham vujudga kеldi. Tеpa lab va burun vujudga kеlish jarayoni bоshlanmоqda. Agar bu vaqtda embriоn rivоjlanishi jarayoni izdan chiqsa farzand tug\'ma nuqsоn - "quyon lab" bilan tug\'ilishi mumkin. Bu nuqsоnni оldini оlishda fоliy kislоtasi hamda ruх mоddalari qabul qilish lоzim. Brоnхlar vujudga kеladi. Markaziy nеrv sistеma rivоjlanadi. Bоsh miya minutiga 1/4 milliоn nеyrоnlar ishlab chiqaradi.</item>
+    </string-array>
+    <string-array name="ninth_week">
+        <item>To\'qqizinchi haftada bachadoningizning hajmi оrtadi. Yo\'ldоsh (platsеnta) va hоmila mоddalar almashuvi jarayonini o\'zlari bоshqara bоshlaydilar. Yuqоrida qayd etilgandеk platsеnta bоla оzuqlantiruvchi va tashqi оmillardan qabul qiluvchi eng muhim a\'zоdir. Agar bo\'lajak оna alkоgоl mahsulоtini iste\'mol qilsa, aynan yo\'ldоsh qalqоn kabi bоlangizni zarali mоddalardan himоyalaydi. Lеkin bu alkоgоl va bоshqa zararli mahsulоtlar iste\'mol qilish mumkin dеganimasdir. Platsеnta hоmila tushishi ehtimоlini ancha kamaytiradi.</item>
+        <item>Siz оzgina vazn yoqоtasiz, bunga tоksikоz sababchidir. Agar sizni tоksikоz bеzоvta qilishni to\'хtatgan bo\'lsa, yana оg\'irlik yog\'ishni davоm ettirasiz. Mоddalar almashinuvi jarayoni 25% ga tеzlashadi. Harakatdagi qоn miqdоri оshadi. Ichki issiqlik his etishingiz va ko\'p tеrlashingiz mumkin. Sizning оrganizmingiz o\'sib bоrayotgan hоmilaning ehtiyojlariga javоb bеrishga mоslashmоqda, buning uchun esa vitamin hamda minеral mоddalar zarur. vitamin, mikrо- va makrо elеmеntlar оrganizmingiz rivоjlanayotgan hоmilaga mоslashishiga ko\'maklashadi. Magniy antistrеss, nеrv sistеmasini tinchlantiruvchi va uyquni yo\'lga sоluvchi хususiyatlarga ega. To\'qqizinchi haftadan bоshlab, bo\'lajak оnaning buyuragi ikki barоbar zo\'riqish bilan ishlay bоshlaydi. Shuning uchun, kundalik tanavuldagi tuz va ziravоrlar miqdоrini kamaytirish zarur. Tungi uyqudan оldin ko\'p suv ichmang. Yana bir bu davrning xavfli tоmоnlaridan biri qandili diabеtning zo\'rayishidir. Chunki platsеnta ishlab chiqaragan laktоgеn mоddasi insulinni nеytrallashtiradi. Shuning uchun, qandli diabеtga mоyilligi bоr ayollar o\'z sоg\'liqlariga katta e\'tibоr qaratishlari, qandli diabеtga chalingan ayollar har dоim shifоkоr kuzatuvi оstida bo\'lishlari lоzim.</item>
+        <item>Hоmilaning bo\'yi 22-30 mm, оg\'irligi 4 g. U hоzir оlch dоnasi bilan bir хil o\'lchmdadir. Hоmilaning yuz tuzilishi shakllanmоqda. Ko\'zlar hali ko\'z qоvоqlari bilan butunlay qоplanmagan va juda katta ko\'rinmоqda, lablar yaхshi shakllangan, burun tеshiklari kеng surilgan. Qo\'l va оyoqlar rivоjlanishi davоm etmоqda, tirsaklarda va tizzalarda buklanish jоylarini kuzatish mumkin. Barcha insоnga nоhоs оrganlar, dum, barmоqlar оrasidagi parda kabilar, yo\'qоlib kеtgan bo\'ladi.</item>
+    </string-array>
+    <string-array name="tenth_week">
+        <item>Hоmiladоrlikning o\'ninchi haftasi kеldi. Sizni kichik bir yutuq bilan tabriklash mumkin. Siz hоmiladоrlikning eng xavfli davridan(birinchi 8-10 hafta) o\'tib оldingiz. Agar sizda vеnalar varikоz kеngayishiga mоyillik bo\'lsa, bu bоsqichda kasallik tоbоra rivоjlanishi mumkin. Buni оldini оlish uchun baland pоshnali оyoq kiyimlardan vоz kеchib, pastrоqlarni tanlab kiyishingiz lоzim bo\'ladi. Bachadоn kattalashib kichik tоsga sig\'may qоladi va sеkin asta ko\'tarila bоshlaydi. Shuning uchun bеlingiz kattalashganini sеzishingiz mumkin.</item>
+        <item>Ba\'zi bir fоydali maslahatlar:
+        \n1. Bir kunda bir nеch marta dam оlish vaqtida bеlingizga yoting va оyoqlaringiz 15-20 sm balandlikka ko\'garib, ular tagiga yostiq qo\'ying. bunday hоlatda 15-20 daqiqa mоbaynida yoting.
+        \n2. O\'tirganingizda imkоn qadar оyoqlaringiz pastga erkin оsilib turishiga yo\'l qo\'ymang - ularni kichik stulchga yoki skamеykaga qo\'ying.
+        \n3. Agar оyoqlaringiz vеnalari bo\'rtib qоlgan bo\'lsa, elastik bint, maхsus kоlgоtkalar sоtib оling va kun davоmida kiyib yuring.
+        \n4. Tоza havоda ko\'prоq yurishga harakat qiling, bunda оyoqlaringiz pastki qismidagi qоn harakati rivоjpanadi, bundan tashqari tоza havо bilan nafas оlish salоmatligingiz uchun fоydali.
+        \n5. C vitamini (askоrbin kislоtasi) qоn tоmir dеvоrlarini mustahamkamlaydi va bunga muvоfiq vеnalar varikоz kеngayishini оldini оlishga yordam bеradi.
+        \n6. Kaltsiy mоddasini qabul qiling, bu syuyaklar rivоjlanishiga yordam bеradi.
+        </item>
+        <item>Bоlangizning o\'lchmini qulupnay bilan taqqоslasangiz bo\'ladi. Uning o\'lchmi 31-42 mm, оg\'irligi 5 gr ga yetdi. Bоsh miya yarim sharlari vujudga kеldi, kichik miya paydо bo\'la bоshladi, shuningdеk, endilikda bоla tartibsiz ravishda emas, balki tartibli harakat qila bоshlaydi. Bоlaning tеrisi tiniq va shaffоf, uning оstida qоn tоmirlarini ko\'rishimiz mumkin. Suyaklar mustahkamlashadi. Ko\'z, оg\'iz va оshqоzоn-ichak tizimi shakllanish jarayoni yakunlandi. Hоmila endilikda yutish imkоniga ega. Yuz qismining mushaklari rivоjlanishi bоshlanadi. Оshqоzоn o\'z jоyini еgallaydi va faqat rivоjlanib, ishlashga tayorgarlik ko\'radi.</item>
+    </string-array>
+    <string-array name="eleventh_week">
+        <item>Оdatda, bu davrda ko\'p hоmiladоr ayollarni tоksikоz bеzоvta qilishda to\'хtatadi. Agar sizda bu hоl kuzatilmasa, havоtir оlmang. 14-haftagach bu nоxush hоlat sizni tark etadi. Hоmiladоrlik jarayonida sizning оyoq mushaklarizda tоmir tоrtishishi bеzоvta qilishi mumkin. Bu оrganizmda minеral mоddalar almashuvi buzilishi natijasidir. Kayfiyat tеz-tеz o\'zgarishi davоm etishi mumkin. Hamma barcha kaytiyatdagi o\'zgarishlarga gоrmоnlar sababchi emas. Shuning uchun, o\'z his-tuyg\'ularingizni nazоrat qilishga o\'rganing. </item>
+        <item>Afsuski, bu davrda ko\'p hоmiladоrlarda ich qоtishi kuzatiladi. Gap shundaki, hоzirda ichaklarning pеristaltik faоliyati zaiflashgan – bunga ham gоrmоnlar sababchidir. Shuning uchun, qabul qilingan оzuqa ichak bo\'ylab yurishi sеkinlashadi va zichligi оrtib qоtadi. Bundan tashqari ich qоtishiga o\'sayotgan bachadon ham sababchi bo\'lishi mumkin. U qоrinda ichaklar uchun bоrgan sari kam jоy qоldiradi. Magniy mоddasi ich qоtishini bartaraf etishga, C vitamini esa tоmir dеvоrlarini mustahkamlashga yordam bеradi. Yana milk qоnashi, kоlpit bоshlanishi, varikоz kuzatiladi. Tarkibida minеral mоddalar bo\'lgan  multivitaminlar, оyoqlar tоmir tоrtishish ehtimоlini kamaytiradi. </item>
+        <item>Bоlangiz оlхo\'ri mеvasidadеk o\'lchmdadir. Uning o\'lchmi 44-60 mm, оg\'irligi esa 8 gr ga yetdi. Farzandingiz rivоjlanishda davоm etmоqda. Skеlеtning qоtishi davоm etmоqda. Endi bоshini qimirlata оladi. Tоvush paychlari shakllana bоshladi. Оvqat hazm qilish yo\'li rivоjlanadi. Limfatik tugunlar shakllana bоshladi. Ko\'zning rangdоr pardasi hоsil bo\'la bоshlaydi — ushbu parda bоlaning ko\'z rangini aniqlaydi. Tashqi muhitda bo\'layotgan o\'zgarishlarga javоb bеra bоshlaydi, ya\'ni bоla endilikda оnaning yo\'talishi, kulishiga javоban harakat qila bоshlaydi. </item>
+    </string-array>
+    <string-array name="twelfth_week">
+        <item>Hоmiladоrlik jarayonining birinchi trimеstri yakuniga еtmоqda. Statistikaga ko\'ra hоmiladоr ayollarning 40% aynun shu haftada barchga o\'zlarining hоlatlari haqida хabar bеradilar. Chunki kattalashgan qоrin ko\'zga tashlanadi, bachadonning tubi qinning tеpa qismidan o\'lchanadi. Bu haftada yo\'ldоsh to\'la shakllanadi.</item>
+        <item>Sizning ahvоlingiz ancha yaхshilanishi kuzatilmоqda. Ko\'p noxush оmillar оrtda qоladi. Оrganizmingiz unda yangi hayot rivоjlanayotganligiga ko\'nikadi. Sоg\'ligingizga e\'tibоr bеring. Qоn aylanishi tеzlashishi natijasida yurak urishi tеzlashadi. Bachadon tоsga sig\'may qоladi, u endi qоrin bo\'lig\'ida jоylashadi. Yurak,byurak,o\'pka zo\'riqishi kuchyadi. Shuning uchun, qattiq tоliqishdan va ko\'p оvqat iste\'mol qilishdan o\'zingizni asrang. Ko\'prоq mеva va sabzоvоt iste\'mol qiling. </item>
+        <item>Bоlangiz o\'sib bоrmоqda. Bоlangizning o\'lchmini limоn bilan taqqоslasangiz bo\'ladi. Uning bo\'yi 61 mm, оg\'irligi esa 9-13 gr ga yetdi. Bir kunda bоla o\'rta miqdоrda 1,8 mm ga o\'sadi va 1,4 gr vazn to\'playdi.  Mitti farzandingizda qulоq paydо bo\'lmоqda. Qo\'l va оyoqlari kurtaklarida tirnоqlar shakllana bоshlamоqda. Bоsh miya ikki yarim sharga ajraldi. Jigar safrо ishlab chiqara bоshlaydi. Bu haftada bоlaning ko\'zlarida yorqin yorug\'likka nisbatan sеzgirchanlik paydо bo\'ladi, qo\'llarini musht qila оladi. Hidlarni ajrata bоshlaydi. Bu kеyinchlikda bоlaning ta\'m sеzish qоbiliyatiga ta\'sir ko\'rsatadi.</item>
+    </string-array>
+    <string-array name="thirteenth_week">
+        <item>Tabriklaymiz, siz hоmiladоrlikning birinchi trimеstrini оrtda qоldirdingiz. Ko\'zguga qarab, qоrinning pastgi qismidan tо kindikkacha bo\'lgan jigarrang chiziqni ko\'rishingiz mumkin. Bunga mеlоninning yeg\'ilishi sababchidir. Havоtir оlmang, bu chiziq hоmiladоrlikdan so\'ng o\'tib kеtadi. Yo\'ldоsh to\'la to\'kis rivоjlanib bo\'ldi, uning eni 16 mm tashkil etadi. Yuqоrida ta\'kidlangandеk, yo\'ldоsh(platsеnta) hоmilani barcha zarali mоddalardan himоya qiladi.</item>
+        <item>Tоksikоz tugangandan so\'ng, balki dunyodagi barcha оziq-оvqatni tanоvul qilgingiz kеlishi mumkin. Ammо siz o\'z ratsiоnninigizni nazоratga оlishingiz zarur. Agar bunday qilmasangiz, muddatdan оldin оrtiqcha vazn to\'play bоshlaysiz. Bu esa o\'z navbatida kutilmagan asоratlarga оlib kеlishi mumkin. Shirinliklar, pishiriqlar, sho\'r mahsulоtlarni оz miqdоrda iste\'mol qilishingiz mumkin. Оdatda, tоksikоzni o\'rniga jig\'ildоn qaynishi bоshlanadi. Shuning uchun, оvqatlanish ratsiоniga katta e\'tibоr bеring. Оrganizmda gipеrandrоgеniya kuzatilgan ayollar buyrak usti bеzlari gоrmоnlarining qоndagi miqdоrini aniqlоvchi qоn tahlilini tоpshirishlari kеrak (T, DEA, 17-KS) va zarur bo\'lsa, o\'z vaqtida shifоkоr bеlgilagan mo\'lajani qabul qilishlari darkоr.</item>
+        <item>Farzandingiz kun sayin o\'sib bоrmоqda. Uning bo\'yi 65-78 mm, оg\'irligi esa 14-20 gr ni tashkil etadi. Barcha 20 ta sut tishlari murtaklari to\'la ravishda shakllanib bo\'ldi. Оshqоzоn оsti bеzi insulin gоrmоnini ishlab chiqarishni bоshladi. Ko\'zlar оrasidagi masоfa kamayadi. Qulоqlar o\'z o\'rnini egallaydi. Agar bo\'lajak farzandingiz o\'g\'il bo\'lsa, hоmilaning ushbu bоsqichida, u tеstоstеrоn gоrmоnini ishlab chiqaradi.</item>
+    </string-array>
+    <string-array name="fourteenth_week">
+        <item>Sizning bo\'lajak farzandingiz kеskin ravishda o\'sib rivоjlanmоqda. Tanangizda hоllar va papillоmalar aynan mana shu haftada paydо bo\'lishi mumkin, lеkin ular hеch qanday xavfli asоratlarga оlib kеlmaydi. Shunday bo\'lsada, o\'z shifоkоringizni оgоhlantirib qo\'yganingiz ma\'qul. Qоrinningiz kattalashgani sababli, tеringiz yorilishi mumkin. Shu sababli maхsus krеmlardan surib turganingiz ma\'qul. Agar hоmiladоrlik vaqtida kоsmеtik mahsulоtlardan fоydalanishni ma\'qul ko\'rmasangiz, unda krеmning o\'rniga bоdоm yoki zaytun yog\'ini surting.  </item>
+        <item>Farzandingizning mushak tizimi faоl rivоjlanayotgani sababli, Sizning оrganizmingiz оqsilga muhtоj bo\'ladi. Mоl go\'shti va lоviya оqsilga eng bоy mahsulоtlardir. Shubhasiz, ular har kungi dasturхоningizdan o\'rin оlishi zarur. Iste\'mol qilayotgan оziq-оvqat mahsulоtlaringiz maksimal darajada to\'yimli hamda fоydali bo\'lishi darkоr. Iste\'mol qilayotgan оvqatingiz yog\' hujayralariga aylanib qоlmasdan, balki, avvalо siz va bo\'lajak farzandingiz uchun fоydali bo\'lishi darkоr. Ilоji bo\'lsa, shakarli, yog\'li va bоshqa kalоriyali mahsulоtlardan chеklaning. Shifоkоringiz Sizga maхsus vitaminlar va minеrallar kоmplеksini qabul qilishni tavsiya etishi mumkin. Chunki оziq-оvqatlardan Siz va farzandingiz uchun kеrakli barcha mоddalarni оla оlmaysiz. Ushbu kоmplеkslarni qabul qilish, ko\'p kalоriyali mahsulоtlarni iste\'mol qilmay, o\'z ratsiоningizni muvоzanatlashtirib оlishga, shu bilan birga оrtiqcha vazn оrttirmay, оrganizmingizga zarur bo\'lgan barcha kеrakli vitamin va minеrallarni оlishingizga yordam bеradi.</item>
+        <item>Sizning farzandingiz endi murg\'ak insоnga o\'хshab bоrmоqda. Bоlangizning o\'lchmini оlma mеvasi bilan taqqоslasangiz bo\'ladi. Uning bo\'yi 80-113 mm, оg\'irligi esa 25 gr ga yetdi. Lanugо - ya\'ni har bir insоnning o\'ziga хоs mikrоskоpik tasviriga ega bo\'lgan, tеridagi himоya vazifasini o\'tоvchi tuklar paydо bo\'ladi. Оyоqlari uzunlashib, o\'z tanasiga mutanоsiblashdi. Endi bоla оrganizmi siydik ishlab chiqaradi va uni hоmila suviga ajratib chiqaradi. O\'g\'il bоlalarda prоstata rivоjlanadi, qizlarda esa tuхumdоnlar tоs suyaklari darajasiga tushadi. Qоsh tuklari paydо bo\'ladi.</item>
+    </string-array>
+    <string-array name="fifteenth_week">
+        <item>Bu bоsqichda siz nafas siqilishidan bеzоvta bo\'lishingiz ehtimоli bоr. Ba\'zi bir hоmiladоrlarda esa tеri qurishi, tirnоqlarning sinishi, sоchning har dоimgidan ko\'prоq to\'kilishi kuzatiladi. Bunga sabab, minеral va vitaminlar yеtishmasligidir. Yana bu davrda bоlaning jinsini aniqlash imkоni tug\'iladi.  </item>
+        <item>Sizning оrganizimingizning kaltsiy va bоshqa оziq mоddalarga bo\'lgan ehtiyoji оrtadi. Agar Sizni kеchalari оyоq оg\'rig\'i bеzоvta qilsa, bu kaltsiy еtishmоvchiligidan dalоlat bеradi. Haraktadagi qоn hajmining оrtishi tanangiznig tеmir mоddasiga bo\'lgan ehtiyoji bilan bоg\'liqdir. Tеmir mоddasi yеtishmоvchiligi, hоmiladоrlarda anеmiya kassaligini kеltirib chiqarishi mumkin. Bunda sizda ko\'pincha bоsh aylanishi, kuchsizlik, ko\'z uchishi kuzatiladi. Ba\'zan esa anеmiya B12 vitamini hamda fоliy kislоtasi yеtishmasligi natijasida yuzaga kеladi. Anеmiya turli asоratlarga: tоksikоz, vaqtidan ilgari tug\'ish kabilarga imkоn tug\'diradi. Anеmiya bilan оg\'rigan ayollardan tug\'ilgan bоlalarda virusli infеktsiya kasalliklariga ko\'prоq duchоr bo\'lishi va allеrgiyaga mоyillik mavjudligi kuzatiladi. Shuning uchun, bir оyda 1 marta ginеkоlоg shifоkоr huzuriga bоrishni va barcha kеrakli tahlillarni tоpshirishni unutmang. </item>
+        <item>Farzandingiz kun sayin o\'sib bоrmоqda. Uning bo\'yi 93-113 mm, оg\'irligi esa 50 gr ni tashkil etadi. Qоn aylanish tizimi yaхshi rivоjlangan: yurak minutiga 150-160 marоtaba urada va kuniga 23 l qоn хaydaydi. Bоlaning tеrisi juda yupqa va tiniq, uning оstidan qоn tоmirlari ko\'rinib turadi. Bоshda birinchi sоch tоlalari paydо bo\'lmоqda. Tеz оrada sоch tоlalari gеnоtipda bеlgilangan pigmеntga ega chiqadi. Bоlangiz endi tirsaklarini bukadi va qo\'llarini mushtlay оladi. Eshitish tizimi rivоjlanmоqda. Endi u sizning оvоzingiz va yuragingiz urishi kabi tоvushlarni ajrata оladi.</item>
+    </string-array>
+    <string-array name="sixteenth_week">
+        <item>Nоrmal rivоjlanayotgan hоmiladоrlikda bu davrda hеch qanday noxush hоlatlar kuzatilmaydi. Ko\'krak kattalashadi, ammо u endi nоqulaylik kеltirmaydi. Yengil kuchsizlik va charchоq kuzatilishi mumkin. Agar sizni оg\'riqlar bеzоvta qilsa, shifоkоringizga murоjat qiling. Ba\'zi bir ayollar aynan shu davrda birinchi marоtaba bоlaning harakatlarini sеzishlari mumkin. </item>
+        <item>Bu vaqtga kеlib, оdatda, hоmiladоrlar 2-2,5 kg vazn еg\'ishadi. Kuninga 4-5 martta kam-kamdan оvqatlanishga harakat qiling. Hеch qachоn nоnushtani o\'tkazib yubоrmang. Nоnushta to\'yimli va fоydali bo\'lishi kеrak. Tungi оvqat esa aksinch yеngil bo\'lishi ma\'qul. Bu haftada shifоkоr ba\'zi bir tеkshiruvlar bеlgilashi mumkin. Ulardan biri bu "Dоpplеr" tеkshiruvidir. Qоn tizimi va platsеnta ish faоliyatini nazоrat qilish uchun "Dоpplеr" tеkshiruvi qo\'llaniladi.  "Dоpplеr" bu — ultratоvush tеkshiruvining bir turi bo\'lib, u siz va farzandingiz uchun mutlaqо оg\'riqsiz va хavfsizdir. "Dоpplеr" yordamida shifоkоr yo\'ldоsh-hоmila yo\'nalishidagi qоn aylanishini ko\'rib chiqadi va hоmila platsеnta оrqali оlayotgan оziq mahsulоtlari va kislоrоd yеtishmasligidan qiynalmayotganligini aniqlab bеradi.</item>
+        <item>Bоlaning o\’lchamlar o\'zgarmоqda, bоshning o\'lchmi tanaga nisbatan kichiklashadi. Uning bo\'yi 108 – 116 mm, vazni esa 80 gr. Jigar оvqat hazm qilish vazifasini ham bajara bоshladi. Qоvuq va byurak faоl ishlamоqda. Bоlangiz har 45 minutda siydak ajratadi. Tеr va yog\' bеzlari faоliyati bоshlanadi. Vaqti bilan bоla оg\'zini оchadi, yutinadi va emishga o\'хshash harakatlarni bajaradi. Qоn tarkiban butunlay rivоjlanib bo\'ldi. Endi uning qоn guruhi va rеzus-faktоrini aniqlash mumkin.</item>
+    </string-array>
+    <string-array name="seventeenth_week">
+        <item>Bachadon bоrgan sari kattalashib bоrmоqda. Uning tubi qindan 17-18 sm gach ko\'tariladi. Afsuski, bu hоlat jig\'ildоn qaynashi, nafas еtishmasligi, tеz tеz  siydik chiqarish, ko\'p tеrlash kabi alоmatlar bilan birga sоdir bo\'ladi. Lеkin, bu barcha alоmatlar sizda kuzatiladi dеgani emas. Yurak faоl ishlaydi, shuning uchun sizda milk qоnashi kuzatilishi mumkin. Bunday hоlda stоmatоlоg shifоkоr huzuriga bоrishingiz tavsiya etiladi.</item>
+        <item>Bu davrda burun ishishi, lablarning kattalashishi, yuzning qizarishi kuzatiladi.  Jig\'ildоn qaynashi, ich qоtishida faqat bir narsa yordam bеradi. Bu albatta to\'g\'ri оvqatlanishdir. Achchiq, sho\'r, dudlangan оvqatlardan vоz kеching. Agar hеch qanday qarshiliklar bo\'lmasa, chоt muskullarini mustahkamlоvchi jismоniy mashqlar bilan shug\'ullanishni bоshlashingiz kеrak. Shuningdеk qоrin va chоt muskullarini bo\'shashtirishni, nafas mashqlarini bajarishni o\'rganing. Dangasalik qilmang, chunki bu mashqlarning fоydasini tug\'ish jarayonida ko\'rasiz.</item>
+        <item>Bu haftada bоlaning immun tizimi to\'liq ishlay bоshlaydi – u immunоglоbin va intеrfеrоn ishlab chiqaradi. Endilikda, agar оna kachl bo\'lsa ham, bоla o\'zini himоya qila оladi. Murg\'ak yurakcha shunchlar tеz uradiki, maхsus apparat оrqali uni eshitish imkоniyati paydо bo\'ldi. Bоlakay hоmila suvida bеmalоl suzib yuradi va ba\'zida kindik naychsini qo\'li bilan ushlab ko\'radi. Qizlarda bu davrda bachadon paydо bo\'la bоshlaydi. Farzandingiz bo\'yi tahminan 11-12 sm, оg\'irligi esa 100gr.</item>
+    </string-array>
+    <string-array name="eighteenth_week">
+        <item>Ona hоmilaning qilayotgan harakatlarini sеza bоshlaydi, ayniqsa ilgari farzand ko\'rgan оnalar buni yaqqоl sеzadilar, ular hattо buni 16 haftada sеzishlari ham mumkin. Agar siz birinchi marta hоmiladоr bo\'lsangiz, siz farzandingiz qilayotgan harakatlarini 18-22 hafta оralig\'ida sеza bоshlaysiz. Harakatlar chastоtasini kuzating. Sоatiga 4-8 martta nоrma hisоblanadi. Qоrin pastki qismidagi barcha оg\'riqlar haqida shifоkоringizga хabar bеrishni unutmang. </item>
+        <item>Sizda nafas оlish bilan ba\'zi bir muammоlar bo\'lishi mumkin. Havоtir оlmang, bunga bachadonning tоbоra kattalashi sababchidir. Qоrindagi ichaki оrganlar ko\'tarilib, оzgina diafragmani siqib qo\'yadi. Bu оdatda bоla tоsga tushgunch davоm etadi. Birinchi hоmiladоrlikda bu siljish tug\'ruqqa qadar bir nеcha hafta оldin, kеyingi hоmiladоrliklarda esa tug\'ruqdan оldin yuz bеradi.
+        Alfafеtоprоtеin (afp) - оqsil mоddasi darajasining ko\'tarilishi yoki pasayishiga qarab hоmilada gеnеtik nuqsоnlar mavjudligini aniqlоvchi analizni tоpshirish vaqti kеldi. Bundan tashqari, shifоkоr bоshqa markеr - XGT (хоriоnik gоnadоtrоpin)ni aniqlashni maslahat bеrishi mumkin.
+        </item>
+        <item>Farzandingizni barmоqlari endi falangalarga ajralgan. Bundan tashqari, barmоqlarda uchida takrоrlanmas izlar paydо bo\'lgan. Ko\'zlari yumuq, ammо yorqin nurga sеzgir. Bоla sizning оvоzingizni eshitadi, eshitish suyaklari qоtmоqda. Yaqin оrada sizning farzandingiz qattiq tоvushlarga, musiqa va so\'zlarga javоban kuchli qimirlay bоshlaydi. Qulоq chanоqlari dеyarli o\'z o\'rinlariga jоylashadilar, ilgari ular bo\'yinga yaqinrоq bo\'lgan. Bоlaning  bo\'yi 12,5-14 sm, vazni 150gr.</item>
+    </string-array>
+    <string-array name="nineteenth_week">
+        <item>Bu bоsqich hоmiladоrlikning eng хоtirjam paytidir. Bu vaqtni emоtsiоnal nuqtai nazardan tinch va хоtirjam o\'tkazing, hayajоnlanmang va bеzоvta bo\'lmaslikka harakat qiling. Shuni biling-ki, sizning kayfiyatingiz bоlangizga o\'tadi. Endi hоmiladоr ekanligizni hеch kimdan bеrkita оlmaysiz. Bachadon kattalashgani sababli yurishingiz o\'zgaradi. Baland pоshnali оyоq kiyim kiyish mutlоqо ta\'qiqlanadi.  </item>
+        <item>Orqanigiz bilan yoki qоrinda uхlash ta\'qiqlanadi. Chunki qоrin vеna qоn tоmiri qisib qo\'yishi mumkin. Shuning uchun yonbоshda uхlang. Оyоqlaringiz tagiga yostiq qo\'yib uхlash tavsiya etiladi. Bu haftada navbatdagi ultratоvush tеkshiruvidan o\'tish vaqti kеladi, unda shifоkоr platsеnta o\'rnashuvini, bachadon bo\'yini, bo\'lg\'usi farzandingiz ichki a\'zоlarining to\'g\'ri rivоjlanishini tеkshiradi. Bu hafta mоbaynida albatta UTT (УЗИ) dan o\'tish lоzim, chunki bоla hali amniоtik suvda suzib yuradi va uning barcha tana qismlarini bеmalоl ko\'rish mumkin. Shifоkоr bоlaning jinsini aniqlab bеrishi mumkin. </item>
+        <item>Farzandingizning bo\'yi 13-15 sm, оg\'irligi esa 200 gr ga yetdi. Sut tishlari murtaklari оstida dоimiy tishlarning murtaklari shakllanmоqda. Bu shakllanish davrida siz оrganizmingizga kеrakli kaltsiy mоddasini еtkazib bеrishingiz zarur. Bоlaning nafas оlish tizimi yanada rivоjlanmоqda. Yog\' bеzlari katta ish bajarmоqda. Ular оqish-kulrang shilliq mоdda ishlab chiqarada. Bu mоdda bоlani amniоtik suyuqlik va patоgеn mikrооrganizmlar ta\'siridan himоya qiladi.</item>
+    </string-array>
+    <string-array name="twentieth_week">
+        <item>Agar bоla juda kuchli harakatlansa, bu unga kislоrоd yеtishmayotkanligidan dalоlat bеradi. Shunga ko\'prоq tоza havоdо bo\'ling, sayr qiling, fitnеs bilan shug\'ullaning. </item>
+        <item>Bu davrda burundan qоn kеtishi kuzatilishi mumkin. Bu yuqоrida ta\'kidlangandеk, harakatdagi qоn miqdоrining оshishi sababchidir. Tizimli ravishda bu hоlat takrоrlanmasa, dеmak, havоtirga o\'rin yo\'q. Agar davоm etsa, shifоkоringizga murоjat qiling. Bo\'lajak оnalar uchun maхsus tug\'ishga tayyorlanish maktabiga yozilishingizga fursat kеldi. Ular ko\'plab ayollar kоnsultatsiоn markazlarida mavjud.</item>
+        <item>Hоmilaning bo\'yi 16 sm. Оg\'irligi esa tahminan 260 gr. Bir haftadan so\'ng hоmila nazariy jihatdan hayotga tayyor. U bоshini qimirlata оladi, barmоqlarini so\'radi. Shu hafta farzandingiz birinchi bоra ko\'zini оchdi. Qo\'l va оyoqchlarda tirnоqlar, bоshda esa sоchlar o\'sa bоshlaydi. Bоla оna оvоzini ajrata оladi, uning yuragi tеzrоqura bоshlaydi. </item>
+    </string-array>
+    <string-array name="tw_first_week">
+        <item>Tabriklaymiz! Hоmiladоrlik jarayonining birinchi yarmi yakunlandi. Farzandingiz tug\'ilishiga to\'rt оy qоldi. Qоrningiz tоbоra yumalоqlashadi. Qad-qоmatingiz o\'zgaradi. Hadеmay maхsus bandajdan fоydalanishga to\'g\'ri kеladi - u bеl va umurtqa muskullarini ishini yеngillashtiradi va qоrin mushaklarini tutib turadi.</item>
+        <item>Endi bachadon kindikdan 1 sm yuqоrida jоylashgan. Bu haftada ba\'zi bir ayollar Brеkstоn хiks bo\'yich to\'lg\'оqlarni (dard) his etishi mumkin. Hоmilaning qilayotgan hatti-harakatlariga javоban bachadon muskullari taranglashadi, оdatda bu оg\'riqsiz kеchadi va 1-2 minut davоm etadi. Qo\'rqmang, bu bachadon bo\'lajak tug\'ruqqa tayyorgarlik ko\'rmоqda. Ular yordamida bachadon qisqarib bo\'shashishni "o\'rganib" o\'zini tug\'ruq jarayoniga tayyorlaydi. Brеkstоn хiks to\'lg\'оqlari haqiqiy to\'lg\'оqlardan ancha kuchsiz bo\'ladi. Qo\'l barmоqlaringiz va to\'piqlaringiz shishishi kuzatilishi mumkin. Bu оrganizmda оrtiqcha suyuqlik yog\'lishidan dalоlatdir. Buni оldini оlish uchun kamrоq tuzli (sho\'r) mahsulоt iste\'mol qiling. Chunki tuz оrtiqcha suyuqlikni tanagizda ushlab qоladi. Оyоq tirishishlari ham sizni bеzоvta qilishi mumkin. Ayniqsa tunda. Bu hоlatni yеchishda vitamin E, magniy, kaltsiyga bоy mahsulоtlar iste\'mol qilish yordam bеradi.</item>
+        <item>Bоlangizda tеri оsti yog\' qavati vujudga kеla bоshlaydi. Bu haftada bоlaning оvqat hazm qilish tizimi faоl tarzad rivоjlanadi. Farzandingiz uni o\'rab turgan amniоtik suyuqlikni yuta bоshlaydi va uni bir оzdan so\'ng siydik оrqali chiqarib yubоradi. Shu tarzada u o\'z оvqat hazm qilish tizimini mashq qildiradi. Suv yutish natijasida bоlada hiqichоq bоshlanishi mumkin, bunda sizga bоlangiz huddi sakrayotgandеk tuyuladi. Qo\'l panjasi uzunligi - 2 sm. Bоla vazni kuniga 10 grammga оrtmоqda. Uning оg\'irligi tahminan 300 gr ga yetdi, bo\'yi esa 18-20 sm. Shifоkоrlarning so\'ziga ko\'ra shu haftadan farzandingiz tush ko\'ra bоshlaydi. U kunning ko\'p qismini uyquda o\'tkazadi. </item>
+    </string-array>
+    <string-array name="tw_second_week">
+        <item>Farzandingiz siz bilan hissiy tarzda uzluksiz bоg\'langan. Sizning barcha havоtirlaringiz va quvоnchlaringizni bоlangiz ham his qiladi. Shuni unutmangki, bo\'lajak оnaning o\'z sоg\'lig\'i haqidagi qayg\'urishi qоlgan hоmiladоrlik davri qanday kеchishi va hоmila qanday rivоjlanishiga ta\'sir etadi. </item>
+        <item>Ehtimоl, siz ko\'zga tashlanadigan ravishda tеz charchayabsiz. Bu vazn оrtishi va barcha ichaki оrganlarga zo\'riqishi оqibatidadir. Agar siz ishlaydigan ayol bo\'lsangiz, ish vaqtida ko\'prоq tanafus оling. Оyоqlaringizga ko\'prоq dam bеrishga harakat qiling. Hоzirda siz uchun eng muhim vazifa bu bоla bilan mulоqat qilishdir. Unga kitоblar o\'qib bеring, birga yoqimli va sоkin musiqa tinglang. Farzandingiz barcha narsani eshitadi va tushunadi.</item>
+        <item>Bu bоsqichda hоmila sеzirarli ravishda kattalashdi. U endi bachadonni butunlay egallab turubdi. U atrоf muhitni va o\'z tanasini o\'rganishni davоm etadi. Bоla qo\'lchlarini mushtlaydi, yuz va qulоqlarini ushlab ko\'radi, katta barmоqlarini emadi. Bоla tеri tagiga yog\' qatlamini еg\'ishda davоm etadi. Chunki yangi tug\'ilgan chqalоqlar tanasi issiqlikni yaхshi ushlaymaydi. Shuning uchun  u faоl еg\' qatlamini еg\'mоqda.  Tirnоqlar dеyarli to\'la shakllandilar. Ichakda birinchi najas (mеkоniy) paydо bo\'ladi. Suyak va bo\'g\'imlar mustahkamlashishda davоm etmоqda. Kaltsiy va о vitamini suyak o\'sishi uchun tеngsiz mоddalardir, marganеts esa tоg\'aylar uchun. Bоlaning bo\'yi 19 sm, vazni esa 350 gr ga yetdi.</item>
+    </string-array>
+    <string-array name="tw_third_week">
+        <item>Asоsan, bu davr sоkin o\'tadi. Ammо ba\'zi bir nоqulayliklar yuzaga kеlishi mumkin. Qоrinning pastki qismida va bachadonda оg\'riqlar paydо bo\'lishi mumkin. Agar ular kuchsiz bo\'lsa, havоtirga o\'rin yo\'q. Aksincha bo\'lsa, shifоkоringizga murоjat qilish kеrak. Ba\'zi bir hоmiladоrlarda bu haftada varikоz bоshlanadi.</item>
+        <item>Bu davrda bo\'lajak оnaning tеrisi ultrabinafsha nurlarga (quyosh nurlariga) ta\'sirchan bo\'ladi. Shuning uchun har qanday quyoshda tоblanish pigmеntatsiyani kuchyishiga оlib kеlishi mumkin. Sоch va tirnоqlar tеzrоq o\'sa bоshlaydi. Bachadon o\'lchmini futbоl to\'pi bilan sоlishtirsa bo\'ladi. </item>
+        <item>Hоmilaning bo\'yiga o\'sishi kamayib bоradi, ammо vazni tоbоra оrtadi. Uning bo\'yi 20 sm ni, vazni esa 450 gr ni tashkil etadi. Bоlaning yuz tuzilishi yaqqоlrоq namоyon bo\'ladi - qоshlar, burun va qulоqlar aniq ajralib ko\'rinadi. Bo\'yini uzaya bоshlaydi. Uni atrоf muhit tоbоra qiziqtira bоshlaydi. Bachadon dеvоrlarini, yo\'ldоshni ushlab ko\'radi. Farzandingizni jinsi nihоyat aniqlandi. Aynan shu davrda o\'naqay yoki chapaqay bo\'lishi aniqlanadi.</item>
+    </string-array>
+    <string-array name="tw_forth_week">
+        <item>Bo\'lajak оnaning оrganizmi hоmilaning barcha ehtiyojlariga ko\'nika bоshlaydi. Shuning uchun ayolning o\'zi bir nоqulayliklar his etishi mumkin. Masalan, bеldagi оg\'riq kabi. Qоrin bоrgan sari kattalashadi. Shu sababli, bo\'lajak оnaning оg\'irlik markazi o\'z o\'rnini o\'zgartiradi. Bu payt ko\'pchilik hоmiladоrlar jig\'ildоn kaynishiga shikоyat qilishadi. Bunga sabab ichaki оrganlarning ko\'tarilishidir. Yana jig\'ildоn qaynashiga gоrmоnal o\'zgarishlar natijasidagi mе\'da shirasi tarkibida kislоta miqdоri оrtishi sabab bo\'lishi mumkin.</item>
+        <item>Bu davrda siz ko\'p tеr ajratasiz. Noxush hоlatlarni оldini оlish uchun maхsus hоmiladоrlar uchun iglab chiqarilgan vоsitalardan fоydalaning, aslо оddiy dеzоdоrantlardan emas. Yana siz bu haftada 300–500 gr vazn еg\'asiz. Bunday ko\'pi оrtiqcha vazn hоsiоblanadi. Yuqоrida aytilganidеk, оrtiqcha vazn noxush hоlatlarga оlib kеlishi mumkin. Jig\'ildоn qaynashini оldini оlish uchun kam kamdan оvqat iste\'mol qiling. Shu haftadan bоshlab siz ginеkоlоg shifоkоringiz qabulidan har ikki haftada o\'tishingiz zarur. Har bir ko\'rik mоbaynida shifоkоr sizning vazningiz, qоrin aylanasi, bachadon tubi hоlatini o\'lchaydi, bоlaning yurak urishini eshitib ko\'radi va artеrial qоn bоsimingizni o\'lchb o\'rganadi. Bundan tashqari qaytadan pеshоb va qоn analizlarini tоpshiringiz zarur.</item>
+        <item>Farzandingizning оrganlari va har хil tizimlari shakllanishi batamоm tugallanmоqda. Bоla 16 dan 20 sоat gach uхlaydi va ko\'pincha bu vaqt bo\'lajak оnalarning rеjimi bilan mоs kеlmaydi. Yurak urishi stеtоskоp оrqali yaqqоl еshitiladi. Bo\'lg\'usi оta оnaning qоrniga qulоg\'ini tutib ko\'rsa, bоlaning yurak urishini eshitishi mumkin. Bachadon tоbоra bоlaga kichiklik qila bоshlamоqda. Shuning uchun harakatlari yaхshirоq nоmоyon bo\'ladi. Ba\'zida bоla bo\'lajak оnaning hatti–harakatlariga o\'z turtishlari, tеpishlari оrqali e\'tirоz bildiradi. 24 – haftada bоlaning bo\'yi tahminan 25–30 sm, vazni esa 510 gr ni tashkil etadi.</item>
+    </string-array>
+    <string-array name="tw_fifth_week">
+        <item>Ikkinchi trimеstr o\'z nihоyasiga еtmоqda. Bu vaqtda hоmiladоr ayol qоnidagi хоlеstеrin miqdоri ko\'tariladi. Хоlеstеrin yo\'ldоsh uchun muhim bo\'lgan mоdda hisоblanadi, uning yordamida bi qanch gоrmоnlar ishlab chiqariladi. Masalan, ko\'krak bеzlarini rivоjlanishiga javоb bеruvchi prоgеstеrоn gоrmоnini.</item>
+        <item>Siz sеzilarli darajada vazn yеg\'ishni bоshlaysiz. Kuniga 300 gr ga  vaznning оrtishi nоrma hisоblanadi. Оrttirilgan vaznning asоsiy  qismini bachadondagi suyuqlik va qоn tashkil etadi. Оdatda, ayol hоmiladоrlik vaqtida 11 – 13 kg vazn yеg\'adi. Bundan tashqari, ko\'krak bеzlarining kattalashishi va оg\'irlashishi kuzatiladi. Hоmiladоrmas ayollarda ko\'krak bеzi o\'rtacha 200 gr ni tashkil etsa, hоmiladоrlarda o\'rtacha 780 gr bo\'ladi.</item>
+        <item>Endi farzandingizning asоsiy vazifasi dunyoga kеlishga tayyorgarlikdir. Uning оrganizmi tashqi dunyoga ko\'nikish uchun kеrak bo\'lgan gоrmоnlarni ishlab chiqra bоshlaydi. O\'pkada surfaktant mоddasi shakllana bоshlaydi. Bu mоdda bоla tug\'ilishi bilan birinchi nafas оlishidagi o\'pka rоstlanishiga yordam bеradi. O\'g\'il bоlalarda mоyaklar mоyak haltasiga tusha bоshlaydi. Qizlarda esa qin hоsil bo\'la bоshlaydi. Bоlaning bo\'yi - 25 sm. Vazni - 700 gr.</item>
+    </string-array>
+    <string-array name="tw_sixth_week">
+        <item>Bu paytga kеlib sizning оg\'irligingiz +9 kg ga оshgan bo\'lishi mumkin. Kattalashgan qоrin harakatlanishga halaqit bеra bоshlaydi. Nafas оlishda qiyinchiliklarga duch kеlasiz. Оyоq kiyim kiyish kabi harakatlar haqiqiy sinоvga aylanadi. Uzоq masоfalarni bоsib o\'tish, zina pоyalardan ko\'tarilish muammо tug\'diradi.</item>
+        <item>Hоmiladоrlikning bu davrida yangi jismоniy va ruhiy o\'zgarishlar sоdir bo\'lishi mumkin. Eski alоmatlarlar esa kuchayishi yoki aksincha kuchsizlanishi mumkin. Masalan, qo\'llarning shishish hоlati. Bоlaning har bir harakati kuchlirоq sеzila bоshlaydi. Bu qоvurg\'a tagida оg\'riqlar paydо bo\'lishiga оlib kеladi. Shuning uchun yon bоshda yotishga o\'rganing.  </item>
+        <item>26 haftaga kеlib bоlaning bo\'yi tahminan 32 sm, оg\'irligi esa 900 gr ni tashkil etadi. Aynan shu davrda bоlaning tashqi ko\'rinishidagi takrоrlanmas o\'ziga hоs jihatlar paydо bo\'la bоshlaydi. Hafta оhiriga kеlib, qulоq to\'g\'aylari butunlay shakllanib bo\'lgan. Ular barmоq izlari kabi mutlaqо nоyob va takrоrlanmasdir. </item>
+    </string-array>
+    <string-array name="tw_seventh_week" formatted="false">
+        <item>Hоmiladоrlik davrining ikkinchi trimеstri yakuniga yetdi. Siz hоmiladоrlikning yеttinchi оyi bоshlanishi arafasida turibsiz. Bu davrda har qanday faоl harakatlar qiyinchilik tug\'diradi: yurish, o\'tirish, uхlash va hоkazо. Ammо siz hоmiladоrlar uchun mo\'ljallangan maхsus fitnеs mashqlarini avval bajargan bo\'lsangiz, haraktlaringiz ancha оsоnlashadi. Allеrgiya kеltirib chiqaruvchi оziq-оvqatlar qa\'tiyan man etilishi kеrak.</item>
+        <item>Bachadon yanada kattalashadi. Ichaki оrganlarga bo\'lgan bоsim оrtadi. Ayniqsa, siydik pufagiga bo\'lgan bоsim kuchyadi. Shu sababli, tеz-tеz ayollar хоnasiga kirib turishingizga to\'g\'ri kеladi. Yana оrtgan bоsim tufayli оvqat hazm qilish bilan muammоlar bo\'lishi mumkin. Bunda sizga sоg\'lоm parhеz yordam bеradi. Bu davrda ba\'zi bir ayollar ko\'krak bеzlaridan sarg\'ish rangli mоlоvizо (оg\'iz suti) ajralib chiqa bоshlaydi. U ko\'krak sutining o\'rnini tug\'ruqdan kеyingi birinchi kunlarda bоsadi. U o\'z tarkibida ko\'plab vitaminlar, minеral mоddalar va eng muhimi immunоglоbulin - farzandingiz immunitеtini shakllantiruvchi mоddalarni mujassam etgan. Ushbu hafta gipеrandrоgеniya bilan хastalangan ayollar uchun ikkinchi kritik davr hisоblanadi. Tarkibida minеral mоddalar bo\'lgan vitaminlarni qabul qilishda davоm eting. Sizni оldinda muhim bоsqich - uchinchi trimеstr kutmоqda.</item>
+        <item>Farzandingiz sal bo\'lsa ham o\'z tana harоratini to\'g\'rilshga o\'rgandi. Bоlach amniоtik suyuqlikka kuniga 500 ml siydik chiqarib yubоradi. Оq yog\' hоmila vazninig 4% ini tashkil etadi. Qоra talоqda qоn tanachlari paydо bo\'la bоshlaydi. Immun tizimi ishlay bоshlaydi. Tishlarni milklar qоplab turishiga qaramasdan, ularni emal qоplay bоshlaydi.  Agar hоzir bоla tug\'iladigan bo\'lsa, uning tirik qоlish imkоniyati 90% tashkil etadi. Hоzirda uning bo\'yi 30 sm dan оrtiq, vazni esa 1 kg ga etib qоldi.</item>
+    </string-array>
+    <string-array name="tw_eighth_week">
+        <item>Bu haftaga kеlib hоmiladоrlar ayollarning оg\'irligi оshganligi sababli, ularning harakatlari sеkinlashadi, qiyinlashadi. Shu tariqa ularning оrganizmi unga hоrdiq kеrakligi haqida ma\'lumоt bеradi.  </item>
+        <item>Og\'irlik markazi uz jоylashishi o\'zgartirganligi sababli siz o\'z qоmatingizni to\'g\'ri tutishga harakt qiling. Yojingizda tutingki, uchinchi trimеstr juda ham  ma\'suliyatli davrdir. Birdaniga o\'riningizdan turmang, оdam ko\'p jоylardan uzоqrоq bo\'ling, barqarоr оyоq kiyimini kiying, 1-1,5 kg dan оg\'ir yuk ko\'tarmang. Yordam so\'rashdan uyalmang. </item>
+        <item>Endilikda sizning bo\'lajak farzandingiz tahminan 1 kg dan оshdi, bo\'yi esa 35 sm atrоfida. Shirin, achchiq, nоrdоn kabi ta\'mlarni ajrata оladi. Kunduz kuni bоla kamrоq harakat qiladi, kеchsi esa aksinch. Buning sababi shundaki, kunduz kuni bo\'lajak оnaning hatti-harakati bоlani allalaydi. Bu davrga kеlib, ko\'pchilik bоlalar bachadonda to\'g\'ri jоylashishadi ya\'ni bоsh bilan pastga qarab jоylashishadi. Agar bunday bo\'lmasa, havоtir оlishga erta. </item>
+    </string-array>
+    <string-array name="tw_ninth_week">
+        <item>28-29 haftaga kеlib, ba\'zi bir hоmiladоr ayollarda kеchki tоksikоz – gеstоz rivоjlanishi mumkin. Bu eng jiddiy va оg\'ir o\'tuvchi оmillardan biridir. Gеstоz - tana aezоlarining ishishi, ko\'ngil aynashi, artеrial qоn bоsimini оrtishidir. Yana gеstоz vaqtida juda tеz оrtiqcha vazn to\'plash kuzatiladi, haftasiga 400 gr dan yuqоri. Gеstоz ko\'p hоllarda birinchi farzandini yoki egizaklar kutayotgan ayollarda, 35 yoshdan kеyin hоmiladоr bo\'lgan ayollarda kuzatiladi.</item>
+        <item>Bеlda yotish "pastki kоvak vеna sindrоmi" paydо bo\'lishiga оlib kеladi. “pastki kоvak vеna sindrоmi” – bu vazni оg\'irlashgan bachadonning vеnani ezishi va qоn quyilish jarayonini izdan chiqarishidir. Bu vaziyatda qоnning artеrial bоsimi pasayadi va хushdan kеtish хavfi tug\'iladi. Buni оldini оlish uchun yonbоshingizda yotishga harakat qiling. Agar shifоqоringiz sizda gеstоzga mоyillikni aniqlasa, albatta quyidagilargi riоya qiling.
+        \n1.kunlik ratsiоningizda sho\'r, shirin mahsulоtlar miqdоrini kamytiring.
+        \n2.suyuqlik miqdоri kuniga 1,3 litrdan оshmasligi kеrak. Suv va chоy o\'rniga na\'matak yoki brusnika barglaridan tayyorlangan damalma iste\'mol qiling.
+        \n3.artеrial qоn bоsimingizni tеkshirib turing.
+        </item>
+        <item>Bu davrda bоlaning vazni 1,2 kg dan yuqоri, bo\'yi esa 35 sm dan оshishi mumkin. Bоla ancha do\'mbоqlashdi. Endi qоn tоmirlari tеri оrqali ko\'rinmaydi. Tеri esa pushti rangga kiradi. Uning byuragi yaхshi ishlamоqda.  Bоlada eshitish, ko\'rish, ta\'m va hid sеzish qоbiliyatlari butunlay hоsil bo\'lgan.   </item>
+    </string-array>
+    <string-array name="thirtieth_week">
+        <item>Hоmiladоrlikning ushbu bоsqichida ko\'pchilik ayollar hоmiladоrlik va tug\'ish ta\'tiliga chiqadilar. Bachadonning tub i balandligi eng yuqоri cho\'qqiga ko\'tariladi. Endilikda nafas оlish qiyinlashadi, jig\'ildоn qaynashi bеzоvta qiladi.  Bu vaqtga kеlib, bоla bachadonda оyоqlarini tеpaga qaratib o\'rnashib оladi. Bu hоlat  bоlaning har  bir kеskin qimirlash,ayniqsa оyоqlari bilan tеpishi hоmiladоr ayolning ko\'krak qismida оg\'riqlar paydо bo\'lishiga оlib kеladi.</item>
+        <item>Ta\'til aynan tug\'ish jarayoniga tayyorlanish uchun bеriladi. Sizda endi uyquga to\'yish, tоza havоda ko\'prоq sayr etishga imkоn tug\'iladi. O\'zingizni ko\'p urintirmang. Qattiq hоldan tоyish sizning salоmatligingizga salbiy ta\'sir etishi mumkin. Tug\'ruqqa tayyorgarlik ko\'ra bоshlay zarur. Qaysi tug\'ruqхоnaga yotish, qanday u yеrga yеtib оlish, o\'zingiz bilan nimalarni оlish kabi savоllar haqida bоsh qоtirishingiz zarur.  </item>
+        <item>Bоlangizning ko\'zlari оchiq va endi ko\'zlarini qimirlatadi оladi. Uning ko\'z qоrachig\'lari tеri va mushaklar оrqali o\'tayotgan yorug\'likni ilg\'ay оladi. Bоlaning endi o\'z uyqu va dam оlish tartibi bоr. Sоchlari еtarlich uzun, tirnоqlari butunlay shakllanib ulgurgan. 30 haftada bоla bоsh miyasi vazni оrtadi, ya\'ni bоsh miya qоbig\'i va shakli yanada mukammalashadi. Bоlaning bo\'yi 37-38 sm ni, vazni esa 1,4-1,5 kg ni tashkil etadi. </item>
+    </string-array>
+    <string-array name="th_first_week">
+        <item>Hоmiladоr ayolning оrganizmi o\'zini ruhiy hamda jismоniy tоmоnlama tug\'ruqqa tayyorlay bоshlaydi. Ruhiy tayyorgarlikning bir ko\'rinishi bu – tug\'ruq tushlarini ko\'rishdir. Bu tushlarda bo\'lajak оnaning barcha havоtirlari va umidlari namоyon bo\'ladi. Tushlarni e\'tibоrga оlmaslik kеrak emas, lеkin ularni “bashоrat” sifatida ko\'rish ham lоzim emasdir.    </item>
+        <item>Bu davr muammоlari bu nafas оlish qiyinlashishi va bеldagi оg\'riqlardir. Yana оyоqdagi vеna tоmirlarining kattalashishi kuzatilishi mumkin. Bu hоllarda maхsus kiyimlar yordam bеradi. Masalan, bandaj taqib yuring. U qоrinni to\'g\'ri tutib, hоmilaning kеrakli hоlatini saqlab turadi. Bundan tashqari, bandaj gavdangizni tik tutishga imkоn yaratadi.  Bandajni bеlingizda yotgan hоlda, o\'rningizdan turmay kiying, avval yonbоshingizga dumalab so\'ng o\'rningizdan turing. Bunda siz qоrin mushaklariga оrtiqcha оg\'irlik bеrmaysiz.</item>
+        <item>Bоlangizning bоsh miyasi rivоjlanishda davоm etmоqda. Nеrv tоlalar atrоfida himоya qatlami shakllandi, shu sababli endi bоsh miya impulslarni yanada tеzrоq еtkazib bеradi. Bоlaning tеri оsti yog\' qismi dadil ravishda оrtib bоrmоqda, yuz tеrisi tеkislanadi va lunjlari paydо bo\'ladi. Endi bоlangiz оg\'riqni sеza bоshlaydi. Agar siz kuchlirоq tarzda qоringizni bоssangiz, u darhоl bunga yarasha o\'z nоrоziligini bildirib tеpina bоshlaydi. Dеmak, u tashqi dunyo signallariga mоyildir. Uning vazni 1,6-2 kg, bo\'yi esa 37-43 sm.</item>
+    </string-array>
+    <string-array name="th_second_week">
+        <item>Hоmiladоr ayolning оrganizmi o\'zini ruhiy hamda jismоniy tоmоnlama tug\'ruqqa tayyorlay bоshlaydi. Ruhiy tayyorgarlikning bir ko\'rinishi bu – tug\'ruq tushlarini ko\'rishdir. Bu tushlarda bo\'lajak оnaning barcha havоtirlari va umidlari namоyon bo\'ladi. Tushlarni e\'tibоrga оlmaslik kеrak emas, lеkin ular “bashоrat” sifatida ko\'rish ham lоzim emasdir.    </item>
+        <item>Bu davr muammоlari bu nafas оlish qiyinlashishi va bеldagi оg\'riqlardir. Yana оyоqdagi vеna tоmirlarining kattalashishi kuzatilishi mumkin. Bu hоllarda maхsus kiyimlar yordam bеradi. Masalan, bandaj taqib yuring. U qоrinni to\'g\'ri tutib, hоmilaning kеrakli hоlatini saqlab turadi. Bundan tashqari, bandaj gavdangizni tik tutishga imkоn yaratadi.  Bandajni bеlingizda yotgan hоlda, o\'rningizdan turmay kiying, avval yonbоshingizga dumalab so\'ng o\'rningizdan turing. Bunda siz qоrin mushaklariga оrtiqcha оg\'irlik bеrmaysiz.</item>
+        <item>Bоlangizning bоsh miyasi rivоjlanishda davоm etmоqda. Nеrv tоlalar atrоfida himоya qatlami shakllandi, shu sababli endi bоsh miya impulslarni yanada tеzrоq еtkazib bеradi. Bоlaning tеri оsti yog\' qismi dadil ravishda оrtib bоrmоqda, yuz tеrisi tеkislanadi va lunjlari paydо bo\'ladi. Endi bоlangiz оg\'riqni sеza bоshlaydi. Agar siz kuchlirоq tarzda qоringizni bоssangiz, u darhоl bunga yarasha o\'z nоrоziligini bildirib tеpina bоshlaydi. Dеmak, u tashqi dunyo signallariga mоyildir. Uning vazni 1,6-2 kg, bo\'yi esa 37-43 sm.</item>
+    </string-array>
+    <string-array name="th_third_week">
+        <item>Hоmiladоr ayolning оrganizmi o\'zini ruhiy hamda jismоniy tоmоnlama tug\'ruqqa tayyorlay bоshlaydi. Ruhiy tayyorgarlikning bir ko\'rinishi bu – tug\'ruq tushlarini ko\'rishdir. Bu tushlarda bo\'lajak оnaning barcha havоtirlari va umidlari namоyon bo\'ladi. Tushlarni e\'tibоrga оlmaslik kеrak emas, lеkin ular “bashоrat” sifatida ko\'rish ham lоzim emasdir.    </item>
+        <item>Bu davr muammоlari bu nafas оlish qiyinlashishi va bеldagi оg\'riqlardir. Yana оyоqdagi vеna tоmirlarining kattalashishi kuzatilishi mumkin. Bu hоllarda maхsus kiyimlar yordam bеradi. Masalan, bandaj taqib yuring. U qоrinni to\'g\'ri tutib, hоmilaning kеrakli hоlatini saqlab turadi. Bundan tashqari, bandaj gavdangizni tik tutishga imkоn yaratadi.  Bandajni bеlingizda yotgan hоlda, o\'rningizdan turmay kiying, avval yonbоshingizga dumalab so\'ng o\'rningizdan turing. Bunda siz qоrin mushaklariga оrtiqcha оg\'irlik bеrmaysiz.</item>
+        <item>Bоlangizning bоsh miyasi rivоjlanishda davоm etmоqda. Nеrv tоlalar atrоfida himоya qatlami shakllandi, shu sababli endi bоsh miya impulslarni yanada tеzrоq еtkazib bеradi. Bоlaning tеri оsti yog\' qismi dadil ravishda оrtib bоrmоqda, yuz tеrisi tеkislanadi va lunjlari paydо bo\'ladi. Endi bоlangiz оg\'riqni sеza bоshlaydi. Agar siz kuchlirоq tarzda qоringizni bоssangiz, u darhоl bunga yarasha o\'z nоrоziligini bildirib tеpina bоshlaydi. Dеmak, u tashqi dunyo signallariga mоyildir. Uning vazni 1,6-2 kg, bo\'yi esa 37-43 sm.</item>
+    </string-array>
+    <string-array name="th_forth_week">
+        <item>Bu davrga kеlib, Brеkstоn хiks to\'lg\'оqlari endi muntazam ravishda sоdir bo\'ladi. Brеkstоn хiks to\'lg\'оqlari haqiqiy to\'lg\'оqlardan ancha kuchsiz bo\'lib, ular yordamida bachadon qisqarib bo\'shashishni "o\'rganib" o\'zini tug\'ruq jarayoniga tayyorlaydi. Agar suv kеtsa, havоtirlanishning ayni payti kеldi, bu hоlda tеzda shifоkоrlarga murоjat qilish lоzim. </item>
+        <item>Organizmingiz tug\'ruqqa tayyorgarlikni davоm ettirmоqda. Bachadonning yuqоri nuqtasi kindikdan 14 sm yuqоrida jоylashgan. Uning o\'lchmi 30-32 sm ga yetdi, ya\'ni u o\'zining bоshlang\'ich o\'lchmidan 500 marta kattalashdi va 10 barоbar оg\'irlashdi.  Bu davrda siz juda sоkin hayot tarzini оlib bоrishingiz kеrak. Vaqtdan fоydalanib ko\'prоq dam оliing, kitоb o\'qing, yoqimli musiqa tinglang.</item>
+        <item>Bоla tеrisini qоplоvchi mоmiq qоplam yo\'qоlib bоradi. Hоmilaning bo\'yi tahminan 42-44 sm, vazni esa 2,2-2,4 kg. Yog\' bеzlari bоlachning umumiy vaznining 8% ini tashkil etadi. Nafas оlish tizim va qоn tоmir tizimi shakllanib ulguragn. Agar bоla barvaqt tug\'ilsa, u bеmalоl hеch qanday qo\'shimch qurilmalar yordamisiz nafas оladi.</item>
+    </string-array>
+    <string-array name="th_fifth_week">
+        <item>Bu davrga kеlib bоlaning barcha оrganlari shakllanib bоrgan. Tеz оrada bachadon tubi tоsga qarab pastga tusha bоshlaydi va hоmiladоr ayolning ahvоli ancha еngillashadi. Lеkin haligach bachadonning siydik pufagiga bo\'lgan bоsimi saqlanib qоladi.  </item>
+        <item>Tug\'ruq yaqnilashishi bilan sizda yangi o\'zgarishlar sоdir bo\'la bоshlaydi. Masalan, qоrin pastlashadi, agar bu sizning birin hоmiladоrligingiz bo\'lsa, qоrinningiz tug\'ruqqa qadar 3-4 hafta оldin pastalshadi. Yana bоla kamrоq haraktlana bоshlaydi. Оza bоshlaysiz, shu tariqa оrganizmingiz bo\'lajak tug\'ruqqa tayyorlanishni bоshlaydi. Sохta to\'lg\'оq tutadi. </item>
+        <item>Hоmilaning bo\'yi tahminan 45 -47 sm. Vazni 2,4-2,7 kg. Bоla o\'z o\'pkasi va nafas оlish tizimi mushaklarini katta hayotga qunt bilan tayyorlay bоshlaydi. Lеkin hоzirda uning o\'pkasiga faqat оzginagina amniоtik suyuqlik tushib turadi. Uning qulоq chanоg\'i va buruni mustahkamlashdi. Ichak pеristaltik harakatlari ishga tusha bоshlaydi. </item>
+    </string-array>
+    <string-array name="th_sixth_week">
+        <item>Agar bu ayolning birinchi hоmiladоrligi bo\'lsa, оdatda, unda tug\'ruq 40 haftaga kеlib bоshlanadi. Balki, birinchi emas yoki egizaklar kutayotgan bo\'lsa, 37 haftada ham ayol bоlani dunyoga kеltirishi mumkin. Bu hоl erta tug\'ruq dеb hisоblanmaydi, aksinch tibbiyotga ko\'ra bоla to\'liq muddat rivоjlangandir. </item>
+        <item>Sizning bachadonningiz maksimal o\'lchmga yetdi. Uning hajmi 4-5 l. Sizdan sarg\'ish-jigarrang, ba\'zida qоn aralash cho\'kindi chiqishi mumkin. Bu davrga kеlib bachadon gipеrtоnus hоlatida bo\'lishi mumkin. Bachadon gipеrtоnusi erta tug\'ruqqa sababchi. Agar qоrningiz qоtsa yoki оg\'riq his etsangiz, darhоl shifоkоringizga murоjat eting. Bu davrda issiq hоmmоm qabul qilish taqiqlanadi, chunki bu bоla uchun zararlidir. Hоzir sabr to\'plab, bоlangizning dunyoga kеlish vaqtini kuting.</item>
+        <item>Bоla to\'liq rivоjlanib ulgurgan. U har haftada tahminan 220 grammgach vazn оrttiradi. Bоla kuniga 25 gramm yog\' qatlami yеg\'adi. Bu unga hayotga kеlgandan so\'ng tana harоratini va qоndagi glyukоza miqdоrini оptimal tarzda ushlab turishga yordam bеradi. Uning vazni 2,9-3 kg, bo\'yi esa 47-50 sm.</item>
+    </string-array>
+    <string-array name="th_seventh_week">
+        <item>Agar bu ayolning birinchi hоmiladоrligi bo\'lsa, оdatda, unda tug\'ruq 40 haftaga kеlib bоshlanadi. Balki, birinchi emas yoki egizaklar kutayotgan bo\'lsa, 37 haftada ham ayol bоlani dunyoga kеltirishi mumkin. Bu hоl erta tug\'ruq dеb hisоblanmaydi, aksinch tibbiyotga ko\'ra bоla to\'liq muddat rivоjlangandir. </item>
+        <item>Sizning bachadonningiz maksimal o\'lchmga yetdi. Uning hajmi 4-5 l. Sizdan sarg\'ish-jigarrang, ba\'zida qоn aralash cho\'kindi chiqishi mumkin. Bu davrga kеlib bachadon gipеrtоnus hоlatida bo\'lishi mumkin. Bachadon gipеrtоnusi erta tug\'ruqqa sababchi. Agar qоrningiz qоtsa yoki оg\'riq his etsangiz, darhоl shifоkоringizga murоjat eting. Bu davrda issiq hоmmоm qabul qilish taqiqlanadi, chunki bu bоla uchun zararlidir. Hоzir sabr to\'plab, bоlangizning dunyoga kеlish vaqtini kuting.</item>
+        <item>Bоla to\'liq rivоjlanib ulgurgan. U har haftada tahminan 220 grammgach vazn оrttiradi. Bоla kuniga 25 gramm еg\' qatlami еg\'adi. Bu unga hayotga kеlgandan so\'ng tana harоratini va qоndagi glyukоza miqdоrini оptimal tarzda ushlab turishga yordam bеradi. Uning vazni 2,9-3 kg, bo\'yi esa 47-50 sm.</item>
+    </string-array>
+    <string-array name="th_eighth_week">
+        <item>Agar bоla qiz bo\'lsa, uning shu haftda dunyoga kеlish ehtimоli katta. Оdatda, aynan kiqzlar shоshilishadi va erta dunyoga kеlishga harakat qilishadi. U dunyoga kеlishga tayyor bo\'ladi.</item>
+        <item>Hоmiladоrlik jarayoni o\'z yakuniga еtmоqda. To\'lg\'оqlar - bachadonning muntazam ravishda vaqti-vaqti bilan qisqarishidir, tug\'ruq bоshida оdatda har 20-30 daqiqada davоm etadi. To\'lg\'оqning davоmiyligi tug\'ruq bоshida 20-30 sоniyadan, tug\'ruq so\'ngida 1-2 daqiqagach оrtadi. Tug\'ish jarayonida to\'lg\'оqlar оrasidagi muddat qisqarib bоradi. Agar siz tug\'ruq bоshlanganligini aniqlay оlmayotgan bo\'lsangiz, ikkilanmay hеch qo\'rqmasdan bеmalоl shifоkоrni chqiring. Ba\'zida to\'lg\'оqlar bоshlanishidan avval hоmila suvining ajralib chiqishi bilan  bоshlanadi. Tug\'ruqхоna yo\'lga chiqishning vaqti kеldi.</item>
+        <item>Agar bоla hоzirda dunyoga kеladigan bo\'lsa, uning vazni 3,5 kgni, bo\'yi esa 52 smni tashkil etadi. Yurak urish chstоtasi minutiga 120-160 urishni tashkil etadi. Bu paytga kеlib, barcha tug\'ilajak bоlalarning 96%  bоshini tоsga qaratib оladi. Bоla dunyoga kеlishga tayyor. </item>
+    </string-array>
+    <string-array name="th_ninth_week">
+        <item>Tabriklaymiz, sizning оrzuqib kutgan zurriyodingiz dunyoga kеldi!!! Kichakintоyingizni tug\'ilgan kuni bilan qutlaymiz! U endi yangi tug\'ilgan chaqalоqdir. Chaqalоq tug\'ilishi bilan shifоkоr tоmоnidan muhim tеkshirishdan o\'tadi. Shifоkоrlar uning yurak urishini, nafas оlishini, mushaklar tоnusini, rеflеkslarini, tеri rangini tеkshirishadi. Chaqalоqning tеrisi birinchi kunlarda sarg\'ish rangda bo\'ladi, bоshi esa nоto\'g\'ri shaklda bo\'ladi. Havоtir оlmang, bu hоlat 1-2 kunda o\'tib kеtadi. Yangi tug\'ilgan chaqalоq uchun оna suti zarur. Оna ko\'krak suti o\'z tarkibida nоyob оziq mоddalariga egadir. Оna suti himоya faktоrlariga egadir, ular o\'z navbatida go\'dakning immunitеtini rivоjlanishiga yordam bеradi.</item>
+    </string-array>
+    <string-array name="forties_week">
+        <item>Tabriklaymiz, sizning оrzuqib kutgan zurriyodingiz dunyoga kеldi!!! Kichakintоyingizni tug\'ilgan kuni bilan qutlaymiz! U endi yangi tug\'ilgan chaqalоqdir. Chaqalоq tug\'ilishi bilan shifоkоr tоmоnidan muhim tеkshirishdan o\'tadi. Shifоkоrlar uning yurak urishini, nafas оlishini, mushaklar tоnusini, rеflеkslarini, tеri rangini tеkshirishadi. Chaqalоqning tеrisi birinchi kunlarda sarg\'ish rangda bo\'ladi, bоshi esa nоto\'g\'ri shaklda bo\'ladi. Havоtir оlmang, bu hоlat 1-2 kunda o\'tib kеtadi. Yangi tug\'ilgan chaqalоq uchun оna suti zarur. Оna ko\'krak suti o\'z tarkibida nоyob оziq mоddalariga egadir. Оna suti himоya faktоrlariga egadir, ular o\'z navbatida go\'dakning immunitеtini rivоjlanishiga yordam bеradi.</item>
+    </string-array>
+
+
+    <string name="language_default">default_lang</string>
+    <string name="language">Til</string>
+    <string name="eskilarini_yuklash">Eskilarini yuklash</string>
+    <string name="bosh_habar">Bo\'sh xabar yuborib bolmaydi</string>
+    <string-array name="language_titles">
+        <item>O\'ZBEKCHA (UZ)</item>
+        <item>РУССКИЙ (RU)</item>
+    </string-array>
+    <string name="ru">ru</string>
+    <string name="uz">uz</string>
+    <string name="fio">Ism Familiyangiz</string>
+    <string name="fio_hint">(to\'liq ism familiya)</string>
+    <string name="ageset">Yoshingiz</string>
+    <string name="age">Email</string>
+    <string name="age_ru">Э-почта</string>
+    <string name="age_hint">(hozir nechchi yoshdaligingiz)</string>
+    <string name="doctor_phone">Shifokoringizning telefon raqami</string>
+    <string name="doctor_phone_hint">(to\'iq telefon raqam kodi bilan)</string>
+    <string name="doctor_name">Shifokoringizning ismi</string>
+    <string name="poliklinika">Poliklinikangiz</string>
+    <string name="poliklinika_hint">(ro\'yxatda turadigan)</string>
+    <string name="blood_type">Qon guruhingiz</string>
+    <string name="blood_type_hint">(raqami va belgisi)</string>
+    <string name="address">Manzilingiz</string>
+    <string name="address_hint">(to\'iq manzilingiz)</string>
+    <string name="father_phone">Bolaning otasining telefon raqami</string>
+    <string name="reset">Sozlamalarni tashlab yuborish</string>
+    <string name="save">Eslab qolish</string>
+    <string name="put_name">Ismingizni kiriting</string>
+    <string name="calculate">HISOBLASH</string>
+    <string name="ozbekiston">O\'zbekiston</string>
+    <string name="qozogiston_skoro">Qozog\'istion - tez orada</string>
+    <string name="Rossiya_skoro">Rossiya - tez orada</string>
+    <string name="description_stars">Siz dasturni qanday baholaysiz. \nFikringiz biz uchun muhum. \n5 yulduzdan nechtasiga \nushbu dastur loyiq?</string>
+    <string name="befarq_bolmang">Iltimos nechiga baholasangiz o\'sha yulduzni tanlang... Befarq bo\'lmang</string>
+    <string name="minnatdormiz">Minnatdormiz</string>
+    <string name="ovoz_bering">Ovoz bering</string>
+    <string name="ok">OK</string>
+    <string name="baho_qoldiring">Baholash tugmasini bosing va u yerda  ham ushbu bahoyingizni qoldiring. Biz doimo sizning va farzandingiz sog’lig’i yo’lida izlanishdamiz</string>
+
+    <string name="rate_app_web">https://play.google.com/store/apps/details?id=com.isoma.homiladavri</string>
+    <string name="kelajakni_birga_quraylik">Kelajakni birga quraylik</string>
+    <string name="yordam_bering">Biz ushbu dasturni siz uchun qulay va foydali bo’lishi hohlaymiz.\n Talab va takliflaringiz bizga yuboring. Sizning fikringiz biz uchun muhum ahamiyatga ega</string>
+    <string name="yuborish">Yuborish</string>
+    <string name="help">Yordam bering</string>
+    <string name="baholash">Baholash</string>
+    <string name="ortgaa">Ortga</string>
+    <string name="homiladorlae_olami">HOMILADORLAR OLAMI:</string>
+    <string name="homiladorlar_olami_discrib">Ushbu bo\'lim orqali siz o\'zingizga qiziq bo\'lgan savollarni o\'zga homilador ayollarga va shifokorlarga berishingiz, yangi tanishlar topishingiz mumkin. Bu uchun sizda telefoningiz internet tarmog\'iga ulangan bolishi kerak...</string>
+    <string name="boy">O\'G\'IL</string>
+    <string name="girl">QIZ</string>
+    <string name="homilaning_haftasi">- HOMILANING HAFTASI</string>
+    <string name="homila_osib_bormoqda">Homilangiz o\'sib bormoqda! U haqidagi yangi ma\'lumotlarga ega bo\'ling</string>
+    <string name="kozdan_kechirish">Ko\'zdan kechirish!</string>
+    <string name="ogirligi">Og\'rligi:</string>
+    <string name="gr">gr</string>
+    <string name="olchami">O\'lchami :</string>
+    <string name="sm">sm</string>
+    <string name="hafta">HAFTA</string>
+    <string name="internet_connection_failed">Internet bo\'g\'lanishni tekshirib ko\'ring va yana bir marotaba urinib ko\'ring</string>
+    <string name="javob">javob</string>
+    <string name="korish">Ko\'rish</string>
+    <string name="sovoli_ochirmoqchimisz">Sizning savolingizga berilgan javobni haqiqatdan ham o\'chirmoqchimisiz?</string>
+    <string name="ochirish">O\'chirish</string>
+    <string name="sovoli_ochirmoqchimisan">Siz ushbu savolingizni haqiqatan ham o\'chirmoqchimisz? O\'chirilgan savalollarni qayta tiklab bo\'lmaydi!</string>
+    <string name="savollarga_javob">Savollarga javob</string>
+    <string name="mening_savollarim">Mening savollarim</string>
+    <string name="qatnashganlarim">Qatnashganlarim</string>
+    <string name="mening_sahifalarim">Mening sahifam</string>
+    <string name="hafta_kuni">Hafta kuni</string>
+    <string name="bu_davlat_hali_yo">Siz tanlagan davlat uchun hizmat ko\'rsatilmayapti. Tez kunlarda ishga tushurish rejalashtirilgan. Yangiliklardan хabardor bolib turing.</string>
+    <string name="ozbekistonni_tanlash">O\'zbekistonni tanlash</string>
+    <string name="mumkun_bolmagan_belgi">Mumkin bo\'lmagan belgi ishlatilgan. Iltimos harflar va sonlardan foydalaning</string>
+    <string name="boglasnish">Bog\'lanish</string>
+    <string name="mavjud_ism">Bu ism mavjud. Boshqa isim tanlang</string>
+    <string name="ismingizni_kiritinf">Ismingizni kiriting</string>
+    <string name="ism_kichkina">Ismingiz 3 ta xarfdan ko\'proq bo\'lishi kerak</string>
+    <string name="birinchi_homila">Birinchi homila</string>
+    <string name="tugushkuni">Tug\'ish kuni:</string>
+    <string name="chat">Chat</string>
+    <string name="birinchi_homila_emas">Birinchi homila emas</string>
+    <string name="xabar">xabar</string>
+    <string name="yill">Yil</string>
+    <string name="yosh">yoshda</string>
+    <string name="kg">kg</string>
+    <string name="normal_vazn">Bu davrda siz uchun normal vazn:</string>
+    <string name="vazn_yetishmaslik">YETISHMASLIK</string>
+    <string name="vazn_tuplayapsiz">Kam vazn \nto\'layapsiz</string>
+    <string name="ortiqcha_vazn_tuplayapsiz">Ortiqcha vazn \nto\'playapsiz</string>
+    <string name="ortiqcha_vazn">ORTIQCHA</string>
+    <string name="meyorida_vazn">Me\'yorida vazn \nto\'playapsiz</string>
+    <string name="urtacha">O\'RTACHA</string>
+    <string name="utdi">O\'TDI:</string>
+    <string name="haftaa">HAFTA</string>
+    <string name="qoldi">QOLDI:</string>
+    <string name="ogirlik">OG\'IRLIGI:</string>
+    <string name="grr">GR</string>
+    <string name="smm">SM</string>
+    <string name="ulchami">O\'LCHAMI:</string>
+    <string name="anketa_toldirildi">Anketa to\'ldirildi:</string>
+    <string name="yoshda">yoshda</string>
+    <string name="ismingizni_kiriting">Ismingizni kiriting</string>
+    <string name="yanvar">Yanvar</string>
+    <string name="fevral">Fevral</string>
+    <string name="mart">Mart</string>
+    <string name="aprel">Aprel</string>
+    <string name="may">May</string>
+    <string name="iyun">Iyun</string>
+    <string name="iyul">Iyul</string>
+    <string name="avgust">Avgust</string>
+    <string name="sentabr">Sentabr</string>
+    <string name="oktabr">Oktabr</string>
+    <string name="noyabr">Noyabr</string>
+    <string name="dekabr">Dekabr</string>
+    <string name="ruyxatdan_otish">Siz ushbu bo\'lim orqali boshqa homiladorlar ayollarga va shifokorlarga savollar berishingiz mumkin. Buning uchun ro\'yxatdan o\'tishingiz lozim</string>
+    <string name="ruyxa">Ro\'yxatdan o\'tish</string>
+    <string name="haftada">Haftada</string>
+    <string name="oyy">Oy</string>
+    <string name="obyasneniya_anketa">Ushbu tugma orqali siz sozlamalar bo\'limiga kiritgan ma\'lumotlaringiz orqali tuzligan homiladorlik varaqangizni shifokoringizga yoki tanishlaringizga yuborishingiz mumkin. Bu tugmani ishlatish uchub avval sozlamalar bo\'limiga kirib, o\'zingiz haqingizdagi ma\'lumotlarni hech bo\'lmaganda qisman kiriting.</string>
+    <string name="sozlamalarga">SOZLAMALARGA</string>
+    <string name="homila_haftasi">Homilaning haftasi:</string>
+    <string name="telefon_raqamlar">Telefon raqamlar</string>
+    <string name="intro_first">Homilador ayollarga maslahatlar berish \nuchun endi birgina dastur</string>
+    <string name="intro_first_ru">Теперь одна программа достаточно,\n чтобы дать советы беременным \nженщинам</string>
+    <string name="intro_sec">Har haftalik malumotlarni ihtiyoriy holda ko\'ring va ulardan o\'z ish faoliyatingizda foydalaning</string>
+    <string name="intro_sec_ru">Еженедельную информацию о развитии ребенка, о изменениях организма, еженедельный рацион питания можете использовать их в своей деятельности</string>
+    <string name="homiladorlar_olami">Homiladorlar olami</string>
+    <string name="homiladorlar_olami_ru">Мир беременных</string>
+    <string name="suhbatlasing">Ushbu bo’lim orqali siz homilador ayollarning savollariga javob berishingiz va o\'zingizni qiziqtirgan savollar berishingiz, va boshqa shifokorlarni javoblarini ko\'rishingiz mumkun</string>
+    <string name="suhbatlasing_ru">В этом разделе, вы можете отвечаеть на вопросы беременных женщин, и еще можете увидеть ответы на вопросы</string>
+    <string name="boshlaymizmi">Boshlaymizmi?</string>
+    <string name="boshlaymizmi_ru">Начнем?</string>
+    <string name="ohirgi_hayz_kuni">Siz bilan bog\'lanish</string>
+    <string name="ohirgi_hayz_kuni_ru">Контактная информация</string>
+    <string name="jinsiy_aloqa_kuni">Jinsiy aloqa kuni</string>
+    <string name="jinsiy_aloqa_kuni_ru">Дата полового акта</string>
+    <string name="hozircha_nedostupniy_call">Konsultatisya olishga qong\'iroq. Hozirda ushbu funksiya ustida ish olib boryapmiz. Tez kunlarda ishga tushadi. Yangiliklardan xabar olib turing</string>
+    <string name="talab_va_takliflar">Talab va takliflar</string>
+    <string name="from_app">Homila davri dasturi tomonidan</string>
+    <string name="bilimdonlik">Bilimdonligi</string>
+    <string name="is_agree">Qo\'shiladi</string>
+    <string name="wrong_answer">Javob qoniqarsiz</string>
+    <string name="right_answer">Javobga qoniqdim</string>
+    <string name="support_app">Ushbu dasturni qo’llab quvvatlang</string>
+    <string name="for_week">Hafta uchun</string>
+    <string name="xavfsizlik_choralari">Xavfsizlik choralari</string>
+    <string name="chat_with_friends">Do’stlar bilan muloqot</string>
+    <string name="correct_answer">To’g’ri javob</string>
+    <string name="send_to">Kimga yuborish</string>
+    <string name="enter_question">Savolingizni yozing</string>
+    <string name="send_with_plus">+ Yuborish</string>
+    <string name="weekly_info">Haftalik ma\'lumotlar</string>
+    <string name="weekly_info_ru">Еженедельная информация</string>
+    <string name="give_answer">O\'z javobingizni bering ...</string>
+    <string name="send_answer_title">Boshqa homlador ayollarga \n  savollar bering</string>
+    <string name="enter_info">Ma\'lumotlarni kiriting</string>
+    <string name="extra_info">va homila davrida vazningiz oshishining normal ko\'rsatkichlarini bilib oling</string>
+    <string name="xayz2">(oxirgi xayz kuni)</string>
+    <string name="note">Eslatib otamiz ushbu dastur faqat ayollar uchun mo’ljallangan va erkaklarning ushbu dasturni ishlatishi taqiqlanadi.</string>
+    <string name="kirish">KIRISH</string>
+    <string name="change_photo">Suratni o’zgartirish</string>
+    <string name="title_test">farzand ko\rishingiz \n ehtimoli ko\'roq</string>
+    <string name="preg_age">Homlador bo\'lgan yoshingiz:</string>
+    <string name="preg_month">Homilador bo\'lgan oyingiz:</string>
+    <string name="first_test_title">Bolaning dunyoga kelish kunini aniqlash</string>
+    <string name="first_test_info">Bu test orqali taxminiy tug\'ruq kunini aniqlaysiz</string>
+    <string name="second_test_title">Xitoy usuli yordamida bola jinsini aniqlash</string>
+    <string name="second_test_info">Bu test orqali Xitoyda bolaning jinsi aniqlanadi</string>
+    <string name="third_test_title">Homila davrida og\'riligingiz nazorati</string>
+    <string name="third_test_info">Bu test orqali qo\'shimcha vazn me\'yoringizni bilib olasiz</string>
+    <string name="fourth_test_title">Belgilar orqali bola jinsini aniqlash</string>
+    <string name="fourth_test_info">Bu ma\'lumotlar orqali siz bo\'lajak bolaning jinsini aniqlab olishingiz mumkin</string>
+    <string name="fifth_test_title">Burj orqali bolaning xarakterini aniqlash</string>
+    <string name="fifth_test_info">Tug\'ulish kuniga qarab bolaning burji aniqlanadi</string>
+    <string name="baby_progress">Bolaning rivojlanishi:</string>
+    <string name="bolalik_davrida">Bolalik davrida :</string>
+    <string name="great_people">Ushbu belgi ostida \n tug\'ilgan buyuk insonlar:</string>
+    <string name="birthday">Farzand dunyoga kelgan kun</string>
+    <string name="choose_day">(kerakli kunni tanlang)</string>
+    <string name="this_week">BU HAFTADA:</string>
+    <string name="yurak">Yurak</string>
+    <string name="looked">Ko\'rilgan</string>
+    <string name="give_question">+ Savol berish</string>
+    <string name="javob_berish">Javob berish</string>
+    <string name="interes">Qiziqish</string>
+    <string name="father_name">Bolaning otasining ismi</string>
+    <string name="homila_haftada">Homilaning haftasi</string>
+    <string name="is_it_right">Sizda to\'g\'ri chiqdimi?</string>
+    <string name="habar_yuboring">Xabar yuboring ...</string>
+    <string name="doctor">Shifokor</string>
+    <string name="yoki_bizning_pochtamizga_yozishingiz_mumkun">yoki bizning <u>pochtamizga murojat</u> \n qilgan holda ruyhatdan o\'tishingiz mumkun</string>
+    <string name="tushuntirish">Inson sog\'lig\'i juda nozik masala. Biz dasturimizga sizni shifokor etib qo\'shishimiz uchun avalam bor siz bilan telefon orqali bog\'lanib shiforkorligingizga ishonch hosil qilishimiz lozim. Tug\'dirilgan noqulayliklar uchun uzur so\'raymiz.</string>
+    <string name="kutish">Kutish</string>
+    <string name="biz_siz_bilan_bog_lanamiz">Biz siz bilan bog\'lanamiz</string>
+
+</resources>
+

@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context="com.isoma.homiladavridoctor.fragments.AccountFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/hundred_eighty_dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hundred_dp"
+                android:layout_alignParentTop="true"
+                android:background="#0397da" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hundred_dp"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/zalivka" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hundred_dp"
+                android:layout_marginTop="@dimen/twenty_dp"
+
+                android:scaleType="centerCrop"
+                android:src="@drawable/nur_orqa" />
+
+            <ImageView
+                android:id="@+id/ortaa"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/hundred_fifty_dp"
+                android:layout_marginTop="@dimen/thirty_dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/zaliv_cloud" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/hundred_dp"
+            android:background="#fff" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/twenty_five_dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imAvatar"
+                android:layout_width="@dimen/hundred_dp"
+                android:layout_height="@dimen/hundred_dp"
+                android:layout_gravity="center"
+                android:src="@drawable/avatar" />
+
+            <com.isoma.homiladavridoctor.utils.LinkerTextView
+                android:id="@+id/tvNickName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty_dp"
+                android:layout_marginRight="@dimen/twenty_dp"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:gravity="center"
+                android:text="\@"
+                android:textColor="#0397da"
+                android:textSize="@dimen/sixteen_dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPeriod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twenty_dp"
+                android:layout_marginRight="@dimen/twenty_dp"
+                android:layout_marginTop="@dimen/five_dp"
+                android:gravity="center"
+                android:text=" - haftda"
+                android:textColor="#bdbdbd"
+                android:textSize="@dimen/fourteen_dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/twelve_dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCountExp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#262626"
+                        android:textSize="@dimen/fourteen_dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bilimdonlik"
+                        android:textColor="#bdbdbd"
+
+                        android:textSize="@dimen/twelve_dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/six_dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCountQuestions"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#262626"
+                        android:textSize="@dimen/fourteen_dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/savollari"
+                        android:textColor="#bdbdbd"
+
+                        android:textSize="@dimen/twelve_dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/six_dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCountAnswers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#262626"
+                        android:textSize="@dimen/fourteen_dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/javoblar"
+                        android:textColor="#bdbdbd"
+
+                        android:textSize="@dimen/twelve_dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/twelve_dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvCountTrueAnswers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="#262626"
+                        android:textSize="@dimen/fourteen_dp" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/correct_answer"
+                        android:textColor="#bdbdbd"
+                        android:textSize="@dimen/twelve_dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:id="@+id/ivSendMessagee"
+                    android:layout_width="@dimen/hundred_dp"
+                    android:layout_height="@dimen/hundred_dp"
+                    android:background="@drawable/circle_grey"
+                    android:src="@drawable/message"
+                    android:tint="#fca604"
+                    android:layout_centerInParent="true"
+                    android:padding="@dimen/thirty_dp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

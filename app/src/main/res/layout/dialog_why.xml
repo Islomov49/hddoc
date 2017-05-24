@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mark_dailog_frame">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:background="@drawable/mark_dailog_frame_head"
+        android:textSize="@dimen/eighteen_dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:paddingTop="@dimen/five_dp"
+        android:paddingBottom="@dimen/five_dp"/>
+    <ImageView
+        android:id="@+id/ivWhy"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sixty_dp"
+        android:src="@drawable/whyfirs"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:layout_marginBottom="@dimen/twenty_dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kelajakni_birga_quraylik"
+        android:textSize="@dimen/fourteen_dp"
+        android:textStyle="bold"
+        android:textColor="#262626"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/discriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/ten_dp"
+        android:gravity="center"
+        android:text="@string/yordam_bering"
+        android:textColor="#262626"
+        android:textSize="@dimen/fourteen_dp" />
+
+    <TextView
+        android:id="@+id/tvOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginRight="@dimen/twenty_dp"
+        android:background="@drawable/diaolog_buttons"
+        android:text="@string/yuborish"
+        android:gravity="center"
+        android:textSize="@dimen/eighteen_dp"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:paddingTop="@dimen/five_dp"
+        android:paddingBottom="@dimen/five_dp"
+        android:layout_gravity="center"
+        android:textColor="#262626"
+        android:layout_marginBottom="@dimen/ten_dp"/>
+    <TextView
+        android:id="@+id/tvOrtga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/diaolog_buttons"
+        android:text="@string/ortgaa"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/twenty_dp"
+        android:layout_marginRight="@dimen/twenty_dp"
+        android:textSize="@dimen/eighteen_dp"
+        android:paddingTop="@dimen/five_dp"
+        android:paddingBottom="@dimen/five_dp"
+
+        android:layout_gravity="center"
+        android:textColor="#262626"
+        android:layout_marginBottom="@dimen/twenty_dp"/>
+</LinearLayout>

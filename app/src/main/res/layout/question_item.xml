@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+    <View
+        android:id="@+id/infirstgone"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#f1f1f1"
+        />
+    <FrameLayout
+        android:id="@+id/togone"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivContentImage"
+            android:adjustViewBounds="true"
+
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="@dimen/sixty_dp"
+            android:layout_height="@dimen/sixty_dp"
+            android:indeterminate="false"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:background="@drawable/circle_shape"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/twenty_dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="@dimen/sixty_dp"
+            android:layout_height="@dimen/sixty_dp"
+            android:src="@drawable/avatar"
+            android:layout_marginRight="@dimen/sixteen_dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.isoma.homiladavridoctor.utils.LinkerTextView
+                android:id="@+id/tvBodyQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#262626"
+                android:textSize="@dimen/sixteen_dp"
+                android:textStyle="bold"
+                android:text=""/>
+            <TextView
+                android:id="@+id/tvDateQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five_dp"
+                android:textColor="#e2e2e2"
+                android:text="24.06.2016"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/sixteen_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/ten_dp"
+            android:orientation="vertical">
+
+            <com.isoma.homiladavridoctor.utils.LinkerTextView
+                android:id="@+id/tvNick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="@dimen/hundred_twenty_dp"
+                android:text=""
+                android:textColor="#0397da"
+                android:textSize="@dimen/twelve_dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPeriodP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#bdbdbd"
+                android:textSize="@dimen/twelve_dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_marginRight="@dimen/ten_dp"
+            >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/twelve_dp">
+                <TextView
+
+                    android:id="@+id/tvQiziqish"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="#262626"
+                    android:textSize="@dimen/fourteen_dp"
+                    android:text="0"/>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Qiziqish"
+                    android:textSize="@dimen/twelve_dp"
+
+                    android:textColor="#bdbdbd" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/six_dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvKorilgan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/fourteen_dp"
+                    android:textColor="#262626"
+                    android:text="0"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/looked"
+                    android:textSize="@dimen/twelve_dp"
+
+                    android:textColor="#bdbdbd"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/six_dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/tvCountAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="@dimen/fourteen_dp"
+                    android:textColor="#262626"
+                    android:text="0"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/javoblar"
+                    android:textSize="@dimen/twelve_dp"
+
+                    android:textColor="#bdbdbd"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/sixteen_dp"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/sixteen_dp">
+        <ImageView
+            android:id="@+id/ivHeart"
+            android:layout_width="@dimen/forty_dp"
+            android:layout_height="@dimen/forty_dp"
+            android:src="@drawable/emptyheart"
+            android:padding="@dimen/five_dp"
+            android:layout_marginRight="@dimen/ten_dp"/>
+        <ImageView
+            android:id="@+id/ivSubsribe"
+            android:layout_width="@dimen/forty_dp"
+            android:layout_height="@dimen/forty_dp"
+            android:src="@drawable/to_historyicon"/>
+        <TextView
+            android:id="@+id/tvOpen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/javob_berish"
+            android:textStyle=""
+            android:background="@drawable/diaolog_buttons_grey"
+            android:layout_marginLeft="@dimen/sixteen_dp"
+            android:gravity="center"
+            android:textColor="#262626"
+            android:textSize="@dimen/sixteen_dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

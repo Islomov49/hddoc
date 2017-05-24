@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isoma.homiladavridoctor.fragments.nextstep.StatiyalarFragment"
+    android:background="#e9e9e9">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/my_recycler_view"
+            android:scrollbars="none"
+            tools:context=".HomilaDavri"
+            tools:listitem="@layout/card_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            >
+
+        </android.support.v7.widget.RecyclerView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/informat"/>
+
+
+</FrameLayout>
+

@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    tools:context="com.isoma.homiladavridoctor.fragments.TestDateFragment">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout"
+        android:padding="0dp"
+        android:background="?attr/colorPrimaryLight">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/sixteen_dp"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:padding="0dp"
+                >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#f3e5f5"
+                    />
+                <FrameLayout
+                    android:layout_width="@dimen/thirty_dp"
+                    android:layout_height="@dimen/thirty_dp"
+                    android:background="#fafdff"
+                    android:layout_above="@+id/jovobi"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginBottom="-10dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginRight="0dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="bottom"
+                    android:layout_marginLeft="@dimen/twenty_dp"
+                    android:layout_marginRight="@dimen/twenty_dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="@dimen/ten_dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/twenty_dp"
+                    android:textStyle="bold"
+                    android:id="@+id/sovoli"
+                    android:layout_marginTop="@dimen/ten_dp"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/eighteen_dp"
+                    android:text=""
+                    android:textColor="#2b2c2d"
+                    android:layout_marginLeft="@dimen/twenty_dp"
+                    android:layout_marginRight="@dimen/twenty_dp"
+                    android:id="@+id/jovobi"
+                    android:layout_marginTop="@dimen/forty_dp"
+                    android:layout_below="@id/sovoli"
+                    android:autoText="true"
+                     />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/twenty_dp"
+                    android:layout_below="@id/jovobi"/>
+
+            </RelativeLayout>
+
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,110 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clickable="true"
+    tools:context=".HomilaDavri">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:background="#0397DA"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:id="@+id/forgone"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+                        android:background="#0397DA"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+
+                        android:src="@drawable/zalivka"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+                        android:layout_marginTop="@dimen/ten_dp"
+                        android:scaleType="centerCrop"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/community"
+                        android:layout_marginLeft="@dimen/fifty_dp"
+                        android:layout_marginRight="@dimen/fifty_dp"
+                        android:adjustViewBounds="true"
+                        android:layout_marginTop="@dimen/thirty_dp"/>
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sixty_dp"
+                        android:layout_marginTop="@dimen/two_hundred_seventy_dp"
+                        android:id="@+id/ortaa"
+                        android:background="@drawable/oval"
+                        android:scaleType="fitXY"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/three_hundred_dp"
+
+                        android:paddingTop="@dimen/sixteen_dp"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/tvTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/homiladorlar_olami"
+                            android:textSize="@dimen/twenty_four_dp"
+                            android:textColor="#03a9f4"
+                            android:textStyle="bold"
+                            android:layout_marginRight="@dimen/sixteen_dp"
+                            android:layout_marginLeft="@dimen/sixteen_dp"
+                            android:gravity="center"/>
+                        <TextView
+                            android:id="@+id/IntroInfo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/suhbatlasing"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/sixteen_dp"
+                            android:layout_marginRight="@dimen/forty_dp"
+                            android:layout_marginLeft="@dimen/forty_dp"
+                            android:textSize="@dimen/sixteen_dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

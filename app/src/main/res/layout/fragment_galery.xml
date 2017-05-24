@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.isoma.homiladavridoctor.fragments.GalleryFragment"
+    android:background="#000"
+    android:clickable="true"
+    android:padding="0dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:id="@+id/imagepa"
+        android:src="@drawable/xafta3"
+        android:scaleType="centerCrop"
+        android:layout_alignParentTop="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#a658a1"
+        android:textSize="@dimen/fourteen_dp"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_alignBottom="@+id/imagepa"
+        android:layout_marginTop="@dimen/five_dp"
+        android:layout_marginBottom="@dimen/sixteen_dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14 ХАФТА"
+        android:textStyle="bold"
+        android:textColor="#a658a1"
+        android:textSize="@dimen/sixteen_dp"
+        android:id="@+id/xaftapag"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView"
+        android:layout_marginTop="@dimen/five_dp"/>
+
+
+</RelativeLayout>

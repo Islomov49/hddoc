@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/seventy_dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/five_dp"
+    android:layout_marginBottom="@dimen/five_dp"
+    android:layout_marginLeft="@dimen/five_dp"
+    android:layout_marginRight="@dimen/five_dp">
+    <RelativeLayout
+        android:layout_width="@dimen/seventy_dp"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivAccountAvatar"
+            android:layout_width="@dimen/seventy_dp"
+            android:layout_height="@dimen/seventy_dp"
+            android:src="@drawable/avatar"/>
+        <TextView
+            android:id="@+id/ivNewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/newmesindic"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:maxLength="3"
+            android:paddingLeft="@dimen/two_dp"
+            android:paddingRight="@dimen/two_dp"
+            android:visibility="gone"
+            android:textSize="@dimen/fourteen_dp"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <com.isoma.homiladavridoctor.utils.LinkerTextView
+        android:id="@+id/tvFriendNick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="\@"
+        android:maxLines="2"
+        android:textColor="#0397da"
+        android:gravity="center"
+        android:textSize="@dimen/twelve_dp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/five_dp"
+        />
+</LinearLayout>

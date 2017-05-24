@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="#fff">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:id="@+id/zagalovka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:text="1-13"
+                android:textColor="#212121"
+                android:textSize="@dimen/fifty_dp" />
+
+            <TextView
+                android:id="@+id/tvHaftalarUchun"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zagalovka"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:text="@string/for_week"
+                android:textColor="#212121"
+                android:textSize="@dimen/thirty_dp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/jusss"
+                android:layout_marginTop="@dimen/sixteen_dp"
+                android:background="?attr/colorPrimaryLight"
+                android:layout_alignBottom="@+id/bb"
+                android:layout_below="@+id/tvHaftalarUchun"
+                android:layout_above="@+id/textView10"
+                android:layout_marginBottom="-20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bhftda"
+                android:textColor="?attr/colorAccent"
+                android:textSize="@dimen/sixteen_dp"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textView9"
+                android:layout_below="@+id/tvHaftalarUchun"
+                android:layout_alignLeft="@+id/tvHaftalarUchun"
+                android:layout_alignStart="@+id/tvHaftalarUchun" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="111"
+                android:id="@+id/mainnovaqt"
+                android:textSize="@dimen/sixteen_dp"
+                android:textColor="#000000"
+                android:layout_marginTop="@dimen/five_dp"
+                android:layout_marginRight="@dimen/sixteen_dp"
+                android:layout_below="@+id/textView9"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xavfsizlik_choralari"
+                android:textColor="?attr/colorAccent"
+                android:layout_below="@+id/mainnovaqt"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:textSize="@dimen/sixteen_dp"
+                android:layout_marginTop="@dimen/twenty_dp"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/xavfsizlikov"
+                android:id="@+id/bb"
+                android:textSize="@dimen/sixteen_dp"
+                android:textColor="#000000"
+                android:layout_marginTop="@dimen/five_dp"
+                android:layout_marginRight="@dimen/sixteen_dp"
+                android:layout_below="@+id/textView10"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignLeft="@+id/textView9"
+                android:layout_alignStart="@+id/textView9"
+                android:layout_marginBottom="@dimen/twenty_dp"/>
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

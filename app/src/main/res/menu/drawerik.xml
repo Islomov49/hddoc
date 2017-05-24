@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/testlar"
+            android:checked="false"
+            android:icon="@drawable/ic_assignment_turned_in_black_48dp"
+            android:title="@string/inbox_string" />
+
+
+        <item
+            android:id="@+id/belgilar"
+            android:checked="false"
+            android:icon="@drawable/ic_local_hospital_black_48dp"
+            android:title="@string/all_mail_string" />
+
+        <item
+            android:id="@+id/ovqotlan"
+            android:checked="false"
+            android:icon="@drawable/ic_local_dining_black_48dp"
+            android:title="@string/trash_string" />
+
+        <item
+            android:id="@+id/galer"
+            android:checked="false"
+            android:icon="@drawable/ic_collections_black_24dp"
+            android:title="@string/draft_string" />
+
+
+
+
+
+        <item
+            android:id="@+id/talabtaklif"
+            android:checked="false"
+            android:icon="@drawable/ic_question_answer_black_48dp"
+            android:title="@string/talab_va_takliflar" />
+
+        <item
+            android:id="@+id/sozlamalar"
+            android:checked="false"
+            android:icon="@drawable/ic_settings_black_48dp"
+            android:title="@string/spam_string" />
+
+    </group>
+</menu>

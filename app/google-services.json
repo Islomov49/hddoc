@@ -1,0 +1,146 @@
+{
+  "project_info": {
+    "project_number": "930731332950",
+    "firebase_url": "https://homila.firebaseio.com",
+    "project_id": "project-36196244065594115",
+    "storage_bucket": "project-36196244065594115.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930731332950:android:a9d0468e981f043a",
+        "android_client_info": {
+          "package_name": "com.isoma.homiladavri"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930731332950-52qtlenot54rn4sage7609abrcoafp59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isoma.homiladavri",
+            "certificate_hash": "3eb99e6f410fe23d87a6b8bd4ef8bb75658ec60d"
+          }
+        },
+        {
+          "client_id": "930731332950-qetc9klok5bsquru8ac7gcd1pkgb4cmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isoma.homiladavri",
+            "certificate_hash": "232b75bdc909ca7bcc1c62d5c30f34325315f9b9"
+          }
+        },
+        {
+          "client_id": "930731332950-i38eousrcj8hdvgnh5nk05lhi9s3boks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZmYR9XxQutq1eGLEsqm-FbcZq78XLJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930731332950:android:157da7780655b717",
+        "android_client_info": {
+          "package_name": "homiladorlik.isoma.hdadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930731332950-2qair2nspqr62m0fpfcg2va2c8k4cln3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "homiladorlik.isoma.hdadmin",
+            "certificate_hash": "232b75bdc909ca7bcc1c62d5c30f34325315f9b9"
+          }
+        },
+        {
+          "client_id": "930731332950-i38eousrcj8hdvgnh5nk05lhi9s3boks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZmYR9XxQutq1eGLEsqm-FbcZq78XLJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930731332950-i38eousrcj8hdvgnh5nk05lhi9s3boks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930731332950:android:0adac768e48299c1",
+        "android_client_info": {
+          "package_name": "com.isoma.homiladavridoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "930731332950-nm4a643gf1uspdnbmieda04sovvga6kn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.isoma.homiladavridoctor",
+            "certificate_hash": "232b75bdc909ca7bcc1c62d5c30f34325315f9b9"
+          }
+        },
+        {
+          "client_id": "930731332950-i38eousrcj8hdvgnh5nk05lhi9s3boks.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBZmYR9XxQutq1eGLEsqm-FbcZq78XLJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "930731332950-i38eousrcj8hdvgnh5nk05lhi9s3boks.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

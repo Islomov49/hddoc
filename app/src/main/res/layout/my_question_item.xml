@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <View
+        android:id="@+id/infirstgone"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="#e9e9e9"
+        />
+    <FrameLayout
+        android:id="@+id/togone"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivContentImage"
+            android:adjustViewBounds="true"
+
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            />
+
+        <ProgressBar
+            android:id="@+id/loading"
+            android:layout_width="@dimen/sixty_dp"
+            android:layout_height="@dimen/sixty_dp"
+            android:indeterminate="false"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/circular_progress_bar"
+            android:background="@drawable/circle_shape"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:max="100"
+            android:progress="0" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/sixteen_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/twenty_dp"
+        android:orientation="vertical">
+        <com.isoma.homiladavridoctor.utils.LinkerTextView
+            android:id="@+id/tvBodyQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#262626"
+            android:textSize="@dimen/sixteen_dp"
+            android:textStyle="bold"
+            android:text=""/>
+        <TextView
+            android:id="@+id/tvDateQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/five_dp"
+            android:textColor="#e2e2e2"
+            android:text="24.06.2016"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/ten_dp"
+        android:layout_marginLeft="@dimen/sixteen_dp"
+        android:layout_marginTop="@dimen/eight_dp"
+        android:layout_marginBottom="@dimen/sixteen_dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/twelve_dp">
+            <TextView
+                android:id="@+id/tvCountYurak"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#262626"
+                android:textSize="@dimen/fourteen_dp"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/yurak"
+                android:textSize="@dimen/twelve_dp"
+                android:gravity="center"
+                android:textColor="#bdbdbd" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/twelve_dp">
+            <TextView
+                android:id="@+id/tvCountQiziqishlar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#262626"
+                android:textSize="@dimen/fourteen_dp"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Qiziqish"
+                android:textSize="@dimen/twelve_dp"
+                android:gravity="center"
+                android:textColor="#bdbdbd" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/twelve_dp">
+            <TextView
+                android:id="@+id/tvCountKorilgan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#262626"
+                android:textSize="@dimen/fourteen_dp"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/looked"
+                android:textSize="@dimen/twelve_dp"
+                android:gravity="center"
+                android:textColor="#bdbdbd" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="@dimen/twelve_dp">
+            <TextView
+                android:id="@+id/tvCountAnswerlar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#262626"
+                android:textSize="@dimen/fourteen_dp"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/javoblar"
+                android:textSize="@dimen/twelve_dp"
+                android:gravity="center"
+                android:textColor="#bdbdbd" />
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/tvOpen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/korish"
+                android:textStyle=""
+                android:background="@drawable/diaolog_buttons_grey"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:gravity="center"
+                android:textColor="#262626"
+                android:textSize="@dimen/eighteen_dp"
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

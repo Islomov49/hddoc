@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.isoma.homiladavridoctor.fragments.ChatingFragment">
+    <LinearLayout
+        android:id="@+id/llBottomSenderFrame"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2px"
+            android:background="#e2e2e2"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/etAnswer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/emp"
+                android:hint="@string/habar_yuboring"
+                android:textColorHint="#939393"
+                android:textSize="@dimen/sixteen_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+                android:layout_marginLeft="@dimen/sixteen_dp"
+                android:paddingTop="@dimen/five_dp"
+                android:paddingBottom="@dimen/five_dp"
+                android:text=""
+                android:minHeight="50dp"
+                android:textColor="#262626"
+                android:layout_gravity="center"
+                android:layout_weight="1"/>
+            <FrameLayout
+                android:id="@+id/frameSendOrLoading"
+                android:layout_width="@dimen/forty_dp"
+                android:layout_height="@dimen/fifty_dp"
+                android:layout_marginRight="@dimen/ten_dp"
+
+                >
+                <ImageView
+                    android:id="@+id/ivSendAnswer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/sendddd"
+                    android:padding="@dimen/ten_dp"
+                    android:tint="#0397DA"
+                    android:layout_gravity="bottom"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvChating"
+            android:layout_above="@+id/llBottomSenderFrame"
+            android:layout_below="@+id/llHeader"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:overScrollMode="never"
+            />
+
+
+
+</RelativeLayout>

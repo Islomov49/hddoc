@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+   <RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginBottom="5dp"
+       android:layout_marginTop="10dp"
+       >
+       <TextView
+           android:id="@+id/filterName"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:gravity="center"
+           android:textSize="@dimen/ten_dp"
+           android:textColor="@color/secondary_color"
+            android:layout_marginBottom="3dp"
+           />
+       <ImageView
+           android:layout_below="@+id/filterName"
+           android:id="@+id/imageWithFilter"
+            android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:scaleType="centerCrop"
+
+           />
+   </RelativeLayout>
+
+</LinearLayout>

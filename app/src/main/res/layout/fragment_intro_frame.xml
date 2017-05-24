@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clickable="true"
+    tools:context=".HomilaDavri">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/abc_action_bar_default_height_material"
+            android:background="#0397DA"></FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/forgone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:orientation="vertical"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+                        android:background="#0397DA"
+
+                        />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/zalivka"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/three_hundred_dp"
+                        android:layout_marginTop="@dimen/ten_dp"
+                        android:scaleType="centerCrop"/>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/fifty_dp"
+                        android:layout_marginRight="@dimen/fifty_dp"
+                        android:layout_marginTop="@dimen/thirty_dp"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/guys"/>
+
+
+                    <ImageView
+                        android:id="@+id/ortaa"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/sixty_dp"
+                        android:layout_marginTop="@dimen/two_hundred_seventy_dp"
+                        android:background="@drawable/oval"
+                        android:scaleType="fitXY"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/three_hundred_dp"
+
+                        android:orientation="vertical"
+                        android:paddingTop="@dimen/sixteen_dp">
+
+                        <TextView
+                            android:id="@+id/tvTitleSecond"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/sixteen_dp"
+                            android:layout_marginRight="@dimen/sixteen_dp"
+                            android:gravity="center"
+                            android:text="@string/weekly_info"
+                            android:textColor="#03a9f4"
+                            android:textSize="@dimen/twenty_four_dp"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/tvTextSecond"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/forty_dp"
+                            android:layout_marginRight="@dimen/forty_dp"
+                            android:layout_marginTop="@dimen/sixteen_dp"
+                            android:gravity="center"
+                            android:text="@string/intro_sec"
+                            android:textSize="@dimen/sixteen_dp"/>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>
