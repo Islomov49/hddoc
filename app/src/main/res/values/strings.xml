@@ -936,6 +936,13 @@ Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'
     <string name="tushuntirish">Inson sog\'lig\'i juda nozik masala. Biz dasturimizga sizni shifokor etib qo\'shishimiz uchun avalam bor siz bilan telefon orqali bog\'lanib shiforkorligingizga ishonch hosil qilishimiz lozim. Tug\'dirilgan noqulayliklar uchun uzur so\'raymiz.</string>
     <string name="kutish">Kutish</string>
     <string name="biz_siz_bilan_bog_lanamiz">Biz siz bilan bog\'lanamiz</string>
+    <string name="haftani_tanlash">Haftani tanlash</string>
+    <string name="homiladorlik_kuni">Homiladorlik kuni</string>
+    <string name="o_zgaritish">O\'zgaritish</string>
+    <string name="homilador_ayol_haftasini_tanlang">(haftani tanlang)</string>
+    <string name="dasturni_siz_hohlagan_haftaga_o_tkazishingiz_va_o_z_ish_faoliyatingizda_foydalanishingiz_mumkun">Dasturni siz hohlagan haftaga o\'tkazishingiz va o\'z ish faoliyatingizda foydalanishingiz mumkun</string>
+    <string name="desccc">Kalendarda tanlangan ohirgi hayz kuni orqali homila haftasi aniqlanib usha homila haftasiga dasturni o\'tkazish mumkun</string>
+    <string name="ohirgi_hayz_kuniii">(ohirgi hayz kuni)</string>
 
 </resources>
 

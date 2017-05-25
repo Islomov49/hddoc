@@ -29,7 +29,6 @@ import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.util.DisplayMetrics;
@@ -38,6 +37,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -72,6 +74,7 @@ import com.isoma.homiladavridoctor.googleUtils.SignInGoogleMoneyHold;
 import com.isoma.homiladavridoctor.intropage.IntroIndicator;
 import com.isoma.homiladavridoctor.systemic.AppCompatActivityParent;
 import com.isoma.homiladavridoctor.systemic.HomilaConstants;
+import com.isoma.homiladavridoctor.utils.DateDialog;
 import com.isoma.homiladavridoctor.utils.GeneralConstants;
 import com.isoma.homiladavridoctor.utils.NetworkUtils;
 import com.isoma.homiladavridoctor.utils.PAFragmentManager;
@@ -83,6 +86,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -90,7 +94,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import static android.content.Context.MODE_PRIVATE;
 import static com.isoma.homiladavridoctor.systemic.HomilaConstants.SAVED_NAME;
 import static com.isoma.homiladavridoctor.utils.GeneralConstants.WEEKS_INFO;
 
@@ -119,6 +122,7 @@ public class HomilaDavri extends AppCompatActivityParent {
     boolean downloadnycCanRest = true;
     DownloadImageTask imagetask;
     int weeks;
+    int hafta= 1;
     FirebaseDatabase GENERAL1 = FirebaseDatabase.getInstance();
     DatabaseReference GENERAL = GENERAL1.getReference();
     @BindView(R.id.green_frame)
@@ -147,7 +151,8 @@ public class HomilaDavri extends AppCompatActivityParent {
     ChildEventListener eventListener;
     Uri imageUri;
     PAFragmentManager paFragmentManager;
-
+    boolean modeIsHafta = true;
+    private DateDialog dialogDate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -221,65 +226,111 @@ public class HomilaDavri extends AppCompatActivityParent {
         findViewById(R.id.gochat).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (ContextCompat.checkSelfPermission(HomilaDavri.this,
-                        android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                        != PackageManager.PERMISSION_GRANTED) {
-                    getPermision();
-                }else {
-                    FirebaseUser authData = FirebaseAuth.getInstance().getCurrentUser();
-                    if (authData == null) {
-                        try {
-                            final android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(HomilaDavri.this);
-                            builder.setMessage(R.string.ruyxatdan_otish)
-                                    .setPositiveButton(R.string.ruyxa, new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int id) {
-                                            toQuestions = true;
-                                            reg.regitUser();
+                final Dialog dialog = new Dialog(HomilaDavri.this);
+                final View dialogView = getLayoutInflater().inflate(R.layout.dialog_set_date, null);
+                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+                dialog.setContentView(dialogView);
+                View v = dialog.getWindow().getDecorView();
+                v.setBackgroundResource(android.R.color.transparent);
+                final TextView tvOk = (TextView) dialogView.findViewById(R.id.tvOk);
+                final TextView tvHk = (TextView) dialogView.findViewById(R.id.tvHk);
+                final TextView tvHT = (TextView) dialogView.findViewById(R.id.tvHT);
+                if(modeIsHafta){
+                    tvHT.setBackgroundColor(Color.WHITE);
+                    tvHk.setBackgroundColor(Color.parseColor("#efefef"));
+                    dialogView.findViewById(R.id.flLineHafta).setVisibility(View.GONE);
+                    dialogView.findViewById(R.id.frLineDate).setVisibility(View.VISIBLE);
+                    dialogView.findViewById(R.id.haftatanlashblock).setVisibility(View.VISIBLE);
+                    dialogView.findViewById(R.id.homilakuniblock).setVisibility(View.GONE);
 
+                }else{
+                    tvHk.setBackgroundColor(Color.WHITE);
+                    tvHT.setBackgroundColor(Color.parseColor("#efefef"));
+                    dialogView.findViewById(R.id.frLineDate).setVisibility(View.GONE);
+                    dialogView.findViewById(R.id.flLineHafta).setVisibility(View.VISIBLE);
+                    dialogView.findViewById(R.id.haftatanlashblock).setVisibility(View.GONE);
+                    dialogView.findViewById(R.id.homilakuniblock).setVisibility(View.VISIBLE);
 
-                                        }
-                                    }).setNegativeButton(R.string.ortgaa, new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-                                    dialog.cancel();
-                                }
-                            });
-                            builder.create().show();
-                        } catch (Exception o) {
-                        }
-                    } else {
-                        if (sPref.getBoolean(IS_IT_CHECKED_USER, false)) {
-                            QuestionsViewPagerFragment questionsViewPagerFragment = new QuestionsViewPagerFragment();
-                            Bundle bundle = new Bundle();
-                            bundle.putBoolean("FROM_MAIN",true);
-                            questionsViewPagerFragment.setArguments(bundle);
-                            paFragmentManager.displayFragment(questionsViewPagerFragment);
-                        } else {
-                            showProgressDialog(getString(R.string.boglanis));
-                            FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-                            GENERAL.child("/users/" + firebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
-                                @Override
-                                public void onDataChange(DataSnapshot dataSnapshot) {
-                                    hideProgressDialog();
-                                    if (dataSnapshot.getValue() == null) {
-                                        paFragmentManager.displayFragment(new RegistratsiyaFragment());
-                                    } else {
-                                        QuestionsViewPagerFragment questionsViewPagerFragment = new QuestionsViewPagerFragment();
-                                        Bundle bundle = new Bundle();
-                                        bundle.putBoolean("FROM_MAIN",true);
-                                        questionsViewPagerFragment.setArguments(bundle);
-                                        paFragmentManager.displayFragment(questionsViewPagerFragment);
-                                        sPref.edit().putBoolean(IS_IT_CHECKED_USER, true).apply();
-                                    }
-                                }
-
-                                @Override
-                                public void onCancelled(DatabaseError databaseError) {
-                                    hideProgressDialog();
-                                }
-                            });
-                        }
-                    }
                 }
+                dialogView.findViewById(R.id.haftamode).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        tvHT.setBackgroundColor(Color.WHITE);
+                        tvHk.setBackgroundColor(Color.parseColor("#efefef"));
+                        dialogView.findViewById(R.id.flLineHafta).setVisibility(View.GONE);
+                        dialogView.findViewById(R.id.frLineDate).setVisibility(View.VISIBLE);
+                        dialogView.findViewById(R.id.haftatanlashblock).setVisibility(View.VISIBLE);
+                        dialogView.findViewById(R.id.homilakuniblock).setVisibility(View.GONE);
+                        modeIsHafta = true;
+
+                    }
+                });
+                dialogView.findViewById(R.id.kunmode).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        tvHk.setBackgroundColor(Color.WHITE);
+                        tvHT.setBackgroundColor(Color.parseColor("#efefef"));
+                        dialogView.findViewById(R.id.frLineDate).setVisibility(View.GONE);
+                        dialogView.findViewById(R.id.flLineHafta).setVisibility(View.VISIBLE);
+                        dialogView.findViewById(R.id.haftatanlashblock).setVisibility(View.GONE);
+                        dialogView.findViewById(R.id.homilakuniblock).setVisibility(View.VISIBLE);
+                        modeIsHafta = false;
+
+                    }
+                });
+                dialogView.findViewById(R.id.lasthays).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+
+                    }
+                });
+                dialogView.findViewById(R.id.tvHomilaKuni).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        AlertDialog.Builder builderSingle = new AlertDialog.Builder(HomilaDavri.this);
+                        builderSingle.setTitle(R.string.hafta_kuni);
+                        final ArrayList<String> strings = new ArrayList<String>();
+                        for(int i=1;i<=40;i++){
+                            strings.add(Integer.toString(i)+" "+getString(R.string.xaftada));
+                        }
+
+                        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(HomilaDavri.this, android.R.layout.simple_list_item_1,strings);
+                        builderSingle.setNegativeButton(R.string.ortgaa, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+
+                        builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                hafta = which+1;
+                                ((EditText) dialogView.findViewById(R.id.kuni)).setText(hafta+" "+getString(R.string.xaftada));
+                            }
+                        });
+                        AlertDialog alertDialog = builderSingle.create();
+                        DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+                        int width = displayMetrics.widthPixels;
+                        int hieght = displayMetrics.heightPixels;
+                        alertDialog.show();
+                        alertDialog.getWindow().setLayout(9 * width / 10, (int) (6.8*hieght/10));
+                    }
+                });
+
+
+                tvOk.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        stop =true;
+                        paFragmentManager.displayFragment(new SupportFragment());
+                        dialog.dismiss();
+                    }
+                });
+                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+                int width = displayMetrics.widthPixels;
+                dialog.getWindow().setLayout(8 * width / 10, RelativeLayout.LayoutParams.WRAP_CONTENT);
+                dialog.show();
             }
         });
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
