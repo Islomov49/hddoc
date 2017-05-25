@@ -2,6 +2,7 @@ package com.isoma.homiladavridoctor;
 
 import android.animation.Animator;
 import android.app.AlarmManager;
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.PendingIntent;
 import android.app.ProgressDialog;
@@ -38,6 +39,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
@@ -86,7 +88,9 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Locale;
 
@@ -94,7 +98,9 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import de.hdodenhof.circleimageview.CircleImageView;
 
+import static com.isoma.homiladavridoctor.systemic.HomilaConstants.SAVED_CREATE;
 import static com.isoma.homiladavridoctor.systemic.HomilaConstants.SAVED_NAME;
+import static com.isoma.homiladavridoctor.systemic.HomilaConstants.SAVED_WEEK;
 import static com.isoma.homiladavridoctor.utils.GeneralConstants.WEEKS_INFO;
 
 
@@ -153,6 +159,7 @@ public class HomilaDavri extends AppCompatActivityParent {
     PAFragmentManager paFragmentManager;
     boolean modeIsHafta = true;
     private DateDialog dialogDate;
+    long week;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -165,7 +172,7 @@ public class HomilaDavri extends AppCompatActivityParent {
             setLocale(Locale.getDefault().getLanguage());
         else
             setLocale(language);
-        weeks_for_check = sPref.getInt(HomilaConstants.SAVED_WEEK, 1);
+        weeks_for_check = sPref.getInt(SAVED_WEEK, 1);
         if (sPref.getBoolean(HomilaConstants.SAVED_FIRST, true)) {
             File new_file = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Homila/cache/");
             File new_file_cache = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Homila/cache/mini");
@@ -199,24 +206,24 @@ public class HomilaDavri extends AppCompatActivityParent {
 
         getSupportActionBar().setTitle(R.string.app_name_main);
 
-        creation_time = sPref.getLong(HomilaConstants.SAVED_CREATE, System.currentTimeMillis());
+        creation_time = sPref.getLong(SAVED_CREATE, System.currentTimeMillis());
         weeks = (int) ((System.currentTimeMillis() - creation_time) / 1000 / 60 / 60 / 24 / 7);
         URI_SET_PHOTO = null;
         URI_SET_PHOTO = sPref.getString(HomilaConstants.URI_PHOTO, "topilmadi");
         restartNotify();
         if (weeks_for_check != weeks && weeks != 0) {
-            ed.putInt(HomilaConstants.SAVED_WEEK, weeks);
+            ed.putInt(SAVED_WEEK, weeks);
             ed.apply();
             weeks_for_check = weeks;
         }
         if (weeks > 40) {
             weeks = 40;
-            ed.putInt(HomilaConstants.SAVED_WEEK, weeks);
+            ed.putInt(SAVED_WEEK, weeks);
             ed.apply();
         }
         if (weeks < 1) {
             weeks = 1;
-            ed.putInt(HomilaConstants.SAVED_WEEK, weeks);
+            ed.putInt(SAVED_WEEK, weeks);
             //  ed.putLong(SAVED_CREATE,System.currentTimeMillis()-1*7*24*60*60*1000);
             ed.apply();
         }
@@ -281,7 +288,50 @@ public class HomilaDavri extends AppCompatActivityParent {
                 dialogView.findViewById(R.id.lasthays).setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        Calendar calendar=  Calendar.getInstance();
+                        DatePickerDialog datePickerDialog = new DatePickerDialog(
+                                HomilaDavri.this, new DatePickerDialog.OnDateSetListener() {
+                            @Override
+                            public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+                                Calendar cal = Calendar.getInstance();
+                                cal.set(Calendar.YEAR,i);
+                                cal.set(Calendar.MONTH,i1);
+                                cal.set(Calendar.DAY_OF_MONTH,i2);
+                                cal.set(Calendar.HOUR_OF_DAY, 9);
+                                cal.set(Calendar.MINUTE, 0);
+                                cal.set(Calendar.SECOND,0);
 
+                                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd.MM.yyyy");
+                                long week = cal.getTimeInMillis();
+                                if (week == 0) {
+                                    ((TextView)dialogView.findViewById(R.id.homilakuni)).setTextColor(Color.RED);
+                                    return;
+                                }
+                                ((TextView)dialogView.findViewById(R.id.homilakuni)).setTextColor(Color.parseColor("#414141"));
+
+                                week--;
+                                long time =  System.currentTimeMillis() - week;
+                                int t = (int) ((time / 1000 / 60 / 60 / 24 / 7));
+
+                                if (time > 0 && time <= (long) 40 * 7 * 24 * 60 * 60 * 1000) {
+                                    HomilaDavri.this.week = week;
+                                    HomilaDavri.this.hafta = t;
+                                    ((TextView)dialogView.findViewById(R.id.tvDesidedWeek)).setVisibility(View.VISIBLE);
+                                    ((TextView)dialogView.findViewById(R.id.tvDesidedWeek)).setText(hafta+" "+getString(R.string.xaftada));
+                                    ((TextView)dialogView.findViewById(R.id.homilakuni)).setText(simpleDateFormat.format(cal.getTime()));
+
+                                } else {
+                                    Toast.makeText(getApplicationContext(), getText(R.string.not_hafta_true).toString(), Toast.LENGTH_SHORT).show();
+                                    ((TextView)dialogView.findViewById(R.id.homilakuni)).setTextColor(Color.RED);
+
+                                }
+
+
+
+
+                            }
+                        }, calendar.get(Calendar.YEAR),calendar.get(Calendar.MONTH), calendar.get(Calendar.DAY_OF_MONTH));
+                        datePickerDialog.show();
                     }
                 });
                 dialogView.findViewById(R.id.tvHomilaKuni).setOnClickListener(new View.OnClickListener() {
@@ -306,7 +356,9 @@ public class HomilaDavri extends AppCompatActivityParent {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
                                 hafta = which+1;
-                                ((EditText) dialogView.findViewById(R.id.kuni)).setText(hafta+" "+getString(R.string.xaftada));
+                                HomilaDavri.this.week = Calendar.getInstance().getTimeInMillis() - (long)  7 * 24 * 60 * 60 * 1000 * hafta;
+
+                                ((TextView) dialogView.findViewById(R.id.kuni)).setText(hafta+" "+getString(R.string.xaftada));
                             }
                         });
                         AlertDialog alertDialog = builderSingle.create();
@@ -323,8 +375,15 @@ public class HomilaDavri extends AppCompatActivityParent {
                     @Override
                     public void onClick(View view) {
                         stop =true;
-                        paFragmentManager.displayFragment(new SupportFragment());
+                        sPref.edit().putInt(SAVED_WEEK, hafta).apply();
+                        sPref.edit().putLong(SAVED_CREATE, week).apply();
                         dialog.dismiss();
+
+                        Intent intent = getIntent();
+                        finish();
+                        startActivity(intent);
+
+
                     }
                 });
                 DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
@@ -785,10 +844,10 @@ public class HomilaDavri extends AppCompatActivityParent {
     public void onRestart() {
         super.onRestart();
         // visbview();
-        creation_time = sPref.getLong(HomilaConstants.SAVED_CREATE, System.currentTimeMillis());
-        weeks = (int) ((System.currentTimeMillis() - sPref.getLong(HomilaConstants.SAVED_CREATE, System.currentTimeMillis())) / 1000 / 60 / 60 / 24 / 7);
+        creation_time = sPref.getLong(SAVED_CREATE, System.currentTimeMillis());
+        weeks = (int) ((System.currentTimeMillis() - sPref.getLong(SAVED_CREATE, System.currentTimeMillis())) / 1000 / 60 / 60 / 24 / 7);
         if (weeks_for_check != weeks && weeks != 0) {
-            ed.putInt(HomilaConstants.SAVED_WEEK, weeks);
+            ed.putInt(SAVED_WEEK, weeks);
             ed.apply();
             weeks_for_check = weeks;
             restartNotify();
@@ -942,42 +1001,7 @@ public class HomilaDavri extends AppCompatActivityParent {
 //                    }
 //                }
 //                break;
-            case R.id.shareanketa:
 
-                String temp2 = sPref.getString(SAVED_NAME, "");
-                if (!temp2.equals("")) {
-                    Intent share = new Intent(HomilaDavri.this, VirtualAnketaFragment.class);
-                    startActivity(share);
-                } else {
-                    final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                    builder.setMessage(R.string.obyasneniya_anketa)
-                            .setPositiveButton(R.string.sozlamalarga, new DialogInterface.OnClickListener() {
-                                public void onClick(DialogInterface dialog, int id) {
-
-                                    paFragmentManager.displayFragment(new SettingsFragment());
-                                }
-                            }).setNegativeButton(R.string.ortgaa, new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            dialog.cancel();
-                        }
-                    });
-
-
-                    builder.create().show();
-                }
-                break;
-            case R.id.calldoc:
-                final AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setMessage(R.string.hozircha_nedostupniy_call)
-                        .setPositiveButton(R.string.ortgaa, new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                dialog.dismiss();
-                            }
-                        });
-
-
-                builder.create().show();
-//
 //                AlertDialog.Builder builderSingle = new AlertDialog.Builder(this);
 //                builderSingle.setTitle(R.string.telefon_raqamlar);
 //                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, phoneNumbers);
@@ -1032,23 +1056,17 @@ public class HomilaDavri extends AppCompatActivityParent {
     }
     public void menuchangeback() {
         if(A1!=null){
-            A1.findItem(R.id.calldoc).setVisible(true);
-            A1.findItem(R.id.shareanketa).setVisible(true);
         }
         return;
     }
 
     public void goneAllItems(){
-        if(A1!=null){
-            A1.findItem(R.id.calldoc).setVisible(false);
-            A1.findItem(R.id.shareanketa).setVisible(false);}
+        if(A1!=null){}
     }
 
 
     public void goneAll() {
-        if(A1!=null){
-            A1.findItem(R.id.calldoc).setVisible(false);
-            A1.findItem(R.id.shareanketa).setVisible(false);}
+        if(A1!=null){}
         return;
     }
     public void visbview() {

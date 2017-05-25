@@ -95,7 +95,7 @@
                 android:src="@drawable/edit_text_color_pr_strike"
                 android:tint="?attr/colorPrimary"/>
 
-            <EditText
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="@string/homilador_ayol_haftasini_tanlang"
@@ -104,6 +104,8 @@
                 android:layout_marginTop="@dimen/ten_dp"
                 android:paddingLeft="@dimen/ten_dp"
                 android:paddingRight="@dimen/five_dp"
+                android:clickable="false"
+
                 android:background="@drawable/emp"
                 android:id="@+id/kuni"
                 android:windowSoftInputMode="stateHidden"
@@ -154,11 +156,12 @@
                 android:src="@drawable/edit_text_color_pr_strike"
                 android:tint="?attr/colorPrimary"/>
 
-            <EditText
+            <TextView
                 android:id="@+id/homilakuni"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:hint="@string/ohirgi_hayz_kuniii"
+                android:clickable="false"
                 android:focusableInTouchMode="false"
                 android:textSize="@dimen/fifteen_dp"
                 android:layout_marginTop="@dimen/ten_dp"

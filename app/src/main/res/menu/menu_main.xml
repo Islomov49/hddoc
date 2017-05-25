@@ -1,18 +1,5 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
     <!-- Search, should appear as action button -->
-    <item android:id="@+id/calldoc"
-        android:icon="@drawable/ic_action_call"
-        android:title="@string/testlar"
-        yourapp:showAsAction="always"
-        />
-    <item android:id="@+id/shareanketa"
-        android:icon="@drawable/ic_action_view_as_list"
-        android:title="@string/kart"
-        yourapp:showAsAction="always"
-        />
-
-
-
 
 </menu>
