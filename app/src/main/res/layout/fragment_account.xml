@@ -87,7 +87,7 @@
                 android:layout_marginRight="@dimen/twenty_dp"
                 android:layout_marginTop="@dimen/five_dp"
                 android:gravity="center"
-                android:text="14 - haftda"
+                android:text="@string/doctor"
                 android:textColor="#bdbdbd"
                 android:textSize="@dimen/fourteen_dp" />
 

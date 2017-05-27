@@ -99,6 +99,30 @@ public class IntroSecondAddInfoFragment extends Fragment {
         reg = new SignInGoogleMoneyHold(getActivity(), new SignInGoogleMoneyHold.UpdateSucsess() {
             @Override
             public void updateToSucsess() {
+
+                if(NetworkUtils.isNetworkAvailable(getActivity())) {
+                    rootRef.child("Doctors/"+FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if(dataSnapshot.getValue()!=null)
+                                if (dataSnapshot.child("isDoctor").getValue(Boolean.class)) {
+
+                                sPref.edit().putBoolean(SAVED_FIRST, false).apply();
+                                Intent mainIntent = new Intent(getActivity(), HomilaDavri.class);
+                                startActivity(mainIntent);
+                                getActivity().finish();
+
+                            }
+                        }
+
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+                            Toast.makeText(getActivity(),R.string.internet_connection_failed,Toast.LENGTH_SHORT).show();
+
+                        }
+                    });
+                }
+
                 etAge.setText(sPref.getString(HomilaConstants.EMAIL_USER, getString(R.string.app_name_main)));;
             }
 
@@ -200,20 +224,16 @@ public class IntroSecondAddInfoFragment extends Fragment {
     boolean stop = false;
     public void checkForValidation(){
         if(NetworkUtils.isNetworkAvailable(getActivity())) {
-            rootRef.child("users/" + FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+            rootRef.child("Doctors/"+FirebaseAuth.getInstance().getCurrentUser().getUid()).orderByChild("isDoctor").equalTo(true).addListenerForSingleValueEvent(new ValueEventListener() {
                 @Override
                 public void onDataChange(DataSnapshot dataSnapshot) {
                     if (dataSnapshot.getValue() != null) {
-                        UserInfo userinfo = new UserInfo();
-                        userinfo.setFromSnapshot(dataSnapshot);
-                        if (userinfo.getWhoIM().equals("D")) {
+
                             sPref.edit().putBoolean(SAVED_FIRST, false).apply();
                             Intent mainIntent = new Intent(getActivity(), HomilaDavri.class);
                             startActivity(mainIntent);
                             getActivity().finish();
-                        } else {
-                            request();
-                        }
+
                     } else {
 
                         request();
@@ -224,6 +244,7 @@ public class IntroSecondAddInfoFragment extends Fragment {
                 @Override
                 public void onCancelled(DatabaseError databaseError) {
                     Toast.makeText(getActivity(),R.string.internet_connection_failed,Toast.LENGTH_SHORT).show();
+
                 }
             });
         }

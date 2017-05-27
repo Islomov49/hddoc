@@ -60,6 +60,7 @@ import com.google.firebase.database.ServerValue;
 import com.google.firebase.database.Transaction;
 import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.isoma.homiladavridoctor.broadcastservice.NotifBroadcastOlderJellyBean;
 import com.isoma.homiladavridoctor.broadcastservice.NotifBroatcastJellyBean;
 import com.isoma.homiladavridoctor.fragments.BelgilarFragment;
@@ -229,6 +230,8 @@ public class HomilaDavri extends AppCompatActivityParent {
         }
         setposition();
         settextall();
+        if(FirebaseAuth.getInstance().getCurrentUser()!=null)
+            FirebaseMessaging.getInstance().subscribeToTopic("doctors");
 
         findViewById(R.id.gochat).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -594,6 +597,62 @@ public class HomilaDavri extends AppCompatActivityParent {
             }
         });
 
+        final String action = getIntent().getAction();
+        if(action!=null)
+            if(!action.equalsIgnoreCase("android.intent.action.MAIN"))
+            if(FirebaseAuth.getInstance().getCurrentUser()!=null){
+                if (ContextCompat.checkSelfPermission(HomilaDavri.this,
+                        android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
+                    getPermision();
+                }else {
+                    FirebaseUser authData = FirebaseAuth.getInstance().getCurrentUser();
+                    if (authData == null) {
+                        try {
+                            final android.support.v7.app.AlertDialog.Builder builder = new android.support.v7.app.AlertDialog.Builder(HomilaDavri.this);
+                            builder.setMessage(R.string.ruyxatdan_otish)
+                                    .setPositiveButton(R.string.ruyxa, new DialogInterface.OnClickListener() {
+                                        public void onClick(DialogInterface dialog, int id) {
+                                            toQuestions = true;
+                                            reg.regitUser();
+
+
+                                        }
+                                    }).setNegativeButton(R.string.ortgaa, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int id) {
+                                    dialog.cancel();
+                                }
+                            });
+                            builder.create().show();
+                        } catch (Exception o) {
+                        }
+                    } else {
+                        if (sPref.getBoolean(IS_IT_CHECKED_USER, false)) {
+                            paFragmentManager.displayFragment(new QuestionsViewPagerFragment());
+                        } else {
+                            showProgressDialog(getString(R.string.boglanis));
+                            FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+                            GENERAL.child("/users/" + firebaseUser.getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                                @Override
+                                public void onDataChange(DataSnapshot dataSnapshot) {
+                                    hideProgressDialog();
+                                    if (dataSnapshot.getValue() == null) {
+                                        paFragmentManager.displayFragment(new RegistratsiyaFragment());
+                                    } else {
+                                        paFragmentManager.displayFragment(openQuestionsViewPager(action));
+                                        sPref.edit().putBoolean(IS_IT_CHECKED_USER, true).apply();
+                                    }
+                                }
+
+                                @Override
+                                public void onCancelled(DatabaseError databaseError) {
+                                    hideProgressDialog();
+                                }
+                            });
+                        }
+                    }
+                }
+            }
 
 
 
@@ -1466,6 +1525,25 @@ public class HomilaDavri extends AppCompatActivityParent {
         dialog.getWindow().setLayout(8 * width / 10, RelativeLayout.LayoutParams.WRAP_CONTENT);
         dialog.show();
     }
+    private Fragment openQuestionsViewPager(String action){
+        QuestionsViewPagerFragment fragment = new QuestionsViewPagerFragment();
+        Bundle bundle = new Bundle();
+        int def = 1;
+        if(action.equalsIgnoreCase("com.isoma.homiladavridoctor.QUESTION")){
+            def = 0;
+        }else if(action.equalsIgnoreCase("com.isoma.homiladavridoctor.TO_MY_QUESTION")){
+            def = 1;
 
+        } else if(action.equalsIgnoreCase("com.isoma.homiladavridoctor.TO_SUBSCRIBE")){
+            def = 2;
+
+        } else if(action.equalsIgnoreCase("com.isoma.homiladavridoctor.TO_CHAT")){
+            def = 3;
+
+        }
+        bundle.putInt(PAGE,def);
+        fragment.setArguments(bundle);
+        return fragment;
+    }
 
 }

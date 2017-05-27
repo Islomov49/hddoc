@@ -90,7 +90,8 @@ public class QuestionsViewPagerFragment extends Fragment implements  ViewPager.O
         adapter = new PagerAdapter(((HomilaDavri)getActivity()).getPaFragmentManager().getFragmentManager(), fragments);
         viewPager.setOffscreenPageLimit(4);
         viewPager.setAdapter(adapter);
-        viewPager.setCurrentItem(1);
+        viewPager.setCurrentItem(0);
+        toRecivedQuestionsFragment();
         if (getArguments() != null) {
 
             if(getArguments().getBoolean("FROM_MAIN",false)){
@@ -99,6 +100,21 @@ public class QuestionsViewPagerFragment extends Fragment implements  ViewPager.O
             }else {
                 int page = getArguments().getInt(PAGE);
                 viewPager.setCurrentItem(page, true);
+                switch (page){
+                    case 0:
+                        toRecivedQuestionsFragment();
+                        break;
+                    case 1:
+                        toMyQuestions();
+                        break;
+                    case 2:
+                        toHistoryQuestions();
+                        break;
+                    case 3:
+                        toAccount();
+                        break;
+
+                }
             }
         }
         //TODO hide or show fab according to viewpagers position

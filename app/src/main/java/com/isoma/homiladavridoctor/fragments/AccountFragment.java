@@ -88,7 +88,6 @@ public class AccountFragment extends Fragment {
     public static final String LAST_PERIOD="last_period";
     CircleImageView imAvatar;
     TextView tvNickName;
-    TextView tvPeriod;
     TextView tvCountExp;
     TextView tvCountQuestions;
     TextView tvCountAnswers;
@@ -106,7 +105,6 @@ public class AccountFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_account, container, false);
         imAvatar= (CircleImageView) view.findViewById(R.id.imAvatar);
         tvNickName= (TextView) view.findViewById(R.id.tvNickName);
-        tvPeriod= (TextView) view.findViewById(R.id.tvPeriod);
         tvCountExp= (TextView) view.findViewById(R.id.tvCountExp);
         tvCountQuestions= (TextView) view.findViewById(R.id.tvCountQuestions);
         tvCountAnswers= (TextView) view.findViewById(R.id.tvCountAnswers);
@@ -204,8 +202,6 @@ public class AccountFragment extends Fragment {
 
                     sPref.edit().putString(LAST_NICKNAME,userStatus.getNickName()).apply();
                     tvNickName.setText("@" + userStatus.getNickName());
-                    if(isAdded())
-                    tvPeriod.setText(sPref.getInt(HomilaConstants.SAVED_WEEK, 40)+" - "+ getResources().getString(R.string.xaftada));
                     rootRef.child("/user-status/"+firebaseUser.getUid()+"/week").setValue(sPref.getInt(HomilaConstants.SAVED_WEEK, 41));
                     tvCountExp.setText(CommonOperations.checkForEmptyAndBack(userStatus.getAchivments().getExp()+""));
                     tvCountAnswers.setText(CommonOperations.checkForEmptyAndBack(userStatus.getAchivments().getAnswers()+""));

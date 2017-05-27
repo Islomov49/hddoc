@@ -84,27 +84,26 @@ public class IntroIndicator extends AppCompatActivity {
         editor.putString("language", getResources().getString(R.string.uz)).apply();
 
         if(FirebaseAuth.getInstance().getCurrentUser()!=null)
-        rootRef.child("users/"+FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                if(dataSnapshot.getValue()!=null) {
-                    UserInfo userinfo = new UserInfo();
-                    userinfo.setFromSnapshot(dataSnapshot);
-                    if(userinfo.getWhoIM().equals("D")){
-                        getSharedPreferences("informat", MODE_PRIVATE).edit().putBoolean(SAVED_FIRST, false).apply();
+            rootRef.child("Doctors/"+FirebaseAuth.getInstance().getCurrentUser().getUid()).addListenerForSingleValueEvent(new ValueEventListener() {
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    if(dataSnapshot.getValue()!=null)
+                    if (dataSnapshot.child("isDoctor").getValue(Boolean.class)) {
+
+                        sPref.edit().putBoolean(SAVED_FIRST, false).apply();
                         Intent mainIntent = new Intent(IntroIndicator.this, HomilaDavri.class);
                         startActivity(mainIntent);
                         finish();
+
                     }
                 }
 
-            }
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+                    Toast.makeText(IntroIndicator.this,R.string.internet_connection_failed,Toast.LENGTH_SHORT).show();
 
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });
+                }
+            });
 
         pager.setPageTransformer(true, new ZoomOutTranformer());
         pager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
