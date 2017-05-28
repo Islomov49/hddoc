@@ -594,15 +594,15 @@
 
 <string name="fio"> Имя Фамилия</string>
     <string name="fio_hint"> (Полное ФИО) </string>
-    <string name="age_hint"> (нынешний Ваш возраст) </string>
+    <string name="age_hint">"(нынешний Ваш возраст) "</string>
     <string name="doctor_phone"> Телефонный номер Вашего врача</string>
     <string name="doctor_phone_hint">(полный телефонный номер с кодом)</string>
     <string name="doctor_name"> ФИО вашего врача</string>
-    <string name="poliklinika"> Ваша поликлиника</string>
+    <string name="poliklinika">Ваша поликлиника</string>
     <string name="poliklinika_hint">(где стоите на учете)</string>
-    <string name="blood_type"> Группа крови</string>
+    <string name="blood_type">Группа крови</string>
     <string name="blood_type_hint">(резус-фактор)</string>
-    <string name="address"> Ваш адрес</string>
+    <string name="address">Ваш адрес</string>
     <string name="address_hint">(полный адрес)</string>
     <string name="father_name">ФИО отца ребенка</string>
     <string name="father_phone">Телефонный номер отца ребенка</string>
@@ -613,17 +613,17 @@
     <string name="calculate"> РАСЧИТАТЬ</string>
     <string name="boy"> МАЛЬЧИК</string>
     <string name="girl"> ДЕВОЧКА</string>
-    <string name="all_mail_string"> Опасные симптомы</string>
+    <string name="all_mail_string">Опасные симптомы</string>
     <string name="asalom"> ДОБРО ПОЖАЛОВАТЬ</string>
     <string name="baholash"> Оценить</string>
     <string name="belgilar"> Признаки</string>
     <string name="bhftda"> На этой неделе</string>
     <string name="biling"> Полезная информация</string>
-    <string name="birincisi_emas"> Не первая беременность</string>
-    <string name="boglandi"> Соединено</string>
-    <string name="boglanis"> Идет соединение...</string>
-    <string name="boglanmadi"> Ошибка соединения</string>
-    <string name="bosh_habar"> Невозможно отправить пустую строку</string>
+    <string name="birincisi_emas">Не первая беременность</string>
+    <string name="boglandi">Соединено</string>
+    <string name="boglanis">Идет соединение...</string>
+    <string name="boglanmadi">Ошибка соединения</string>
+    <string name="bosh_habar">Невозможно отправить пустую строку</string>
     <string name="cahtaa"> Войти в чат</string>
     <string name="chat">Чат</string>
     <string name="cheking_user">Войти</string>
@@ -637,7 +637,7 @@
     <string name="health">ЗДОРОВЬЕ</string>
     <string name="homila_haftasi_mandan_katta_bo_lganlarga">Тем, у кого срок беременности больше чем у меня</string>
     <string name="inbox_string">Тесты</string>
-    <string name="Rossiya_skoro"> Россия - в скором времени</string>
+    <string name="Rossiya_skoro">Россия - в скором времени</string>
     <string name="about_app">О приложении</string>
     <string name="aboutpocta">(если Вы не укажите адрес почты, то в дальнейшем, Вы не сможете восстановить пароль)</string>
     <string name="baho_qoldiring"> Нажмите на кнопку оценить и оставьте свою оценку. Мы всегда заботимся о Вас</string>
@@ -656,10 +656,10 @@
     <string name="hafta1i13">1-13</string>
     <string name="hafta27i40">27-40</string>
     <string name="hafta_kuni"> Срок беременности</string>
-    <string name="haqida"> Это приложение предназначено не только для беременных женщин, но и для тех, кто планирует стать матерью</string>
-    <string name="hayz"> Последняя дата менструации</string>
+    <string name="haqida">Это приложение предназначено не только для беременных женщин, но и для тех, кто планирует стать матерью</string>
+    <string name="hayz">Последняя дата менструации</string>
     <string name="hayz2">(последняя дата менструации)</string>
-    <string name="hayz_songi"> Это выбирается, если Вы не знаете точную дату зачатия ребенка!</string>
+    <string name="hayz_songi">Это выбирается, если Вы не знаете точную дату зачатия ребенка!</string>
     <string name="help">Помогите</string>
     <string name="homila_haftada">Срок беременности:</string>
     <string name="homila_osib_bormoqda">Ваш ребенок развивается! Будьте в курсе о последних изменений</string>
@@ -719,8 +719,8 @@
     <string name="sent_mail_string">Форум</string>
     <string name="shubxayu">Подозрительные признаки</string>
     <string name="sm">см</string>
-    <string name="sovoli_ochirmoqchimisan"> Вы действительно хотите удалить этот вопрос? Удаленные вопросы, не подлежат восстановлению</string>
-    <string name="sovoli_ochirmoqchimisz"> Вы действительно хотите удалить этот ответ?</string>
+    <string name="sovoli_ochirmoqchimisan">Вы действительно хотите удалить этот вопрос? Удаленные вопросы, не подлежат восстановлению</string>
+    <string name="sovoli_ochirmoqchimisz">Вы действительно хотите удалить этот ответ?</string>
     <string name="sozlama">Позвонить врачу</string>
     <string name="sozlamalar">Настройки</string>
     <string name="spam_string">Настройки</string>
@@ -886,4 +886,16 @@
     <string name="homiladorlar_olami">Homiladorlar olami</string>
     <string name="homiladorlar_olami_ru">Мир беременных</string>
     <string name="doctor">Доктор</string>
+    <string name="yoki_bizning_pochtamizga_yozishingiz_mumkun">или можете написать <u>в нашу почту</u> для прохождения регистрации</string>
+    <string name="tushuntirish">Прежде чем добавить Вас в качестве враче в наше приложение, Вы должны связаться с нами с помощью телефона для того, чтобы мы смогли убедиться, что вы реальный врач. Приносим извенения за причененные неудобства</string>
+    <string name="o_zgaritish">Изменить</string>
+    <string name="ohirgi_hayz_kuniii">(последный день менструации)</string>
+    <string name="kutish">Подождать</string>
+    <string name="biz_siz_bilan_bog_lanamiz">Мы свяжемся с вами в ближайшее время</string>
+    <string name="dasturni_siz_hohlagan_haftaga_o_tkazishingiz_va_o_z_ish_faoliyatingizda_foydalanishingiz_mumkun">Вы можете перевести приложение на любую неделю беременности и использовать в вашей работе</string>
+    <string name="desccc">По выбранной дате менструации можно определить неделю беременности и перевести приложение к этой неделе</string>
+    <string name="haftani_tanlash">Выбрать неделю</string>
+    <string name="homilador_ayol_haftasini_tanlang">(выбрать неделю)</string>
+    <string name="homiladorlik_kuni">(срок беременности)</string>
+
 </resources>

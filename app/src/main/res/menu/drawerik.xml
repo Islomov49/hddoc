@@ -41,6 +41,7 @@
         <item
             android:id="@+id/sozlamalar"
             android:checked="false"
+            android:visible="false"
             android:icon="@drawable/ic_settings_black_48dp"
             android:title="@string/spam_string" />
 

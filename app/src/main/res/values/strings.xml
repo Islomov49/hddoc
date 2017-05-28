@@ -833,7 +833,7 @@ Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'
     <string name="ortiqcha_vazn_tuplayapsiz">Ortiqcha vazn \nto\'playapsiz</string>
     <string name="ortiqcha_vazn">ORTIQCHA</string>
     <string name="meyorida_vazn">Me\'yorida vazn \nto\'playapsiz</string>
-    <string name="urtacha">O\'RTACHA</string>
+    <string name="urtacha">Прежде чем добавить Вас в качестве враче в наше приложение, Вы должны связаться с нами с помощью телефона для того, чтобы мы смогли убедиться, что вы реальный врач. Приносим извенения за причененные неудобства</string>
     <string name="utdi">O\'TDI:</string>
     <string name="haftaa">HAFTA</string>
     <string name="qoldi">QOLDI:</string>
@@ -865,13 +865,13 @@ Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'
     <string name="homila_haftasi">Homilaning haftasi:</string>
     <string name="telefon_raqamlar">Telefon raqamlar</string>
     <string name="intro_first">Homilador ayollarga maslahatlar berish \nuchun endi birgina dastur</string>
-    <string name="intro_first_ru">Теперь одна программа достаточно,\n чтобы дать советы беременным \nженщинам</string>
+    <string name="intro_first_ru">Одно приложение для того,\n чтобы дать советы всем беременным \nженщинам</string>
     <string name="intro_sec">Har haftalik malumotlarni ihtiyoriy holda ko\'ring va ulardan o\'z ish faoliyatingizda foydalaning</string>
-    <string name="intro_sec_ru">Еженедельную информацию о развитии ребенка, о изменениях организма, еженедельный рацион питания можете использовать их в своей деятельности</string>
+    <string name="intro_sec_ru">Получите возможность просмотра всей информации и используйте их в своей деятельности</string>
     <string name="homiladorlar_olami">Homiladorlar olami</string>
     <string name="homiladorlar_olami_ru">Мир беременных</string>
-    <string name="suhbatlasing">Ushbu bo’lim orqali siz homilador ayollarning savollariga javob berishingiz va o\'zingizni qiziqtirgan savollar berishingiz, va boshqa shifokorlarni javoblarini ko\'rishingiz mumkun</string>
-    <string name="suhbatlasing_ru">В этом разделе, вы можете отвечаеть на вопросы беременных женщин, и еще можете увидеть ответы на вопросы</string>
+    <string name="suhbatlasing">Ushbu bo’lim orqali Siz homilador ayollarning savollariga javob berishingiz va o\'zingizni qiziqtirgan savollar berishingiz, va boshqa shifokorlarning javoblarini ko\'rishingiz mumkin</string>
+    <string name="suhbatlasing_ru">В этом разделе, Вы можете отвечать на вопросы беременных женщин, и самим задвать интересующие Вас вопросы, к тому же у Вас есть возможность увидеть ответы других врачей </string>
     <string name="boshlaymizmi">Boshlaymizmi?</string>
     <string name="boshlaymizmi_ru">Начнем?</string>
     <string name="ohirgi_hayz_kuni">Siz bilan bog\'lanish</string>
@@ -899,7 +899,7 @@ Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'
     <string name="send_answer_title">Boshqa homlador ayollarga \n  savollar bering</string>
     <string name="enter_info">Ma\'lumotlarni kiriting</string>
     <string name="extra_info">va homila davrida vazningiz oshishining normal ko\'rsatkichlarini bilib oling</string>
-    <string name="xayz2">(oxirgi xayz kuni)</string>
+    <string name="xayz2">(oxirgi hayz kuni)</string>
     <string name="note">Eslatib otamiz ushbu dastur faqat ayollar uchun mo’ljallangan va erkaklarning ushbu dasturni ishlatishi taqiqlanadi.</string>
     <string name="kirish">KIRISH</string>
     <string name="change_photo">Suratni o’zgartirish</string>
@@ -932,17 +932,17 @@ Kalitni yerga tushurvоrgan ayol, agar o\'ngi qaramay uzun tarafidan ushlab ko\'
     <string name="is_it_right">Sizda to\'g\'ri chiqdimi?</string>
     <string name="habar_yuboring">Xabar yuboring ...</string>
     <string name="doctor">Shifokor</string>
-    <string name="yoki_bizning_pochtamizga_yozishingiz_mumkun">yoki bizning <u>pochtamizga murojat</u> \n qilgan holda ruyhatdan o\'tishingiz mumkun</string>
-    <string name="tushuntirish">Inson sog\'lig\'i juda nozik masala. Biz dasturimizga sizni shifokor etib qo\'shishimiz uchun avalam bor siz bilan telefon orqali bog\'lanib shiforkorligingizga ishonch hosil qilishimiz lozim. Tug\'dirilgan noqulayliklar uchun uzur so\'raymiz.</string>
+    <string name="yoki_bizning_pochtamizga_yozishingiz_mumkun">yoki bizning <u>pochtamizga murojaat</u> \n qilgan holda ro\'yhatdan o\'tishingiz mumkin</string>
+    <string name="tushuntirish">Biz dasturimizga Sizni shifokor etib qo\'shishimiz uchun, avvalam bor, Siz bilan telefon orqali bog\'lanib, shiforkorligingizga ishonch hosil qilishimiz lozim. Tug\'dirilgan noqulayliklar uchun uzur so\'raymiz.</string>
     <string name="kutish">Kutish</string>
     <string name="biz_siz_bilan_bog_lanamiz">Biz siz bilan bog\'lanamiz</string>
     <string name="haftani_tanlash">Haftani tanlash</string>
     <string name="homiladorlik_kuni">Homiladorlik kuni</string>
     <string name="o_zgaritish">O\'zgaritish</string>
     <string name="homilador_ayol_haftasini_tanlang">(haftani tanlang)</string>
-    <string name="dasturni_siz_hohlagan_haftaga_o_tkazishingiz_va_o_z_ish_faoliyatingizda_foydalanishingiz_mumkun">Dasturni siz hohlagan haftaga o\'tkazishingiz va o\'z ish faoliyatingizda foydalanishingiz mumkun</string>
-    <string name="desccc">Kalendarda tanlangan ohirgi hayz kuni orqali homila haftasi aniqlanib usha homila haftasiga dasturni o\'tkazish mumkun</string>
-    <string name="ohirgi_hayz_kuniii">(ohirgi hayz kuni)</string>
+    <string name="dasturni_siz_hohlagan_haftaga_o_tkazishingiz_va_o_z_ish_faoliyatingizda_foydalanishingiz_mumkun">Dasturni siz хohlagan haftaga o\'tkazishingiz va o\'z ish faoliyatingizda foydalanishingiz mumkun</string>
+    <string name="desccc">Kalendarda tanlangan oxirgi hayz kuni orqali homila haftasi aniqlanib, o\'sha homila haftasiga dasturni o\'tkazish mumkin</string>
+    <string name="ohirgi_hayz_kuniii">(oхirgi hayz kuni)</string>
 
 </resources>
 
