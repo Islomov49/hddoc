@@ -1,19 +1,18 @@
 package com.isoma.homiladavridoctor.intropage;
 
-import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.AdapterView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.isoma.homiladavridoctor.Entity.EventMessage;
 import com.isoma.homiladavridoctor.R;
+import com.isoma.homiladavridoctor.utils.ChooseLangDialog;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -49,26 +48,19 @@ public class LanguageSelector extends Fragment {
         llLang.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builderSingle = new AlertDialog.Builder(getActivity());
-                builderSingle.setTitle(chooseLang);
-                ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_1, languages);
-                builderSingle.setNegativeButton(cancel, new DialogInterface.OnClickListener() {
+                final ChooseLangDialog langDialog = new ChooseLangDialog(getContext());
+                langDialog.setAdapter(languages);
+                langDialog.setTitle(chooseLang);
+                langDialog.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog, int i) {
-                        dialog.dismiss();
-                    }
-                });
-
-                builderSingle.setAdapter(arrayAdapter, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int i) {
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                         tvLanguage.setText(languages[i]);
                         editor.putString("language", languagesValues[i]).apply();
                         EventBus.getDefault().post(new EventMessage(null,"change","Lang"));
+                        langDialog.dismiss();
                     }
                 });
-                AlertDialog alertDialog = builderSingle.create();
-                alertDialog.show();
+                langDialog.show();
             }
         });
         return view;
